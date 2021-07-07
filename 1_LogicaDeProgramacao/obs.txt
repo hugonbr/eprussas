@@ -1,0 +1,6 @@
+Linguagens
+
+- C
+- JavaScript
+- Python
+
