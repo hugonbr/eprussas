@@ -1,0 +1,21 @@
+let n1, n2, m, r;
+
+function myFunction() {
+    // Get the value of the input field with id="input1"
+    n1 = Number(document.getElementById("input1").value);
+    n2 = Number(document.getElementById("input2").value);
+    m = (n1 + n2) / 2;
+
+    if (m >= 5.5 && m < 6.0) {
+        m = 6.0
+    }
+    if (m >= 6) {
+        r = "Você foi aprovado!";
+    } else {
+        r = "Você não foi aprovado :(";
+    }
+
+    document.getElementById("r").innerHTML = "STATUS: " + r;
+    document.getElementById("r2").innerHTML = "Média: " + m;
+}
+
