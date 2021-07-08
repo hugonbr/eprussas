@@ -3,4 +3,5 @@ Linguagens
 - C
 - JavaScript
 - Python
+- Java
 
