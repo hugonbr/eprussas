@@ -1,0 +1,10 @@
+for
+
+fazer uma página que pede o
+min
+max
+incremento
+
+para mostrar o for
+exemplificar com a tabuada
+fazer a tabuada
