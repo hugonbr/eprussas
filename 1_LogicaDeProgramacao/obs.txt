@@ -1,11 +1,12 @@
 Linguagens
 
-- C
-- JavaScript
-- Python
-- Java
+- C (Arduino e SO)
+- JavaScript (Frontend e Backend)
+- Python (Backend e Ciência)
+- Java (Backend e Android)
 
 Tópicos Avancados
 
 - Estrutura de Dados
+- Frameworks
 
