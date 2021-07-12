@@ -5,3 +5,7 @@ Linguagens
 - Python
 - Java
 
+Tópicos Avancados
+
+- Estrutura de Dados
+

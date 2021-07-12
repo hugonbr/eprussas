@@ -8,3 +8,4 @@ incremento
 para mostrar o for
 exemplificar com a tabuada
 fazer a tabuada
+
