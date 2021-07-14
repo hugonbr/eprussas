@@ -7,7 +7,4 @@ Linguagens
 - Java (Backend e Android)
 
 Tópicos Avancados
-
 - Estrutura de Dados
-- Frameworks
-
