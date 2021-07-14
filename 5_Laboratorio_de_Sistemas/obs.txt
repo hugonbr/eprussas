@@ -1,3 +1,7 @@
+Revisão de Lógica de Programação
+
+Melhores práticas de programação (js e python) - w3s
+
 Desenvolvimento de Sistemas
 
 - 
