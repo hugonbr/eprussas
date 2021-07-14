@@ -1,6 +1,19 @@
 HTML+CSS+JS
 
+https://www.w3schools.com/html
+https://www.w3schools.com/css
+https://www.w3schools.com/bootstrap4
+https://www.w3schools.com/howto
+https://www.w3schools.com/react
+https://www.w3schools.com/w3css/w3css_templates.asp
+
 POO
+https://www.w3schools.com/js/js_object_definition.asp
+https://www.w3schools.com/js/js_class_intro.asp
+
 
 Banco de Dados
+
+https://www.w3schools.com/sql/
+https://www.w3schools.com/mysql/
 
