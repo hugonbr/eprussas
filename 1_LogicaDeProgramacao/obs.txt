@@ -1,5 +1,6 @@
 Linguagens
 
+- Portugol (Apenas para Estudo Inicial)
 - C (Arduino e SO)
 - JavaScript (Frontend e Backend)
 - Python (Backend e Ciência)
