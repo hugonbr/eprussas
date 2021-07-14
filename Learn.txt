@@ -1,3 +1,8 @@
+LP_Javascript+Python
+
+https://www.w3schools.com/js/
+https://www.w3schools.com/python/
+
 HTML+CSS+JS
 
 https://www.w3schools.com/html
@@ -17,4 +22,10 @@ Banco de Dados
 
 https://www.w3schools.com/sql/
 https://www.w3schools.com/mysql/
+
+SO
+
+Windows+Linux+AWS
+
+LABSIS
 
