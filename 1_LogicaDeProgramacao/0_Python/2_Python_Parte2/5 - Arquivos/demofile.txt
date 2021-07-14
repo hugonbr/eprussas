@@ -1,0 +1,3 @@
+Olá, bem-vindo ao arquivo de teste.
+Boa sorte ;)
+#Este arquivo foi lido pelo python.
