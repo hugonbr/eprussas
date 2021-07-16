@@ -1,0 +1,19 @@
+HTML
+Difference Between Class and ID
+A class name can be used by multiple HTML elements,
+while an id name must only be used by one HTML element within the page:
+
+HTML+CSS
+/* Style the element with the id "myHeader" */
+#myHeader
+/* Style all elements with the class name "city" */
+.city
+<!-- An element with a unique id -->
+<h1 id="myHeader">My Cities</h1>
+<!-- Multiple elements with same class -->
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
