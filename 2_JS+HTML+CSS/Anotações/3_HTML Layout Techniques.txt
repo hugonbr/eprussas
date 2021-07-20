@@ -24,4 +24,10 @@ page layout must accommodate different screen sizes and
 different display devices.
 Learn more about flexbox in our CSS Flexbox chapter.
 
+OBS: The biggest difference between Bootstrap 3 and Bootstrap 4
+is that Bootstrap 4 now uses flexbox, instead of floats, to handle the layout.
+The Flexible Box Layout Module, makes it easier to design flexible responsive
+layout structure without using float or positioning. If you are new to flex,
+you can read about it in our CSS Flexbox Tutorial.
+
 4) 

@@ -1,4 +1,0 @@
-Oi, sou um teste de arquivo separado;
-para observar o versionamento do git no projeto.
-
-OBS: Abri apenas o projeto no vscode para testar.
