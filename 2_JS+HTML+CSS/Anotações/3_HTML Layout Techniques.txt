@@ -4,7 +4,7 @@ Each technique has its pros and cons:
 
 1) CSS framework
 2) CSS float property
-3) CSS flexbox
+3) CSS flexbox (Its used by Bootstrap4)
 4) CSS grid
 
 1) CSS Frameworks
