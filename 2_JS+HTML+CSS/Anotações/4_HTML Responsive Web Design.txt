@@ -1,0 +1,25 @@
+Responsive web design is about creating web pages that
+look good on all devices!
+
+A responsive web design will automatically adjust for
+different screen sizes and viewports.
+
+Setting The Viewport
+To create a responsive website, add the following <meta>
+tag to all your web pages:
+
+All web doc
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Image
+<img src="img_girl.jpg" style="width:100%;">
+
+"max-width:100%" prevents the image from getting bigger than
+its original size. However, if you make the browser window
+smaller, the image will still scale down.
+<img src="img_girl.jpg" style="max-width:100%;height:auto;">
+
+Text
+The text size can be set with a "vw" unit, which means the "viewport width".
+<h1 style="font-size:10vw">Hello World</h1>
+
