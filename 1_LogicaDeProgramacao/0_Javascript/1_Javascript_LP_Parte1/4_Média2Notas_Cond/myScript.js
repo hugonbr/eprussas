@@ -9,9 +9,9 @@ function myFunction() {
         m = 6.0;
     }
     if (m >= 6) {
-        r = "Você foi aprovado!";
+        r = "Você foi aprovado! 😀";
     } else {
-        r = "Você não foi aprovado :(";
+        r = "Você não foi aprovado 😔";
     }
 
     document.getElementById("r").innerHTML = "STATUS: " + r;
