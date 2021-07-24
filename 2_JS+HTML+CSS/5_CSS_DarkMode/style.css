@@ -1,0 +1,13 @@
+/* * Irá aplicar o estilo em todas as tags */
+body {
+    color: white;
+    background-color: rgb(32, 32, 32);
+}
+
+#red {
+    color: red;
+}
+
+.center {
+    text-align: center;
+}
