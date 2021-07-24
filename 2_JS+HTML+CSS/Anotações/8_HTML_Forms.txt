@@ -17,3 +17,6 @@ Appends the form data inside the body of the HTTP request (the submitted form da
 POST has no size limitations, and can be used to send large amounts of data.
 Form submissions with POST cannot be bookmarked
 
+The Autocomplete Attribute
+<form action="/action_page.php" autocomplete="on">
+
