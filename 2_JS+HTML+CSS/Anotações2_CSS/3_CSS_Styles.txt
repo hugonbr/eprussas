@@ -22,3 +22,28 @@ If the margin property has one value:
 margin: 25px;
 all four margins are 25px
 
+https://www.w3schools.com/css/css_padding.asp
+
+All CSS Dimension Properties
+Property	Description
+height	Sets the height of an element
+max-height	Sets the maximum height of an element
+max-width	Sets the maximum width of an element
+min-height	Sets the minimum height of an element
+min-width	Sets the minimum width of an element
+width	Sets the width of an element
+
+https://www.w3schools.com/css/css_boxmodel.asp
+
+Example
+Demonstration of the box model:
+
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+https://www.w3schools.com/css/css_outline.asp
+
