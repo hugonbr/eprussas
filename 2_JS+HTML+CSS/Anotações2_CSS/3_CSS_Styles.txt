@@ -1,2 +1,24 @@
 https://www.w3schools.com/css/css_margin.asp
 
+Example
+Set different margins for all four sides of a <p> element:
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+Use the margin shorthand property with four values:
+
+p {
+  margin: 25px 50px 75px 100px;
+}
+This div element has a top margin of 25px, a right margin of 50px,
+a bottom margin of 75px, and a left margin of 100px.
+
+If the margin property has one value:
+margin: 25px;
+all four margins are 25px
+
