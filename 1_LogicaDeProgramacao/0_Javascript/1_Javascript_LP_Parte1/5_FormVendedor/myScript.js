@@ -5,6 +5,7 @@ function myFunction() {
     sfi = Number(document.getElementById("input2").value);
     tv = Number(document.getElementById("input3").value);
     sf = sfi + (tv * 15 / 100);
+    sf = sf.toFixed(2);
 
     document.getElementById("r").innerHTML = "Vendedor: " + nomev;
     document.getElementById("r2").innerHTML = "Salario Final: R$ " + sf;
