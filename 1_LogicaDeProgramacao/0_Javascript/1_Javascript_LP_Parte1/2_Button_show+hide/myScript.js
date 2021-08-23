@@ -1,8 +1,8 @@
-function exibirData() {
+/* function exibirData() {
 
     document.getElementById('demo1').innerHTML =
         Date();
-}
+}*/
 function exibirNome() {
 
     document.getElementById('demo1').innerHTML =
