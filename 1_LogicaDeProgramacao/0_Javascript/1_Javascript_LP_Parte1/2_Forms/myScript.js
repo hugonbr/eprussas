@@ -7,4 +7,3 @@ function ok() {
     //document.getElementById("p2").innerHTML = `Valor do input: ${x}`;
 
 }
-
