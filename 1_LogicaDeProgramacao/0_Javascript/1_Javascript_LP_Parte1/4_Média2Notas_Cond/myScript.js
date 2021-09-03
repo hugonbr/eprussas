@@ -4,7 +4,7 @@ function myFunction() {
     n1 = Number(document.getElementById("input1").value);
     n2 = Number(document.getElementById("input2").value);
     m = (n1 + n2) / 2;
-    m = m.toFixed(2);
+    m = m.toFixed(1);
 
     if (m >= 5.5 && m < 6.0) {
         m = 6.0;
@@ -12,7 +12,7 @@ function myFunction() {
     if (m >= 6) {
         r = "Você foi aprovado! 😀";
     } else {
-        r = "Você não foi aprovado 😔";
+        r = "Você foi reprovado! 😔";
     }
 
     document.getElementById("r").innerHTML = "STATUS: " + r;
