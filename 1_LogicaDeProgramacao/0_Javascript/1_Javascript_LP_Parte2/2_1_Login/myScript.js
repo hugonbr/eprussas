@@ -1,5 +1,13 @@
 let login, senha;
 
+function show() {
+    var x = document.getElementById("input2");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
 function entrar() {
     login = document.getElementById("input1").value;
     senha = document.getElementById("input2").value;
