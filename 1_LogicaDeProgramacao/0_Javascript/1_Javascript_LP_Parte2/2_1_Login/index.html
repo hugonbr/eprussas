@@ -6,8 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
     <style>
+      h2{
+        text-align: center;
+      }
+      #p_login{
+        text-align: center;
+      }
+      #b_entrar{
+        text-align: center;
+      }
+      #p_senha{
+        margin-left: 32px;
+      }
       div {
         text-align: center;
+        /* ... */
+        background-color: aliceblue;
+        width: 400px;
+        border: 5px solid deepskyblue;
+        border-radius: 12px;
+        padding: 5%;
+        /* ... */        
+        margin-top: 7%;
+        margin-bottom: 5%;
+        margin-right: 20%;
+        margin-left: 20%;
       }
     </style>
   </head>
@@ -16,17 +39,17 @@
     
     <h2>Login</h2>
 
-    <p>login:
+    <p id="p_login">login:
     <input id="input1" />
     </p>
     
-    <p>senha:
+    <p id="p_senha">senha:
     <input type="password" id="input2" />
     <button type="button" onclick="show()">👓</button>
     </p>
     <br>
 
-    <button type="button" onclick="entrar()">entrar</button>
+    <button id="b_entrar" type="button" onclick="entrar()">entrar</button>
 
     </div>
 
