@@ -10,15 +10,15 @@ h2 {
     text-align: center;
 }
 
-#p_senha {
+/* #p_senha {
     margin-left: 32px;
-}
+} */
 
 #erro {
     color: red;
 }
 
-div {
+#home {
     text-align: center;
     /* ... */
     width: 80%;
@@ -30,4 +30,14 @@ div {
     margin-bottom: 5%;
     margin-right: 4%;
     margin-left: 4%;
+}
+
+#show {
+    color: blue;
+    text-decoration: underline blue;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
 }
