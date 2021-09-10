@@ -1,11 +1,11 @@
 let login, senha;
 
 function show() {
-    var x = document.getElementById("input2");
-    if (x.type === "password") {
-        x.type = "text";
+    let isenha = document.getElementById("input2");
+    if (isenha.type === "password") {
+        isenha.type = "text";
     } else {
-        x.type = "password";
+        isenha.type = "password";
     }
 }
 function entrar() {
@@ -16,5 +16,6 @@ function entrar() {
         document.getElementById("home").innerHTML = "<h2>Bem-vindo Admin</h2>";
     } else {
         alert("login ou senha incorretos!!! Tente novamente.");
+        //document.getElementById("erro").innerHTML = "login ou senha incorretos!!!<br>Tente novamente.";
     }
 }
