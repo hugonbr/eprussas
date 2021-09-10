@@ -7,12 +7,14 @@ function myFunction() {
     //idade = Math.floor((new Date() - new Date(data_nasc).getTime()) / 3.15576e+10);
     idade = Math.floor((new Date() - new Date(data_nasc)) / 3.15576e+10);
 
-    if (idade >= 18) {
-        r = " O usuário é maior de idade!";
+    if (idade < 0) {
+        r = " Data inválida, tente novamente.";
+    } else if (idade >= 18) {
+        r = "R: " + idade + ". " + " O usuário é maior de idade!";
     } else {
-        r = " O usuário é menor de idade!";
+        r = "R: " + idade + ". " + " O usuário é menor de idade!";
     }
 
-    document.getElementById("r").innerHTML = "R: " + idade + ". " + r;
+    document.getElementById("r").innerHTML = r;
+    //document.getElementById("r").innerHTML = `R: ${idade}. ${r}`;
 }
-
