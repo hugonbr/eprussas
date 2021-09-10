@@ -29,6 +29,6 @@ function myFunction() {
         }
     }
 
-    document.getElementById("r").innerHTML = "R: " + idade + ". " + r;
+    document.getElementById("r").innerHTML = "R: " + idade + " anos. " + r;
 }
 
