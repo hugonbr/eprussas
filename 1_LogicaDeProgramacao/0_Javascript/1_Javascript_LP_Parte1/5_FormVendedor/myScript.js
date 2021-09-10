@@ -1,10 +1,15 @@
-let nomev, sfi, tv, sf;
+/*
+Informe o salário final do vendedor, sabendo que o seu total é
+o salário base somado com 15% do total de vendas (comissão).
+*/
+
+let nomev, sbase, tv, sf;
 //
 function myFunction() {
     nomev = document.getElementById("input1").value;
-    sfi = Number(document.getElementById("input2").value);
+    sbase = Number(document.getElementById("input2").value);
     tv = Number(document.getElementById("input3").value);
-    sf = sfi + (tv * 15 / 100);
+    sf = sbase + (tv * 15 / 100);
     sf = sf.toFixed(2);
 
     document.getElementById("r").innerHTML = "Vendedor: " + nomev;

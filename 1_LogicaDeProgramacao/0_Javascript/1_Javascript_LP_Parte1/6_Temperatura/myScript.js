@@ -1,3 +1,9 @@
+/*
+Faça um algoritmo que converte a temperatura de Cº para Fº,
+sabendo que a fórmula é:
+f = (9 * c + 160) / 5;
+*/
+
 let c, f;
 //
 function myFunction() {
