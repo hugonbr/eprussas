@@ -9,5 +9,6 @@ function myFunction() {
     } else {
         r = Math.floor(Math.random() * (max - min + 1)) + min;
         document.getElementById("r").innerHTML = "MIN: " + min + ", MAX: " + max + " -> " + r;
+        document.getElementById("r2").innerHTML = `MIN: ${min}, MAX: ${max} -> ${r}`;
     }
 }
