@@ -1,16 +1,14 @@
 let num, r;
 
 function myFunction() {
-    num = document.getElementById("input1").value;
+    num = Number(document.getElementById("input1").value);
+    num = Math.trunc(num);
 
-    if (num < 0) {
-        num = num * (-1);
-    }
-    if (num % 2 == 1) {
+    if (num % 2 == 1 || num % 2 == -1) {
         r = "impar";
     } else {
         r = "par";
     }
 
-    document.getElementById("r").innerHTML = r;
+    document.getElementById("r").innerHTML = num + " é " + r;
 }
