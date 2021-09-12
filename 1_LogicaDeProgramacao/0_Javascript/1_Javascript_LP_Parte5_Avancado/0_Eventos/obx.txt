@@ -1,0 +1,33 @@
+Evento de digitação
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event
+
+Iterables
+https://www.w3schools.com/js/js_iterables.asp
+
+Maps
+https://www.w3schools.com/js/js_maps.asp
+
+JSON
+https://www.w3schools.com/js/js_json.asp
+
+Best Practices
+https://www.w3schools.com/js/js_best_practices.asp
+
+Performance
+https://www.w3schools.com/js/js_performance.asp
+
+JS Async
+https://www.w3schools.com/js/js_async.asp
+
+JS HTML+CSS DOM
+https://www.w3schools.com/js/js_htmldom.asp
+
+JS Browser BOM
+https://www.w3schools.com/js/js_window.asp
+
+JS Web APIs
+https://www.w3schools.com/js/js_api_intro.asp
+
+JS AJAX
+https://www.w3schools.com/js/js_ajax_intro.asp
+
