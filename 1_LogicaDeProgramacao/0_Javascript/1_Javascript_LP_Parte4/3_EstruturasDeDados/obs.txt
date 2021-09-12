@@ -1,1 +1,6 @@
 Fazer depois...
+
+- Pilha
+- Lista
+- Fila
+
