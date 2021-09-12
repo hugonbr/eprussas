@@ -22,6 +22,9 @@ https://www.w3schools.com/js/js_async.asp
 JS HTML+CSS DOM
 https://www.w3schools.com/js/js_htmldom.asp
 
+JS Animations
+https://www.w3schools.com/js/js_htmldom_animate.asp
+
 JS Browser BOM
 https://www.w3schools.com/js/js_window.asp
 
