@@ -9,3 +9,5 @@ text += "</ul>";
 
 document.getElementById("r").innerHTML = text;
 
+// https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_ul_type_css
+
