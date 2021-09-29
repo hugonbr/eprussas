@@ -1,3 +1,8 @@
+//Conteúdo de Estudo:
+//Input value
+//Variáveis
+//Concatenação
+
 let nome, sobrenome, nomecompleto;
 
 function ok() {

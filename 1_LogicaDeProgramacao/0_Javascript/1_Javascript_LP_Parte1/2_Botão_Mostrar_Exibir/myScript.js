@@ -1,3 +1,6 @@
+//Conteúdo de Estudo:
+//Funções em js para ações de botões
+
 function exibirNome() {
 
     document.getElementById('demo1').innerHTML =

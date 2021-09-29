@@ -1,3 +1,6 @@
+//Conteúdo de Estudo:
+//Funções em js para ações de botões
+
 function feliz() {
 
     document.getElementById('p1').innerHTML =

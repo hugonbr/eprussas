@@ -1,3 +1,8 @@
+//Conteúdo de Estudo:
+//Funções em js para ações de botões
+//Input value
+//Variáveis
+
 let x;
 
 function ok() {

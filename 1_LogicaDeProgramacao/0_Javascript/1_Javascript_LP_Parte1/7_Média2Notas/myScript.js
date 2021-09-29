@@ -1,3 +1,7 @@
+//Conteúdo de Estudo:
+//Variáveis
+//Operadores aritméticos
+
 let n1, n2, m;
 
 function calcular_media() {
