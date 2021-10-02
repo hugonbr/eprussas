@@ -1,14 +1,16 @@
-let min, max, r;
+let imin, min, imax, max, r;
 
 function myFunction() {
-    min = Number(document.getElementById("inputMin").value);
-    max = Number(document.getElementById("inputMax").value);
+    imin = document.getElementById("inputMin");
+    min = Number(imin.value);
+    imax = document.getElementById("inputMax");
+    max = Number(imax.value);
 
-    if (min >= max) {
+    if (min >= max || (imin.value.length == 0 || imax.value.length == 0)) {
         document.getElementById("r").innerHTML = "Erro, dados inválidos, verifique os valores mínimos e máximos.";
     } else {
         r = Math.floor(Math.random() * (max - min + 1)) + min;
-        document.getElementById("r").innerHTML = "MIN: " + min + ", MAX: " + max + " -> " + r;
+        document.getElementById("r").innerHTML = "";
         document.getElementById("r2").innerHTML = `MIN: ${min}, MAX: ${max} -> ${r}`;
     }
 }
