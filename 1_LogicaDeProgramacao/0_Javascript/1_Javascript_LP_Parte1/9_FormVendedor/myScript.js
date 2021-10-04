@@ -9,6 +9,7 @@ function myFunction() {
     nomev = document.getElementById("input1").value;
     sbase = Number(document.getElementById("input2").value);
     tv = Number(document.getElementById("input3").value);
+    //Salário: 2000; Vendas: 100
     sf = sbase + (tv * 15 / 100);
     sf = sf.toFixed(2);
 
