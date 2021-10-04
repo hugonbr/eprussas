@@ -1,11 +1,17 @@
 let hora, resultado, resultado2;
 
 function comparar() {
-    hora = Number(document.getElementById("i_hora").value);
+    ihora = document.getElementById("i_hora");
+    hora = Number(ihora.value);
     hora = hora.toFixed();
-    document.getElementById("i_hora").value = hora;
 
-    if (hora >= 0 && hora < 24) {
+    console.log(ihora.value.length);
+    if (ihora.value.length == 0 || hora < 0 || hora > 23) {
+        console.log("Hora inválida, tente novamente");
+        document.getElementById("i_hora").value = "";
+        document.getElementById("r").innerHTML = "Hora inválida, tente novamente";
+    } else {
+        document.getElementById("i_hora").value = hora;
         if (hora < 12) {
             resultado = "Bom dia";
             resultado2 = "manhã"
@@ -21,10 +27,5 @@ function comparar() {
         //console.log(resultado);
         document.getElementById("r").innerHTML = resultado;
         document.getElementById("r").innerHTML = `${resultado}, são ${hora} hora(s) da ${resultado2}`;
-
-    } else {
-        console.log("Hora inválida, tente novamente");
-        document.getElementById("i_hora").value = 0;
-        document.getElementById("r").innerHTML = "Hora inválida, tente novamente";
     }
 }
