@@ -7,5 +7,7 @@ function myFunction() {
     r = r.toFixed(2);
 
     document.getElementById("r").innerHTML = "Parcelas: " + p + " x R$ " + r;
+    document.getElementById("r2").innerHTML = `Parcelas: ${p} x R$ ${r}`;
+
 }
 
