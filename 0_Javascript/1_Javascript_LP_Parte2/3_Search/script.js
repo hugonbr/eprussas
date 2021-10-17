@@ -20,7 +20,6 @@ function search() {
     document.getElementById("duckduckgo").innerHTML =
         `<a href="https://duckduckgo.com/?q=${pesquisa_format}" target="_blank">Duckgo: ${pesquisa}</a>`;
 
-    // kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
 }
 
 function limpar() {
