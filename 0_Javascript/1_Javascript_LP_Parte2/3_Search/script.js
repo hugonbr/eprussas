@@ -5,6 +5,12 @@ function search() {
     pesquisa = document.getElementById("isearch").value;
     pesquisa_format = pesquisa.replaceAll(' ', '+');
 
+    if (pesquisa.length > 20) {
+
+        pesquisa = pesquisa.substring(0, 20);
+        pesquisa = pesquisa + "...";
+    }
+
     document.getElementById("google").innerHTML =
         `<a href="https://www.google.com/search?q=${pesquisa_format}" target="_blank">Google: ${pesquisa}</a>`;
 
@@ -12,8 +18,9 @@ function search() {
         `<a href="https://www.bing.com/search?q=${pesquisa_format}" target="_blank">Bing: ${pesquisa}</a>`;
 
     document.getElementById("duckduckgo").innerHTML =
-        `<a href="https://duckduckgo.com" target="_blank">Duckgo: em breve</a>`;
+        `<a href="https://duckduckgo.com/?q=${pesquisa_format}" target="_blank">Duckgo: ${pesquisa}</a>`;
 
+    // kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
 }
 
 function limpar() {
