@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+/*
+#bsearch {
+    font-size: 20px;
+}*/
+
+#home {
+    text-align: center;
+    /* ... */
+    width: 60%;
+    border: 2%;
+    border-radius: 12px;
+    border-style: solid;
+    /*border-color: cornflowerblue;*/
+    /*padding: 5%;*/
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    /* ... */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
