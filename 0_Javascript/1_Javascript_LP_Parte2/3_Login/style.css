@@ -26,16 +26,16 @@ h2 {
     text-align: center;
     /* ... */
     width: 60%;
-    border: 5%;
-    border-radius: 12px;
-    border-style: solid;
-    border-color: cornflowerblue;
-    padding: 5%;
     /* ... */
     margin-top: 5%;
     margin-bottom: 5%;
     margin-right: 15%;
     margin-left: 15%;
+    border: 5%;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    padding: 5%;
 }
 
 #show {
