@@ -1,0 +1,5 @@
+pesquisa: python flask crud
+
+links
+https://www.section.io/engineering-education/flask-crud-api/
+
