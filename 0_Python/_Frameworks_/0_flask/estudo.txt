@@ -34,3 +34,11 @@ https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-u
 
 *** Comandos ***
 
+'''
+#Execução direta
+python app.py
+#Execução via flask
+export FLASK_APP=app
+export FLASK_ENV=development
+flask run
+'''
