@@ -1,0 +1,36 @@
+Fontes
+
+Blog.GeekHunter - Só a teoria
+https://blog.geekhunter.com.br/flask-framework-python/
+
+O Flask é baseado no kit de ferramentas Werkzeg WSGI e
+na biblioteca Jinja2.
+Ambos são projetos herdados da Poocco.
+
+WSGI
+Em suma, WSGI é a especificação de uma interface comum
+entre servidores e aplicativos da web.
+
+Werkzeug
+O Werkzeug é uma das bases do Flask, um kit de ferramentas
+WSGI que implementa funções como requests, por exemplo.
+
+Jinja2
+O Jinja2 é um sistema de web template que combina um
+modelo com uma fonte de dados específica para renderizar
+uma página da web.
+Isso permite que você passe variáveis Python para modelos HTML;
+
+Apresentação de Eduardo Mendes, na FlaskConf 2019 (parei no 6:05)
+https://youtu.be/Snxl0T8ugeI
+https://www.youtube.com/c/Dunossauro/videos
+
+Nesse artigo tem algumas dicas para você iniciar a sua carreira
+como desenvolvedor Python.
+https://blog.geekhunter.com.br/passos-para-iniciar-a-sua-carreira-de-desenvolvedor-na-linguagem-python/
+
+*** digitalocean - Tutorial Completo *** Muito bom!!!
+https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3-pt
+
+*** Comandos ***
+
