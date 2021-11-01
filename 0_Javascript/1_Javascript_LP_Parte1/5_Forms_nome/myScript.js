@@ -12,6 +12,8 @@ function ok() {
     document.getElementById("p1").innerHTML = "Dados processados: " + nomecompleto;
 }
 
+
+
 /*
 function ok2() {
 
