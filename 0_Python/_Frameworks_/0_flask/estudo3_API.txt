@@ -2,3 +2,7 @@ pesquisa: python flask api
 
 links
 
+https://flask-restful.readthedocs.io/en/latest/
+
+https://auth0.com/blog/developing-restful-apis-with-python-and-flask/
+

@@ -1,7 +1,12 @@
 pesquisa: python flask crud
 
 links
+
 https://www.section.io/engineering-education/flask-crud-api/
+
+https://www.askpython.com/python-modules/flask/flask-crud-application
+
+https://codesource.io/building-a-restful-crud-api-with-flask/
 
 https://itnext.io/build-a-simple-crud-todo-app-with-python-flask-in-100-lines-of-code-or-less-97d8792f24be
 

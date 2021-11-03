@@ -1,0 +1,6 @@
+flask full project
+
+https://pythonistaplanet.com/python-flask-project-ideas/
+
+https://realpython.com/flask-by-example-part-1-project-setup/
+
