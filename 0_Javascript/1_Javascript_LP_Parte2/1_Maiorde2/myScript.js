@@ -5,9 +5,9 @@ function myFunction() {
     n2 = Number(document.getElementById("input2").value);
 
     if (n1 > n2) {
-        r = n1 + " é o maior (n1)";
+        r = n1 + " é maior que " + n2;
     } else if (n2 > n1) {
-        r = n2 + " é o maior (n2)";
+        r = n2 + " é maior que " + n1;
     } else if (n1 == n2) {
         r = "Os valores são iguais";
     } else {
