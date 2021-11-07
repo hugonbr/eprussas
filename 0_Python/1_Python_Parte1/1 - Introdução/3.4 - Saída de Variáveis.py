@@ -8,3 +8,5 @@ print("Python é " + x + ".\n"
 """
 print("Python é {}.\n"
       "Temos que aprender!".format(x))
+print(f"""Python é {x}.
+Temos que aprender!""")
