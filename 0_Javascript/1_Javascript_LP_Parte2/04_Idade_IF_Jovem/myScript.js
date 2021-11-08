@@ -18,15 +18,13 @@ function myFunction() {
         r = "É criança.";
     } else if (idade > 12 && idade < 22 /*<= 21*/) {
         r = "É jovem.";
+    } else if (idade >= 22) {
+        r = "A sua idade está fora da faixa etária.";
+        console.log("Você tá véio");
     } else {
-        if (idade < 0) {
-            r = "Idade inválida."
-            idade = "";
-            console.log("Idade inválida.");
-        } else {
-            r = "A sua idade está fora da faixa etária.";
-            console.log("Você tá véio");
-        }
+        r = "Idade inválida."
+        idade = "";
+        console.log("Idade inválida.");
     }
 
     document.getElementById("r").innerHTML = "R: " + idade + ". " + r;
