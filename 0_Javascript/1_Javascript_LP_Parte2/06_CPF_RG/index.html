@@ -11,13 +11,13 @@
 
     <p style="color: red">* Preencha pelo menos um dos campos abaixo.</p>
 
-    <p>Informe o seu CPF:</p>
+    <p>Informe o seu CPF<span style="color: red"> *</span>:</p>
 
-    <input type="number" id="inputCPF" />
+    <input id="inputCPF" onkeypress="mascara(this,cpf)" maxlength="14" />
 
-    <p>Informe o seu RG:</p>
+    <p>Informe o seu RG<span style="color: red"> *</span>:</p>
 
-    <input type="number" id="inputRG" />
+    <input id="inputRG" onkeypress="mascara(this,rg)" maxlength="13" />
 
     <br />
     <br />
