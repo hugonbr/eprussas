@@ -10,9 +10,9 @@ function myFunction() {
     if (idade < 0) {
         r = " Data inválida, tente novamente.";
     } else if (idade >= 18) {
-        r = "R: " + idade + " anos. " + " O usuário é maior de idade!";
+        r = "R: " + idade + " ano(s). " + " O usuário é maior de idade!";
     } else {
-        r = "R: " + idade + " anos. " + " O usuário é menor de idade!";
+        r = "R: " + idade + " ano(s). " + " O usuário é menor de idade!";
     }
 
     document.getElementById("r").innerHTML = r;
