@@ -5,6 +5,8 @@ function myFunction() {
     data_nasc = document.getElementById("input1").value;
 
     //idade = Math.floor((new Date() - new Date(data_nasc).getTime()) / 3.15576e+10);
+    //Math.floor() arredonda por baixo. Ex: 21.8 => 21
+    //toFixed() arredondamento completo. Ex: 21.8 => 22
     idade = Math.floor((new Date() - new Date(data_nasc)) / 3.15576e+10);
 
     if (idade < 0) {
