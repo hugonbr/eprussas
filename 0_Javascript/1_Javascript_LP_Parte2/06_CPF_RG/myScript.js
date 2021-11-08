@@ -21,6 +21,8 @@ function myFunction() {
         }
     } else {
         document.getElementById("r").innerHTML = "Dados inválidos, tente novamente";
+        rcpf = "";
+        rrg = "";
     }
 
     document.getElementById("cpf").innerHTML = rcpf;
