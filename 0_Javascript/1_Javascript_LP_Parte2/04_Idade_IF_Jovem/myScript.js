@@ -20,7 +20,7 @@ function myFunction() {
         r = "É jovem.";
     } else if (idade >= 22) {
         r = "A sua idade está fora da faixa etária estipulada.";
-        console.log("Você tá véio");
+        console.log("Você tá véio rs");
     } else {
         r = "Idade inválida."
         idade = "";
