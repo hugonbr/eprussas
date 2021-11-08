@@ -14,7 +14,12 @@ function myFunction() {
     //jovem 13 a 21
     //qualquer outra idade else
 
-    if (idade >= 0 && idade < 13 /*<= 12*/) {
+    data_nasc = Number(data_nasc.split("-")[0]);
+
+    if (data_nasc < 1900) {
+        r = "Idade inválida. Idade Impossível kkkk"
+        idade = "";
+    } else if (idade >= 0 && idade < 13 /*<= 12*/) {
         r = "É criança.";
     } else if (idade > 12 && idade < 22 /*<= 21*/) {
         r = "É jovem.";
