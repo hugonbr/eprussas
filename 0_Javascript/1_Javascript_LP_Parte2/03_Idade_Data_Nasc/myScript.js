@@ -5,6 +5,8 @@ function myFunction() {
     data_nasc = document.getElementById("input1").value;
 
     //idade = Math.floor((new Date() - new Date(data_nasc).getTime()) / 3.15576e+10);
+    //teste nodejs
+    //x=Math.floor(Math.ceil(Math.abs(new Date("1990-01-01") - new Date()) / (1000 * 3600 * 24)) / 365.25)
     //Math.floor() arredonda por baixo. Ex: 21.8 => 21
     //toFixed() arredondamento completo. Ex: 21.8 => 22
     idade = Math.floor((new Date() - new Date(data_nasc)) / 3.15576e+10);
