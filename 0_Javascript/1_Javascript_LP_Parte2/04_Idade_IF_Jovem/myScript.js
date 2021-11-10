@@ -3,7 +3,6 @@ let r;
 
 input1.max = new Date().toISOString().split("T")[0];
 
-//
 function myFunction() {
     data_nasc = document.getElementById("input1").value;
     //idade = Math.floor((new Date() - new Date(data_nasc).getTime()) / 3.15576e+10);
