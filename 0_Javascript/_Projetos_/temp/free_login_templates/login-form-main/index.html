@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Login 01</title>
+  	<title>Login - Main</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -29,13 +29,13 @@
 		      	<h3 class="text-center mb-4">Área de Acesso</h3>
 						<form action="#" class="login-form">
 		      		<div class="form-group">
-		      			<input type="text" class="form-control rounded-left" placeholder="Usuário" required>
+		      			<input id="login" type="text" class="form-control rounded-left" placeholder="Usuário" required>
 		      		</div>
 	            <div class="form-group d-flex">
-	              <input type="password" class="form-control rounded-left" placeholder="Senha" required>
+	              <input id="senha" type="password" class="form-control rounded-left" placeholder="Senha" required>
 	            </div>
 	            <div class="form-group">
-	            	<button type="submit" class="form-control btn btn-primary rounded submit px-3">Entrar</button>
+	            	<button type="submit" class="form-control btn btn-primary rounded submit px-3" onclick="entrar()">Entrar</button>
 	            </div>
 	            <div class="form-group d-md-flex">
 	            	<div class="w-50">
@@ -49,6 +49,7 @@
 								</div>
 	            </div>
 	          </form>
+			  <p id="aviso" class="text-center mb-4"></p>
 	        </div>
 				</div>
 			</div>
