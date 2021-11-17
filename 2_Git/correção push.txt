@@ -1,0 +1,4 @@
+git remote set-url origin https://<gitcode>@github.com/hugonbr/eprussas.git
+
+git push https://<gitcode>@github.com/hugonbr/eprussas.git
+
