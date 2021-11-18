@@ -1,5 +1,7 @@
 let login, senha;
 
+text_button = document.getElementById("show");
+
 //função do template
 (function ($) {
 	"use strict";
@@ -15,14 +17,28 @@ function entrar() {
 	console.log(login);
 	console.log(senha);
 
-	if (login === "admin" && senha === "123") {
+	if (login == "" || senha == "") {
+		document.getElementById("aviso").innerHTML =
+			'<span class="alert alert-warning text-center">Campo(s) Vazio(s)</span>';
+	} else if (login === "admin" && senha === "123") {
 		//alert("Bem-vindo Admin");
 		document.getElementById("aviso").innerHTML =
-			"Bem-vindo! Em breve você aprenderá backend e rotas"
+			'<span class="alert alert-success text-center">Bem-vindo!</span>';
 	} else {
 		//alert("login ou senha incorretos!!! Tente novamente.");
 		document.getElementById("aviso").innerHTML =
-			"login ou senha incorretos!!! Tente novamente."
+			'<span class="alert alert-danger text-center">login ou senha incorretos!</span>';
 	}
 	//alert("teste");
+}
+
+function mostrar() {
+	let isenha = document.getElementById("senha");
+	if (isenha.type === "password") {
+		isenha.type = "text";
+		text_button.textContent = "ocultar senha";
+	} else {
+		isenha.type = "password";
+		text_button.textContent = "mostrar senha";
+	}
 }
