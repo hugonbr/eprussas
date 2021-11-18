@@ -25,6 +25,7 @@ function entrar() {
 			'<span class="alert alert-danger text-center">Conta bloqueada!</span>';
 	} else if (login === "admin" && senha === "123") {
 		//alert("Bem-vindo Admin");
+		contTentativas = 0;
 		document.getElementById("aviso").innerHTML =
 			'<span class="alert alert-success text-center">Bem-vindo!</span>';
 	} else {
