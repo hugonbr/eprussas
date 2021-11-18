@@ -20,6 +20,7 @@ function entrar() {
 	if (login == "" || senha == "") {
 		document.getElementById("aviso").innerHTML =
 			'<span class="alert alert-warning text-center">Campo(s) Vazio(s)</span>';
+		console.log("Campo(s) Vazio(s)");
 	}
 
 	// else if (login === "admin" && contTentativas == 4) {
@@ -30,14 +31,15 @@ function entrar() {
 	else if (login === "admin" && senha === "123") {
 		//alert("Bem-vindo Admin");
 		window.location.href = "home.html";
-		return false;
 		document.getElementById("aviso").innerHTML =
 			'<span class="alert alert-success text-center">Bem-vindo!</span>';
 	} else {
 		//alert("login ou senha incorretos!!! Tente novamente.");
 		document.getElementById("aviso").innerHTML =
-			'<span id="erro" class="alert alert-danger text-center">login ou senha incorretos!</span>';
+			'<span class="alert alert-danger text-center">login ou senha incorretos!</span>';
+		console.log("login ou senha incorretos!");
 	}
+	return false;
 	//alert("teste");
 }
 
