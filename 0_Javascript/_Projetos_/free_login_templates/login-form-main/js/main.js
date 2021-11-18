@@ -20,12 +20,15 @@ function entrar() {
 	if (login == "" || senha == "") {
 		document.getElementById("aviso").innerHTML =
 			'<span class="alert alert-warning text-center">Campo(s) Vazio(s)</span>';
-	} else if (login === "admin" && contTentativas == 3) {
+	} else if (login === "admin" && contTentativas == 4) {
 		document.getElementById("aviso").innerHTML =
 			'<span class="alert alert-danger text-center">Conta bloqueada!</span>';
 	} else if (login === "admin" && senha === "123") {
 		//alert("Bem-vindo Admin");
 		contTentativas = 0;
+		window.location.href = "home.html";
+		return false;
+		//window.open("home.html");
 		document.getElementById("aviso").innerHTML =
 			'<span class="alert alert-success text-center">Bem-vindo!</span>';
 	} else {
