@@ -101,13 +101,7 @@ p {
 
 /* hugo */
 #show {
-  color: #007bff;
-  text-decoration: #007bff;
-  background: none;
-  border: none;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
+  color: blue;
 }
 
 /* fim hugo */
