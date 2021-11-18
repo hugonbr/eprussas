@@ -30,7 +30,7 @@
 							<span class="fa fa-user-o"></span>
 						</div>
 						<h3 class="text-center mb-4">Área de Acesso</h3>
-						<form action="#" class="login-form">
+						<form action="#" onsubmit="entrar(); return false" class="login-form">
 							<div class="form-group">
 								<input id="login" type="text" class="form-control rounded-left" placeholder="Usuário"
 									required value="admin">
@@ -40,8 +40,8 @@
 									required value="123">
 							</div>
 							<div class="form-group">
-								<button type="submit" class="form-control btn btn-primary rounded submit px-3"
-									onclick="return entrar(this)">Entrar</button>
+								<button type="submit"
+									class="form-control btn btn-primary rounded submit px-3">Entrar</button>
 							</div>
 							<div class="form-group d-md-flex">
 								<div class="w-50">

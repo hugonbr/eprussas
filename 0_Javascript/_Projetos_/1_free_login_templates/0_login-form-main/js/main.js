@@ -39,7 +39,6 @@ function entrar() {
 			'<span class="alert alert-danger text-center">login ou senha incorretos!</span>';
 		console.log("login ou senha incorretos!");
 	}
-	return false;
 	//alert("teste");
 }
 
