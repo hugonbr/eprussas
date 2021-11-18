@@ -100,6 +100,21 @@ p {
 }
 
 /* hugo */
+/* #erro {
+  position: relative;
+  animation: mymove 5s;
+}
+
+@keyframes mymove {
+  from {
+    down: 0px;
+  }
+
+  to {
+    down: 200px;
+  }
+} */
+
 /* fim hugo */
 
 abbr[title],

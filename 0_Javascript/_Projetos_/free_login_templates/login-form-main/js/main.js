@@ -36,7 +36,7 @@ function entrar() {
 	} else {
 		//alert("login ou senha incorretos!!! Tente novamente.");
 		document.getElementById("aviso").innerHTML =
-			'<span class="alert alert-danger text-center">login ou senha incorretos!</span>';
+			'<span id="erro" class="alert alert-danger text-center">login ou senha incorretos!</span>';
 	}
 	//alert("teste");
 }
