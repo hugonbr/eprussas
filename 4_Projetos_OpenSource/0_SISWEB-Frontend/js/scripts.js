@@ -51,7 +51,7 @@ function entrar() {
 
     else if (login === "admin" && senha === "123") {
         //alert("Bem-vindo Admin");
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
         document.getElementById("aviso").innerHTML =
             '<span class="alert alert-success text-center">Bem-vindo!</span>';
     } else {
