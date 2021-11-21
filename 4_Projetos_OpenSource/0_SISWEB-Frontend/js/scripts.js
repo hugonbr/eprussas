@@ -96,4 +96,7 @@ function closeFullscreen() {
     }
 }
 
+function testeForm() {
+    alert("ok");
+}
 //FIM mod Hugo

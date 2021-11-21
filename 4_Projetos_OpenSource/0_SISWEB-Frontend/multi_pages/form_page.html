@@ -149,8 +149,14 @@
                         <li class="breadcrumb-item active">Painel Inicial</li>
                     </ol>
                     <!-- escreva o conteúdo aqui -->
-                    <h2 style="text-align: center;">FORM</h2>
-                    <p style="text-align: center;">Teste</p>
+                    <div style="text-align: center;">
+                        <h2>FORM</h2>
+                        <form action="#" onsubmit="testeForm(); return false">
+                            <p>Usuário <input type="text"></p>
+                            <p>Senha <input type="password"></p>
+                            <button type="submit">Cadastrar</button>
+                        </form>
+                    </div>
                     <!-- fim do conteúdo aqui -->
                 </div>
             </main>
@@ -170,12 +176,12 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    <script src="../js/scripts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
     <!-- <script src="assets/demo/chart-area-demo.js"></script> -->
     <!-- <script src="assets/demo/chart-bar-demo.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
-    <script src="js/datatables-simple-demo.js"></script>
+    <script src="../js/datatables-simple-demo.js"></script>
 </body>
 
 </html>
