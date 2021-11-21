@@ -8,6 +8,8 @@
 // 
 
 let login, senha;
+let elem = document.documentElement;
+
 
 text_button = document.getElementById("show");
 
@@ -71,6 +73,26 @@ function mostrar() {
     } else {
         isenha.type = "password";
         text_button.textContent = "mostrar senha";
+    }
+}
+
+function openFullscreen() {
+    if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) { /* Safari */
+        elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) { /* IE11 */
+        elem.msRequestFullscreen();
+    }
+}
+
+function closeFullscreen() {
+    if (document.exitFullscreen) {
+        document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) { /* Safari */
+        document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) { /* IE11 */
+        document.msExitFullscreen();
     }
 }
 
