@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+
 </head>
 
 <body>
@@ -15,11 +19,11 @@
 
   <p>Informe o seu CPF<span style="color: red"> *</span>:</p>
 
-  <input id="inputCPF" onkeypress="mascara(this,cpf)" maxlength="14" placeholder="123.456.789-10" />
+  <input id="CPF" type="text" name="CPF" maxlength="14" placeholder="123.456.789-10" />
 
   <p>Informe o seu RG<span style="color: red"> *</span>:</p>
 
-  <input id="inputRG" onkeypress="mascara(this,rg)" maxlength="13" placeholder="1234567891012" />
+  <input id="RG" type="text" name="RG" maxlength="13" placeholder="1234567891012" />
 
   <br />
   <br />
