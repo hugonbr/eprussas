@@ -12,8 +12,8 @@ function myFunction() {
         document.getElementById("r").innerHTML = "Erro, dados inválidos, verifique os valores mínimo e máximo.";
         document.getElementById("r2").innerHTML = "";
     } else {
-        min = Number(min); //x
-        max = Number(max); //y
+        min = Math.floor(Number(min)); //x
+        max = Math.floor(Number(max)); //y
         r = Math.floor(Math.random() * (max - min + 1) + min);
         console.log(r);
         document.getElementById("r").innerHTML = "";
