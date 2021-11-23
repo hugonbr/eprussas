@@ -12,7 +12,7 @@ Python
 
 -------------Desenvolvimento---------------
 
-1- WEB: Flask | Django | API
+1- WEB: Flask | Django | FastAPI
 
 2- Banco de Dados
 
