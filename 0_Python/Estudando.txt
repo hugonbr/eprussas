@@ -1,0 +1,22 @@
+Python
+
+----------------Introdução-----------------
+
+1- Variáveis, Inputs, if else, for e while.
+
+2- Funções e Estrutura de Dados.
+
+3- Orientação a Objetos (POO)
+
+-------------------------------------------
+
+-------------Desenvolvimento---------------
+
+1- WEB: Flask | Django | API
+
+2- Banco de Dados
+
+3- Linux Server
+
+-------------------------------------------
+
