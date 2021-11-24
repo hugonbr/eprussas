@@ -1,6 +1,6 @@
 Python
 
-----------------Introdução-----------------
+------------------BASE--------------------
 
 1- Variáveis, Inputs, if else, for e while.
 
