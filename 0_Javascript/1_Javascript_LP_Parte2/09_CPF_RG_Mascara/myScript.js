@@ -1,8 +1,11 @@
 let icpf, irg, rcpf = "", rrg = "";
 
 function myFunction() {
-    icpf = document.getElementById("inputCPF").value;
-    irg = document.getElementById("inputRG").value;
+    icpf = document.getElementById("CPF").value;
+    irg = document.getElementById("RG").value;
+
+    console.log(icpf);
+    console.log(irg);
 
     if (icpf.length == 14 && irg.length == 13) {
         document.getElementById("r").innerHTML = "Dados Válidos";
