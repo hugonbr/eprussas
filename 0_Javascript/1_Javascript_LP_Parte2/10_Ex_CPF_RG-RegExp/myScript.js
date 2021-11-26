@@ -5,17 +5,17 @@ function myFunction() {
     irg = document.getElementById("inputRG").value;
 
     if (icpf.length == 14 && irg.length == 13) {
-        document.getElementById("r").innerHTML = "Dados Válidos";
+        document.getElementById("r").innerHTML = "Dados Válidos:";
         rcpf = "CPF: " + icpf;
         rrg = "RG: " + irg;
     } else if (icpf.length == 14 || irg.length == 13) {
         if (icpf.length == 14) {
-            document.getElementById("r").innerHTML = "Dados Válidos";
+            document.getElementById("r").innerHTML = "Dados Válidos:";
             rcpf = "CPF: " + icpf;
             rrg = "";
         }
         if (irg.length == 13) {
-            document.getElementById("r").innerHTML = "Dados Válidos";
+            document.getElementById("r").innerHTML = "Dados Válidos:";
             rcpf = "";
             rrg = "RG: " + irg;
         }
