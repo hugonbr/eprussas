@@ -1,0 +1,1 @@
+Faça um laço 'for' que exibe todos os números pares de 0 a 100.
