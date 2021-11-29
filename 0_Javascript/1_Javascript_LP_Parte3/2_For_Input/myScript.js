@@ -11,6 +11,14 @@ function myFunction() {
         r = r + i + "; ";
     }
 
+    /*
+    let i = min;
+    while (i <= max) {
+        r = r + i + "; ";
+        i += inc;
+    }
+    */
+
     document.getElementById("r").innerHTML = "R: " + r;
 }
 
