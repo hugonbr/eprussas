@@ -1,19 +1,19 @@
 # command
-# django-admin.py runserver --pythonpath=. --settings=ola
+# django-admin.py runserver --pythonpath=. --settings=app
 
 from django.conf.urls import url
 from django.http import HttpResponse
 
 
-SECRET_KEY = 'ola'
+SECRET_KEY = 'app'
 DEBUG = True
 ROOT_URLCONF = __name__
 
 
-def ola(request):
+def app(request):
     return HttpResponse('<p style="text-align: center;">Hello Server</p>')
 
 
 urlpatterns = [
-    url(r'^$', ola)
+    url(r'^$', app)
 ]
