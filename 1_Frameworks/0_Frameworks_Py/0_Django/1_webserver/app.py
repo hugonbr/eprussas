@@ -11,7 +11,7 @@ ROOT_URLCONF = __name__
 
 
 def app(request):
-    return HttpResponse('<p style="text-align: center;">Hello Server</p>')
+    return HttpResponse('<p style="text-align: center;">Hello Server on django</p>')
 
 
 urlpatterns = [
