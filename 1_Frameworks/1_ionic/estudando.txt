@@ -1,10 +1,11 @@
-https://www.freecodecamp.org/news/creating-a-crud-to-do-app-using-ionic-4/
+https://www.freecodecamp.org/news/how-to-write-hello-world-in-ionic/
 
 Comandos olá mundo:
 
 sudo apt-get install nodejs
 sudo apt-get install npm 
 sudo npm install -g ionic cordova
+# sudo npm install -g @ionic/cli native-run cordova-res #mobile
 
 ionic start helloworld blank
 
@@ -12,3 +13,8 @@ cd helloworld
 
 ionic serve
 
+
+
+CRUD: 
+
+    https://www.freecodecamp.org/news/creating-a-crud-to-do-app-using-ionic-4/
