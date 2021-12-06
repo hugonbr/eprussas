@@ -1,6 +1,7 @@
-/* body {
-    background-color: lightslategrey;
-} */
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
 
 h2 {
     text-align: center;
