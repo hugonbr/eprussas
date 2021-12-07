@@ -2,6 +2,8 @@ let login, senha, text_button;
 
 text_button = document.getElementById("show");
 
+alert("teste");
+
 function show() {
     let isenha = document.getElementById("input2");
     if (isenha.type === "password") {
