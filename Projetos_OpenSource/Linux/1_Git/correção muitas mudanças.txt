@@ -1,0 +1,6 @@
+git "muitas mudanças foram detectadas. Somente as primeiras 10000 alterações"
+
+Isso fez com que o git não fizesse mais commits e nem push
+
+Para corrigir precisei rodar um "git init"
+
