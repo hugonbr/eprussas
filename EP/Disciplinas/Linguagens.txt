@@ -5,6 +5,7 @@ Linguagens
 - JavaScript (Frontend e Backend)
 - Python (Backend e Ciência)
 - Java (Backend e Android)
+- C#
 
 Tópicos Avancados
 - Estrutura de Dados
