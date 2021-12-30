@@ -1,15 +1,7 @@
 * Database
 * MongoDB
 
-* 
-* 
-* 
+* Create Database
+* Collection
 
-* 
-* 
-* 
-
-* 
-* 
-* 
 

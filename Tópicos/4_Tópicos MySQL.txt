@@ -1,15 +1,16 @@
 * Database
 * MySQL
 
-* 
-* 
-* 
+* Create Database
+* Create table
 
-* 
-* 
-* 
+CRUD
+* Insert
+* Select
+* Update
+* Delete
 
-* 
-* 
-* 
+* Where
+* Order by
+* Join
 
