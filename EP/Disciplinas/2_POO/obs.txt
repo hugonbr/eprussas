@@ -1,7 +1,0 @@
-FAZENDO
-
-POO com JavaScript
-
-In JavaScript, objects are king.
-If you understand objects, you understand JavaScript.
-

@@ -1,0 +1,46 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/git1_OlaMundo/target/
+/git2_Scanner/target/
+/git2_Scanner/nbproject/private/
+/git2_Scanner/build/
+/git3_IfElse/nbproject/private/
+/git3_IfElse/build/
+/git0_OlaMundo_Maven/target/
+/git1_OlaMundo/nbproject/private/
+/git1_OlaMundo/build/
+/git4_OperacoesMat/nbproject/private/
+/git4_OperacoesMat/build/
+/git5_TabelaVerdade/nbproject/private/
+/git5_TabelaVerdade/build/
+/git6_Tabuada/nbproject/private/
+/git6_Tabuada/build/
+/git7_ForWhileDoWhile/nbproject/private/
+/git7_ForWhileDoWhile/build/
+/git8_DoWhile/nbproject/private/
+/git8_DoWhile/build/
+/git9_Array/nbproject/private/
+/git9_Array/build/
+/gitA10_POO1/nbproject/private/
+/gitA10_POO1/build/

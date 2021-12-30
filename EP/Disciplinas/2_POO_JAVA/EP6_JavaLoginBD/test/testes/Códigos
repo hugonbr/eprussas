@@ -1,0 +1,3 @@
+//ImageIcon img = new ImageIcon("C:\\Users\\Hugo Nathan\\Documents\\NetBeansProjects\\EP 2019.1 JavaLoginBD\\src\\view\\login-icon.png");
+//ImageIcon pegar o caminho relativo;
+//login.setIconImage(img.getImage());
