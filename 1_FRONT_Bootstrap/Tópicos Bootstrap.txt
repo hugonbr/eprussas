@@ -1,13 +1,16 @@
 * Frontend
 * HTML, CSS e Javascript
 
-* Algoritmos
-* Javascript OO
+* Containers
+* Grids
 
-* Banco de Dados (MySQL && MongoDB)
-* TypeScript
+* Alerts
+* Buttons
+* Pagination
+* Navbars
+* Modal
 
-* Node.js
-* Express
-* Nest.js
+* Forms
+
+* Template
 
