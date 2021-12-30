@@ -1,0 +1,15 @@
+* Backend
+* Python
+
+* Algoritmos
+* Python OO
+* I/O API
+
+* Banco de Dados (MySQL)
+* DB API
+* SQLAlchemy
+
+* Django
+* Django REST
+* Flask && FAST API
+

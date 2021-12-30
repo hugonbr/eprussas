@@ -1,0 +1,15 @@
+* Backend
+* PHP
+
+* Algoritmos
+* File System Extensions
+* PHP OO (PHP 7.x+ && PHP  8+)
+
+* Banco de Dados (MySQL)
+* PDO
+* Web Security
+
+* Zend
+* Symfony
+* Laravel
+

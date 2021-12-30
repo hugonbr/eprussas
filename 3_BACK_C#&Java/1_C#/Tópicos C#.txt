@@ -1,0 +1,15 @@
+* Backend
+* C#
+
+* Algoritmos
+* I/O API
+* LINQ
+
+* Banco de Dados (SQLServer)
+* ADO.NET
+* Entity Framework
+
+* ASP.NET MVC
+* ASP.NET Web API
+* ASP.NET Core
+

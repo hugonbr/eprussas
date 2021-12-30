@@ -1,0 +1,13 @@
+* Backend
+* Javascript
+
+* Algoritmos
+* Javascript OO
+
+* Banco de Dados (MySQL && MongoDB)
+* TypeScript
+
+* Node.js
+* Express
+* Nest.js
+

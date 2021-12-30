@@ -1,0 +1,15 @@
+* Backend
+* JAVA
+
+* Algoritmos
+* Stream API
+* I/O API
+
+* Banco de Dados (MySQL)
+* JDBC
+* JPA/Hibernate
+
+* Serelet API
+* JAX-WS/JAX-RS
+* Spring MVC/Boot
+
