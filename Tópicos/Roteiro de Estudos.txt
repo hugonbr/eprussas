@@ -1,15 +1,17 @@
-1) How to make a web site with HTML, CSS and JS;
+1) How to make a web site with HTML, CSS and JS fully responsive;
 
-2) How to make a web site with Bootstrap;
+2) How to make a web site with Bootstrap fully responsive;
 
-3) CRUD FULLSTACK
+3) CRUD FULLSTACK (PHP & Python)
 
-4) API / Framework
+4) API / Framework (node, laravel and django)
 
-5) Mobile
+5) Mobile (React Native e Ionic)
 
 Pesquisas
 
 - Best frontend framework
 - Best backend programming language
+- Best database
+- Best linux distro for server
 
