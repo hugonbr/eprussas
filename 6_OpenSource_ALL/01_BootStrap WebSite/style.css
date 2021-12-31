@@ -2,7 +2,11 @@
     box-sizing: border-box;
 }
 
-#main {
+#left {
+    margin-top: 2em;
+}
+
+#block {
     margin-top: 2em;
 }
 
