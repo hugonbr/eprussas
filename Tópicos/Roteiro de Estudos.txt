@@ -21,3 +21,4 @@ Pesquisas
 - Best database (MySQL)
 - Best linux distro for server (Ubuntu)
 - Best Host (AWS)
+- Full Stack Roadmap (https://github.com/kamranahmedse/developer-roadmap)
