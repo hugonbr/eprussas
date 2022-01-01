@@ -21,4 +21,11 @@ Pesquisas
 - Best database (MySQL)
 - Best linux distro for server (Ubuntu)
 - Best Host (AWS)
-- Full Stack Roadmap (https://github.com/kamranahmedse/developer-roadmap)
+- Full Stack Roadmaps
+    https://github.com/kamranahmedse/developer-roadmap
+    https://www.raftlabs.co/development/full-stack-developer-complete-roadmap#Top
+    https://www.devupgrade.com/post/full-stack-roadmap-2022-the-simplest-path
+
+GIF JS
+https://redblink.com/wp-content/uploads/2019/07/1-OF0xEMkWBv-69zvmNs6RDQ.gif
+
