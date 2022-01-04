@@ -1,6 +1,0 @@
-select aluno_idaluno, quant_oc
-from quantidade_de_oc
-where quant_oc = 
-(select max(quant_oc) as maior
-from quantidade_de_oc
-);

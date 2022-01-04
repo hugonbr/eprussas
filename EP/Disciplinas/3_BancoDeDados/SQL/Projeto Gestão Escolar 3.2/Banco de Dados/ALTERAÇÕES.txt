@@ -1,3 +1,0 @@
-Fiz alterações na tabela saída_sala
-adicionei uma ligação para professor,
-para saber quem tirou o aluno de sala
