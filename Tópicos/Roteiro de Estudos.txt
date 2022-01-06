@@ -1,10 +1,10 @@
 FULL Courses:
-    HTML, CSS and JS full course
-    Bootstrap full course
-    React full course
-    node express full course
-    MERN full course
-    full stack full course
+    Frontend Full Course (HTML, CSS and JS | Bootstrap+React)
+    Backend Full Course (node express | MERN + PHP|Python)
+    Database Full Course (SQL+NoSQL)
+    API Full Course
+    Full Stack Full Course
+    AWS/HEROKU Full Course
 
 SITE
 * How to make a web site with HTML, CSS and JS fully responsive;
