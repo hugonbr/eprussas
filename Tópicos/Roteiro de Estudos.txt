@@ -1,3 +1,10 @@
+FULL Courses:
+    HTML, CSS and JS full course
+    Bootstrap full course
+    React full course
+    node express full course
+    full stack full course
+
 SITE
 * How to make a web site with HTML, CSS and JS fully responsive;
 * How to make a web site with Bootstrap fully responsive;
@@ -16,11 +23,11 @@ APP
 * How to make a Mobile APP (React Native e Ionic)
 
 Pesquisas
-- Best frontend framework (React)
-- Best backend programming language (Python)
-- Best database (MySQL)
-- Best linux distro for server (Ubuntu)
-- Best Host (AWS)
+- Best frontend framework (React+Native)
+- Best backend programming language (JS+PHP+Python)
+- Best database (MySQL+NoSQL)
+- Best linux distro for server (RHELBases+Ubuntu)
+- Best Host (AWS+Heroku+HostGator)
 - Full Stack Roadmaps
     https://github.com/kamranahmedse/developer-roadmap
     https://www.raftlabs.co/development/full-stack-developer-complete-roadmap#Top
