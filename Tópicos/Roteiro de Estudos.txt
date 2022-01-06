@@ -6,22 +6,20 @@ FULL Courses:
     Full Stack Full Course
     AWS/HEROKU Full Course
 
+----------------------------------------------------------------
 SITE
 * How to make a web site with HTML, CSS and JS fully responsive;
 * How to make a web site with Bootstrap fully responsive;
 * How to make a web site with React fully responsive;
-
 CMS
 * How to make a site with WORDPRESS
-
 CRUD
 * How to make a CRUD (PHP & Python)
-
 API (multiplataforma: web e  mobile)
 * How to make a API (node, laravel and django)
-
 APP
 * How to make a Mobile APP (React Native e Ionic)
+----------------------------------------------------------------
 
 Pesquisas
 - Best frontend framework (React+Native)
