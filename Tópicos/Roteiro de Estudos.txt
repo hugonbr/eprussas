@@ -1,3 +1,14 @@
+Tech Stack
+
+    - HTML/CSS/JavaScript+React
+    - Node/PHP/Python/C++
+    - MySQL/MongoDB
+    - Docker
+    - Git
+    - AWS/Heroku
+
+----------------------------------------------------------------
+
 FULL Courses:
     Frontend Full Course (HTML, CSS and JS | Bootstrap+React)
     Backend Full Course (node express | MERN + PHP|Python)
@@ -7,6 +18,9 @@ FULL Courses:
     AWS/HEROKU Full Course
 
 ----------------------------------------------------------------
+
+
+
 SITE
 * How to make a web site with HTML, CSS and JS fully responsive;
 * How to make a web site with Bootstrap fully responsive;
@@ -19,6 +33,7 @@ API (multiplataforma: web e  mobile)
 * How to make a API (node, laravel and django)
 APP
 * How to make a Mobile APP (React Native e Ionic)
+
 ----------------------------------------------------------------
 
 Pesquisas
