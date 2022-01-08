@@ -1,0 +1,9 @@
+Tech Stack
+
+    - HTML/CSS/JavaScript+React
+    - Node/PHP/Python/C++
+    - MySQL/MongoDB
+    - Docker
+    - Git
+    - AWS/Heroku
+
