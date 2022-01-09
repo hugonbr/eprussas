@@ -2,8 +2,8 @@ Tech Stack
 
     - VSCODE
     - Git
-    - HTML/CSS/JavaScript+React
-    - PHP/Node/Python/C++/Rust
+    - HTML/CSS/JavaScript+React|Native
+    - PHP/Node.js/Python/C++/Rust
     - MySQL/MongoDB
     - Docker
     - AWS/Heroku
@@ -12,4 +12,4 @@ MAKE A SITE+CRUD+APP IN EACH TECHNOLOGY
 
 Search:
 
-    full project in javascript
+    full project in javascript / node.js
