@@ -1,11 +1,11 @@
 Tech Stack
 
-    - VSCODE    
+    - VSCODE
+    - Git
     - HTML/CSS/JavaScript+React
     - PHP/Node/Python/C++/Rust
     - MySQL/MongoDB
     - Docker
-    - Git
     - AWS/Heroku
 
 Search:
