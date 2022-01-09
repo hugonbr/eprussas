@@ -1,7 +1,7 @@
 Tech Stack
 
     - HTML/CSS/JavaScript+React
-    - Node/PHP/Python/C++/Rust
+    - PHP/Node/Python/C++/Rust
     - MySQL/MongoDB
     - Docker
     - Git
