@@ -1,5 +1,6 @@
 Tech Stack
 
+    - VSCODE    
     - HTML/CSS/JavaScript+React
     - PHP/Node/Python/C++/Rust
     - MySQL/MongoDB
