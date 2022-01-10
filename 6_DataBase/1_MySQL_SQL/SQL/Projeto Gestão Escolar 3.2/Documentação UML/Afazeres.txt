@@ -1,0 +1,4 @@
+Analisar onde colocar o cascade
+
+Saída sala precisa de uma chave extrangeira do professor?
+
