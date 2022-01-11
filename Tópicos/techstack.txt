@@ -1,5 +1,4 @@
 Tech Stack
-
     - VSCODE
     - Git
     - HTML/CSS/JavaScript+React|Native
@@ -11,5 +10,12 @@ Tech Stack
 MAKE A SITE+SERVER+CRUD+APP IN EACH TECHNOLOGY
 
 Search:
-
+    HTML CSS JS project
+    PHP server | Node.js server
+    PHP MySQL | Node.js MySQL|MongoDB
+    React project
+    React Native project
+    Python
+    DevOps
     full project in javascript / node.js
+
