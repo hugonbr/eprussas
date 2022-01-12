@@ -2,7 +2,7 @@ Tech Stack
     - VSCODE
     - Git
     - HTML/CSS/JavaScript+React|Native
-    - PHP/Node.js/Python/C++/Rust
+    - PHP/Node.js/Python/Java/C++
     - MySQL/MongoDB
     - Docker
     - AWS/Heroku
