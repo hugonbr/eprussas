@@ -1,4 +1,4 @@
-const text = "My viewers on Twitch are the best!! <3";
+const text = "Morpheus: Unfortunately, no one can be told what The Matrix is. You'll have to see it for yourself.";
 
 let index = 0;
 
