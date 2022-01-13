@@ -47,7 +47,7 @@ main {
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     position: relative;
-    margin: 1rem;
+    margin: 2rem;
     width: 300px;
 }
 
@@ -74,6 +74,7 @@ main {
     font-weight: bold;
     padding: 0.25rem 0.5rem;
 }
+
 .movie-info span.green {
     color: rgb(39, 189, 39);
 }
