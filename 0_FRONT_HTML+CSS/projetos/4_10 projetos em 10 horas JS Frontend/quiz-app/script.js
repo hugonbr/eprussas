@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "What is the most used programming language in 2019?",
+        question: "Qual das linguagens abaixo é a mais popular no desenvolvimento web?",
         a: "Java",
         b: "C",
         c: "Python",
@@ -8,15 +8,15 @@ const quizData = [
         correct: "d",
     },
     {
-        question: "Who is the President of US?",
-        a: "Florin Pop",
-        b: "Donald Trump",
-        c: "Ivan Saldano",
-        d: "Mihai Andrei",
+        question: "Qual é o Sistema Operacional mais usado em Servidores?",
+        a: "Windows",
+        b: "Linux",
+        c: "MacOS",
+        d: "UNIX",
         correct: "b",
     },
     {
-        question: "What does HTML stand for?",
+        question: "O que significa HTML?",
         a: "Hypertext Markup Language",
         b: "Cascading Style Sheet",
         c: "Jason Object Notation",
@@ -24,7 +24,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "What year was JavaScript launched?",
+        question: "Qual foi o ano de lançamento do JavaScript?",
         a: "1996",
         b: "1995",
         c: "1994",
