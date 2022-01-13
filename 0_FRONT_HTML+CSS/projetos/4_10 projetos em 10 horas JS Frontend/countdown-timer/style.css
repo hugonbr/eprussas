@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("./snow.jpg");
+    /* background-image: url("./snow.jpg"); */
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -16,10 +16,12 @@ body {
     margin: 0;
 }
 
-h1 {
+h3 {
     font-weight: normal;
-    font-size: 4rem;
+    font-size: 2rem;
     margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
 }
 
 .countdown-container {
