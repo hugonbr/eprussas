@@ -7,7 +7,7 @@ Tech Stack
     - Docker
     - AWS/Heroku
 
-MAKE A SITE+SERVER+CRUD+API+APP IN EACH TECHNOLOGY
+MAKE A SITE+SERVER+CRUD+API+APP IN EACH TECH
 
 Search:
     HTML CSS JS project
