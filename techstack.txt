@@ -1,8 +1,8 @@
 Tech Stack
     - VSCODE
     - Git
-    - HTML/CSS/JavaScript+React|Native
-    - PHP/Node.js/Python/Java/C++
+    - HTML/CSS/JS+React|Native
+    - PHP/Node/Python/Java/C++
     - MySQL/MongoDB
     - Docker
     - AWS/Heroku
@@ -11,11 +11,11 @@ MAKE A SITE+SERVER+CRUD+API+APP IN EACH
 
 Search:
     HTML CSS JS project
-    PHP server | Node.js server
-    PHP MySQL | Node.js MySQL|MongoDB
+    PHP server | Node server
+    PHP+MySQL | Node+MySQL|MongoDB
     React project
     React Native project
     Python
     DevOps
-    full project in javascript / node.js
+    full project in javascript / node
     Jamstack && FARM stack course
