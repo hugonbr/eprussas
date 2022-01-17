@@ -1,6 +1,5 @@
 Tech Stack
-    - VSCODE
-    - Git
+    - VSCODE && Git
     - HTML/CSS/JS+React|Native
     - PHP/Node/Python/Java/C++
     - MySQL/MongoDB
