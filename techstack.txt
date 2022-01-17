@@ -3,8 +3,7 @@ Tech Stack
     - HTML/CSS/JS+React|Native
     - PHP/Node/Python/Java/C++
     - MySQL/MongoDB
-    - Docker
-    - AWS/Heroku
+    - AWS/Heroku + Docker
 
 MAKE A SITE+SERVER+CRUD+API+APP IN EACH
 
@@ -15,5 +14,5 @@ Search:
     React+Native project
     Python
     DevOps
-    full project in javascript / node
+    Full Project in Javascript / Node
     Jamstack && FARM stack course
