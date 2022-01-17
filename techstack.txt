@@ -18,4 +18,3 @@ Search:
     DevOps
     full project in javascript / node
     Jamstack && FARM stack course
-    
