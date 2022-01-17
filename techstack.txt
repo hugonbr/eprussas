@@ -12,8 +12,7 @@ Search:
     HTML CSS JS project
     PHP server | Node server
     PHP+MySQL | Node+MySQL|MongoDB
-    React project
-    React Native project
+    React+Native project
     Python
     DevOps
     full project in javascript / node
