@@ -10,7 +10,6 @@ MAKE:
     - CRUD(SQL/noSQL)
     - API(Express/Adonis/FastAPI)
     - APP(React Native)
-
     Jamstack && FARM stack
     Full Project in Javascript / Node
-    
+    Web and Mobile App Development
