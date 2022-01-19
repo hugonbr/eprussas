@@ -9,13 +9,8 @@ MAKE:
     - SERVER(PHP/Node/Python)
     - CRUD(SQL/noSQL)
     - API(Express/Adonis/FastAPI)
-    - APP(JS)
-Search:
-    HTML CSS JS project
-    PHP server | Node server
-    PHP+MySQL | Node+MySQL|MongoDB
-    React+Native project
-    Python
-    DevOps
+    - APP(React Native)
+
+    Jamstack && FARM stack
     Full Project in Javascript / Node
-    Jamstack && FARM stack course
+    
