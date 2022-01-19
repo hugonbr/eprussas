@@ -6,9 +6,9 @@ Tech Stack
     - AWS/Heroku + Docker
 MAKE:
     - SITE(HTML/CSS/JS+React)
-    - SERVER(PHP/Node/Python/Java)
+    - SERVER(PHP/Node/Python)
     - CRUD(SQL/noSQL)
-    - API(Node/FastAPI)
+    - API(Express/Adonis/FastAPI)
     - APP(JS)
 Search:
     HTML CSS JS project
