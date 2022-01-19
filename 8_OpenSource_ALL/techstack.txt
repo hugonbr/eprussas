@@ -4,9 +4,12 @@ Tech Stack
     - PHP/Node/Python/Java/C++
     - MySQL/MongoDB
     - AWS/Heroku + Docker
-
-MAKE A SITE+SERVER+CRUD+API+APP IN EACH
-
+MAKE:
+    - SITE(HTML/CSS/JS+React)
+    - SERVER(PHP/Node/Python/Java)
+    - CRUD(SQL/noSQL)
+    - API(Node/FastAPI)
+    - APP(JS)
 Search:
     HTML CSS JS project
     PHP server | Node server
