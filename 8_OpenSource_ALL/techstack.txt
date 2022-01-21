@@ -4,13 +4,6 @@ Tech Stack
     - PHP/Node/Python/Java/C++
     - MySQL/MongoDB
     - AWS/Heroku + Docker
-MAKE:
-    - SITE(HTML/CSS/JS+React)
-    - SERVER(PHP/Node/Python)
-    - CRUD(SQL/noSQL)
-    - API(Express/Adonis/FastAPI)
-    - APP(React Native)
-    Jamstack && FARM stack
-    Full Project in Javascript / Node
-    Web and Mobile App Development
+
+Jamstack && FARMstack
 
