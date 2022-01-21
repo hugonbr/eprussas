@@ -8,19 +8,22 @@
 </head>
 <body>
 
-    <?php
-    // Login PHP
-    require "check.php";
-    if (isset($failed)) {
-        echo "<div>INVALID USER/PASSWORD</div>";
-    }
-    ?>    
-
-    <!-- HTML LOGIN FORM -->
-    <form method="POST">
-        <input type="text" name="user" required>
-        <input type="password" name="password" required>
-        <input type="submit" value="Login">
-    </form>
+<?php
+// (A) LOGIN CHECKS
+require "check.php";
+?>
+LOGIN PAGE HTML
+<?php if (isset($failed)) { ?>
+<div id="bad-login">Invalid user or password.</div>
+<?php } ?>
+ 
+<form id="login-form" method="post" target="_self">
+  <h1>PLEASE SIGN IN</h1>
+  <label for="user">User</label>
+  <input type="text" name="user" required/>
+  <label for="password">Password</label>
+  <input type="password" name="password" required/>
+  <input type="submit" value="Sign In"/>
+</form>
 </body>
 </html>

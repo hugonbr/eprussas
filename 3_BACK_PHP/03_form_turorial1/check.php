@@ -1,32 +1,29 @@
 <?php
-
-//LIST USERS AND PASSWORDS
-$users = [
-    "admin" => "123",
-    "joe" => "1234"
-];
-
-//START SESSION
+// (A) START SESSION 
 session_start();
-
-//VERIFY LOGIN
-if (isset($POST['user']) && !isset($_SESSION['user'])){
-    //CHECK PASSWORD
-    if ($users[$POST['user']] == $POST['password']) {
-        //RESGISTER THE USER ON THE SESSION
-        $_SESSION['user'] = $_POST['user'];
+ 
+// (B) HANDLE LOGIN
+if (isset($_POST["user"]) && !isset($_SESSION["user"])) {
+  // (B1) USERS & PASSWORDS - SET YOUR OWN !
+   $users = [
+    "joe" => "123456",
+    "jon" => "654321",
+    "admin" => "123"
+  ];
+ 
+  // (B2) CHECK & VERIFY
+  if (isset($users[$_POST["user"]])) {
+    if ($users[$_POST["user"]] == $_POST["password"]) {
+      $_SESSION["user"] = $_POST["user"];
     }
-
-    //FAILED...
-    if (!isset($_SESSION['user'])) {
-        $failed = true;
-    }
+  }
+ 
+  // (B3) FAILED LOGIN FLAG
+  if (!isset($_SESSION["user"])) { $failed = true; }
 }
-
-//VALID LOGIN
-if (isset($_SESSION['user'])) {
-    header("Location: index.php");
-    exit();
+ 
+// (C) REDIRECT USER TO HOME PAGE IF SIGNED IN
+if (isset($_SESSION["user"])) {
+  header("Location: index.php"); // SET YOUR OWN HOME PAGE!
+  exit();
 }
-
-?>

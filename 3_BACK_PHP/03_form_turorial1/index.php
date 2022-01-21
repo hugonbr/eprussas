@@ -1,18 +1,16 @@
 <?php
-
-//PROTECTED PAGE
+// (A) START SESSION
 session_start();
-
-//LOGOUT
-if (isset($_POST['logout'])) {
-    unset($_SESSION['user']);
+ 
+// (B) LOGOUT REQUEST
+if (isset($_POST["logout"])) { unset($_SESSION["user"]); }
+ 
+// (C) REDIRECT TO LOGIN PAGE IF NOT LOGGED IN
+if (!isset($_SESSION["user"])) {
+  header("Location: login.php");
+  exit();
 }
 
-//BACK TO LOGIN PAGE IF NOT SIGNED IN
-if (!isset($_SESSION['user'])) {
-    header("Location: login.php");
-    exit();
-}
 ?>
 
 <!DOCTYPE html>
