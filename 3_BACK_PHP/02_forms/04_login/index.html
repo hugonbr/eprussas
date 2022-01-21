@@ -12,14 +12,20 @@
             font-size: xx-large;
             margin-top: 2rem;
         }
+
+        .error {
+            color: #FF0000;
+        }
     </style>
 </head>
 
 <body>
+
     <p>POST</p>
+    <p><span class="error">* required field</span></p>
     <form action="form.php" method="post">
-        login: <input type="text" name="login"><br>
-        senha: <input type="password" name="senha"><br>
+        login<span class="error">*</span>: <input type="text" name="login"><br>
+        senha<span class="error">*</span>: <input type="password" name="senha"><br>
         <input type="submit">
     </form>
 
