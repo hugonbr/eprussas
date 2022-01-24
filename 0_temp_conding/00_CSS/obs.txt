@@ -1,0 +1,20 @@
+CSS
+
+    0) css responsive layout 
+
+    1) css flexbox responsive layout
+
+links
+
+https://youtu.be/yLTFRELCh2o
+https://youtu.be/5JuXahG5RRA
+https://youtu.be/68O6eOGAGqA
+https://youtu.be/yU7jJ3NbPdA
+https://youtu.be/zqSXT4pHD9g
+https://youtu.be/S0a7PEOi0do
+https://youtu.be/x-4z_u8LcGc
+
+Rocketseat
+Desvendando o CSS Grid na prática | Mayk Brito
+https://youtu.be/HN1UjzRSdBk
+
