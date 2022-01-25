@@ -1,0 +1,4 @@
+flutter create meu_primeiro_app
+
+flutter run
+
