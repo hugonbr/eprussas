@@ -6,6 +6,7 @@ expo init HelloWorld
 
 cd HelloWorld
 
+# RUN
 expo start
 
 "type a for run on the android emulator"
