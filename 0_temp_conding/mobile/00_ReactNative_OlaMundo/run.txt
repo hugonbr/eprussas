@@ -1,0 +1,12 @@
+https://www.devmedia.com.br/primeiro-app-com-react-native/40737
+
+npm install --global expo-cli
+
+expo init HelloWorld
+
+cd HelloWorld
+
+expo start
+
+"type a for run on the android emulator"
+
