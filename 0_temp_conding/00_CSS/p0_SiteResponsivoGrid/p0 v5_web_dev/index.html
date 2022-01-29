@@ -6,20 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>p0 copy</title>
+    <title>WEBDEV</title>
 </head>
 
 <body>
     <div class="container">
         <div class="header">
             <br>
-            <p style="text-align: center; font-size: 3rem;">SITE</p>
+            <p style="text-align: center; font-size: 3rem;">WEBDEV</p>
             <br>
             <ul style="margin: 1rem;">
-                <li>Início</li>
-                <li>Matérias</li>
-                <li>Contatos</li>
-                <li class="sobre">Sobre</li>
+                <!-- <li>Início</li> -->
+                <li> <a class="nav-item" href="#">Início</a> </li>
+                <!-- <li>Matérias</li> -->
+                <li> <a class="nav-item" href="https://github.com/hugonbr">Github</a> </li>
+                <!-- <li>Contatos</li> -->
+                <li> <a class="nav-item" href="#footer">Contato</a> </li>
+                <!-- <li class="sobre">Sobre</li> -->
+                <li id="about"> <a class="nav-item" href="#sobre">Sobre</a> </li>
+
             </ul>
         </div>
         <div class="nav-left">
@@ -168,7 +173,7 @@
             </div>
 
         </div>
-        <div class="nav-right">
+        <div class="nav-right" id="sobre">
             <br>
             <p style="text-align: center;">nav-right</p>
 
@@ -182,14 +187,18 @@
                 <p style="text-align: justify; margin: 1rem;">teste</p>
             </div>
         </div>
-        <div class=" footer">
+        <div class="footer" id="footer">
             <br>
             <p style="text-align: center;">footer</p>
+            <p style="text-align: center;">ADC WPP</p>
             <p style="text-align: center; margin: 1rem;">Copyright © hugonbr 2022
             </p>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
             <br>
         </div>
     </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
