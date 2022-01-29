@@ -1,9 +1,0 @@
-Search:
-    HTML CSS JS project
-    PHP server | Node server
-    PHP+MySQL | Node+MySQL|MongoDB
-    React+Native project
-    Python
-    DevOps
-    Full Project in Javascript / Node
-    Jamstack && FARM stack course

@@ -1,0 +1,9 @@
+Tech Stack
+    - VSCODE && Git
+    - HTML/CSS/JS+React|Native
+    - PHP/Node/Python/Java/C++
+    - MySQL/MongoDB
+    - AWS/Heroku + Docker
+
+Jamstack && FARMstack
+
