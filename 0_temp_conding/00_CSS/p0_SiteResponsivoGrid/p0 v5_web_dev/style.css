@@ -97,7 +97,7 @@ li {
     color: cornflowerblue;
 }
 
-#about {
+.about {
     float: right;
     margin-right: 1rem;
 }
@@ -117,7 +117,7 @@ li {
     /* Fixed/sticky position */
     bottom: 20px;
     /* Place the button at the bottom of the page */
-    right: 30px;
+    right: 50px;
     /* Place the button 30px from the right */
     z-index: 99;
     /* Make sure it does not overlap */
@@ -162,7 +162,7 @@ li {
         display: block;
     }
 
-    .sobre {
+    .about {
         float: none;
         margin-right: 0rem;
     }
@@ -171,6 +171,11 @@ li {
         grid-template-areas: "h""l""m""r""f";
         grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
         grid-template-columns: 1fr;
+    }
+
+    #myBtn {
+        /* Place the button at the bottom of the page */
+        right: 30px;
     }
 }
 
