@@ -30,32 +30,48 @@ body {
 }
 
 .header {
-    background: dodgerblue;
+    background: #1f2b34;
     border-style: solid;
+    border-radius: 25px;
     padding: 10px;
+    margin: 2rem;
     grid-area: h;
 }
 
 .nav-left {
-    background: coral;
+    background: #212d36;
+    margin: 2rem;
+    margin-top: 0.5rem;
+    border-style: solid;
+    border-radius: 25px;
     grid-area: l;
 }
 
 .main-content {
-    background: azure;
-    color: black;
+    background: #101a21;
+    /* color: black; */
+    /* margin: 0rem; */
+    margin-top: 0.5rem;
+    /* border-style: solid; */
+    border-radius: 25px;
     grid-area: m;
 }
 
 .nav-right {
-    background: coral;
+    background: #212d36;
+    margin: 2rem;
+    margin-top: 0.5rem;
+    border-style: solid;
+    border-radius: 25px;
     grid-area: r;
 }
 
 .footer {
-    background: dodgerblue;
+    background: #1f2b34;
     border-style: solid;
+    border-radius: 25px;
     padding: 10px;
+    margin: 1rem;
     grid-area: f;
 }
 
@@ -79,6 +95,7 @@ li {
 .content {
     margin: 2rem;
     border-style: solid;
+    border-radius: 25px;
     padding: 10px;
     box-shadow: 5px 10px 8px #888888;
 }
