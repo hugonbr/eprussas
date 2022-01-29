@@ -9,5 +9,7 @@ MAKE:
     - Deploy(AWS/Heroku)
 
     Full Project in Javascript / Node
-    
     Multi Platform App (Web and Mobile)
+
+Afazeres:
+    WebPage(CSS); adminTemp+php+MySQL;
