@@ -12,4 +12,4 @@ MAKE:
     Multi Platform App (Web and Mobile)
 
 Afazeres:
-    WebPage(CSS); adminTemp+php+MySQL;
+    WebPage(CSS); Bootstrap; adminTemp+php+MySQL;
