@@ -4,15 +4,15 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
+    height: 99vh;
     background: black;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .container {
-    background: #dcdcdc;
+    /* background: #dcdcdc; */
 
     width: 100%;
     height: 100%;
@@ -30,7 +30,9 @@ body {
 }
 
 .header {
-    background: dimgrey;
+    background: dodgerblue;
+    border-style: solid;
+    padding: 10px;
     grid-area: h;
 }
 
@@ -40,17 +42,20 @@ body {
 }
 
 .main-content {
-    background: gold;
+    background: azure;
+    color: black;
     grid-area: m;
 }
 
 .nav-right {
-    background: chartreuse;
+    background: coral;
     grid-area: r;
 }
 
 .footer {
     background: dodgerblue;
+    border-style: solid;
+    padding: 10px;
     grid-area: f;
 }
 
@@ -83,7 +88,9 @@ li {
 @media only screen and (max-width: 900px) {
 
     body {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        width: 100vw;
+        height: 100vh;
     }
 
     ul {
@@ -103,5 +110,13 @@ li {
         grid-template-areas: "h""r""m""l""f";
         grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
         grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    img {
+        width: 75%;
+        height: auto;
     }
 }
