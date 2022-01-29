@@ -20,8 +20,8 @@ body {
     display: grid;
     /* Grid em 2x2 */
     grid-template-areas: "h h h h"
-                         "l m m r"
-                         "f f f f";
+        "l m m r"
+        "f f f f";
     /* Grid em 1x3 - 3 colunas*/
     /* grid-template-areas: "l r f"; */
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -63,23 +63,25 @@ ul {
 }
 
 li {
-display: inline;
+    display: inline;
 }
 
 .sobre {
-    float:right;
+    float: right;
     margin-right: 1rem;
 }
 
 .content {
     margin: 2rem;
     border-style: solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 /* Responsivo */
 
 @media only screen and (max-width: 900px) {
-    
+
     body {
         font-size: 1.5rem;
     }
@@ -93,14 +95,13 @@ display: inline;
     }
 
     .sobre {
-        float:none;
+        float: none;
         margin-right: 0rem;
     }
 
     .container {
-        grid-template-areas: "h" "r" "m" "l" "f";
+        grid-template-areas: "h""r""m""l""f";
         grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
         grid-template-columns: 1fr;
     }
 }
-
