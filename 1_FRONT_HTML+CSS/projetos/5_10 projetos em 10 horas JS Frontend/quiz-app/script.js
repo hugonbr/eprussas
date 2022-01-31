@@ -28,7 +28,7 @@ const quizData = [
         a: "1996",
         b: "1995",
         c: "1994",
-        d: "none of the above",
+        d: "Nenhuma das alternativas anteriores",
         correct: "b",
     },
 ];
@@ -91,9 +91,9 @@ submitBtn.addEventListener("click", () => {
             loadQuiz();
         } else {
             quiz.innerHTML = `
-                <h2>You answered correctly at ${score}/${quizData.length} questions.</h2>
+                <h2>Você acertou ${score}/${quizData.length} questões.</h2>
                 
-                <button onclick="location.reload()">Reload</button>
+                <button onclick="location.reload()">Repetir Teste</button>
             `;
         }
     }
