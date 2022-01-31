@@ -146,7 +146,7 @@ li {
 
 /* Responsivo */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
 
     body {
         font-size: 1.2rem;
@@ -182,7 +182,7 @@ li {
 @media only screen and (max-width: 450px) {
 
     img {
-        width: 75%;
+        width: 78%;
         height: auto;
     }
 }
