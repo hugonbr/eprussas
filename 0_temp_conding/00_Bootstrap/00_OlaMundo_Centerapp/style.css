@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+/* funciona bem */
+/*.container {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}*/
+
+/* funciona bem, mas usa grid */
+.container {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
