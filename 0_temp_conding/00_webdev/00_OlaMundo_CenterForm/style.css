@@ -32,10 +32,32 @@ input {
     font-size: x-large;
     text-align: center;
     border-radius: 15px;
+    margin: 1rem;
+    border-style: solid;
+    
+    box-shadow: 3px 3px 3px #888888;
 }
 
 button {
     font-size: x-large;
     text-align: center;
     border-radius: 15px;
+    margin: 1rem;
+}
+
+.b-primary {
+    color: white;
+    background-color: #f72585;
+}
+
+.b-primary:hover {
+    color: white;
+    background-color: #00f5d4;
+}
+
+@media only screen and (max-width: 350px) {
+
+    input {
+        width: 100px;
+    }
 }
