@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* funciona bem */
+.container {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* funciona bem, mas usa grid */
+/* gera problemas com forms */
+/*.container {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}*/
+
+input {
+    font-size: x-large;
+    text-align: center;
+    border-radius: 15px;
+}
+
+button {
+    font-size: x-large;
+    text-align: center;
+    border-radius: 15px;
+}
