@@ -1,5 +1,5 @@
-create database temp DEFAULT CHARACTER SET utf8;
-use temp;
+create database git_temp DEFAULT CHARACTER SET utf8;
+use git_temp;
 -- drop database temp;
 
 create table usuario (
