@@ -1,7 +1,7 @@
 MAKE:
     1) SITE 2) SERVER 3) CRUD
     4) API   5) APP  6) DEPLOY
-    - SITE(HTML/CSS/JS+React)
+    - SITE(HTML/CSS/JS+React/Flutter)
     - SERVER(PHP/Node/Python)
     - CRUD(SQL/noSQL)
     - API(Express/Adonis/FastAPI)
