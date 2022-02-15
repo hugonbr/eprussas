@@ -9,7 +9,7 @@
             "port": 3306,
             "driver": "MariaDB",
             "name": "mariadb",
-            "database": "temp",
+            "database": "git_temp",
             "username": "root",
             "password": "1234"
         }
