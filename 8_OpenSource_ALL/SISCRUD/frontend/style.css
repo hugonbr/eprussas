@@ -14,8 +14,8 @@
 
     padding-top: 3em;
     padding-bottom: 3em;
-    padding-left: 15em;
-    padding-right: 15em;
+    padding-left: 20em;
+    padding-right: 20em;
 
     /* border-style: solid;
     border-color: black; */
@@ -36,13 +36,13 @@
     height: 40px;
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1300px) {
     #sistema {
 
         margin-top: 7em;
         margin-bottom: 7em;
-        margin-left: 5em;
-        margin-right: 5em;
+        margin-left: 8em;
+        margin-right: 8em;
 
         padding-top: 3em;
         padding-bottom: 3em;
@@ -54,7 +54,7 @@
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     #sistema {
 
         margin-top: 7em;
