@@ -29,6 +29,23 @@
     padding-bottom: 0;
 }
 
+input {
+    /* font-size: x-large; */
+    text-align: center;
+    border-radius: 15px;
+    /* margin: 1rem; */
+    border-style: solid;
+
+    box-shadow: 3px 3px 3px #888888;
+}
+
+button {
+    /* font-size: x-large; */
+    text-align: center;
+    border-radius: 15px;
+    /* margin: 1rem; */
+}
+
 #btn-cadastrar {
     color: white;
     background-color: green;
