@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* funciona bem */
+.container {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* funciona bem, mas usa grid */
+/* gera problemas com forms */
+/*.container {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}*/
+
+
+@media only screen and (max-width: 750px) {
+
+    body {
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        font-size: large;
+    }
+}
