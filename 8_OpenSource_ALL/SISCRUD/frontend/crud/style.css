@@ -7,15 +7,15 @@
     font-size: 1em;
     color: blue;
 
-    margin-top: 6em;
-    margin-bottom: 6em;
+    margin-top: 5em;
+    margin-bottom: 5em;
     margin-left: 10em;
     margin-right: 10em;
 
     padding-top: 3em;
     padding-bottom: 3em;
-    padding-left: 20em;
-    padding-right: 20em;
+    padding-left: 12em;
+    padding-right: 12em;
 
     /* border-style: solid;
     border-color: black; */
@@ -29,49 +29,31 @@
     padding-bottom: 3em;
 }
 
-.btn-editar {
+.btn-ver {
     color: white;
     background-color: blue;
     /* width: 100%; */
 }
 
+.btn-editar {
+    color: rgb(80, 80, 80);
+    background-color: #efff63;
+    /* width: 100%; */
+}
+
+.btn-excluir {
+    color: white;
+    background-color: red;
+    /* width: 100%; */
+}
+
+.btn-cadastrar {
+    color: white;
+    background-color: #2cc705;
+    /* width: 100%; */
+}
+
 @media only screen and (max-width: 1300px) {
-    #sistema {
-
-        margin-top: 5em;
-        margin-bottom: 5em;
-        margin-left: 8em;
-        margin-right: 8em;
-
-        padding-top: 3em;
-        padding-bottom: 3em;
-        padding-left: 12em;
-        padding-right: 12em;
-
-        /* border-style: solid;
-        border-color: black; */
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    #sistema {
-
-        margin-top: 5em;
-        margin-bottom: 5em;
-        margin-left: 2em;
-        margin-right: 2em;
-
-        padding-top: 3em;
-        padding-bottom: 3em;
-        padding-left: 6em;
-        padding-right: 6em;
-
-        /* border-style: solid;
-        border-color: black; */
-    }
-}
-
-@media only screen and (max-width: 500px) {
     #sistema {
 
         margin-top: 1em;
@@ -83,6 +65,28 @@
         padding-bottom: 1em;
         padding-left: 2em;
         padding-right: 2em;
+
+        /* border-style: solid;
+        border-color: black; */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 0.5em;
+    }
+
+    #sistema {
+
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
 
         /* border-style: solid;
         border-color: black; */
