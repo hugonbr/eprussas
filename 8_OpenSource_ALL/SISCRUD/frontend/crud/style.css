@@ -7,13 +7,13 @@
     font-size: 1em;
     color: blue;
 
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
     margin-left: 10em;
     margin-right: 10em;
 
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     padding-left: 12em;
     padding-right: 12em;
 
@@ -73,7 +73,11 @@
 
 @media only screen and (max-width: 600px) {
     body {
-        font-size: 0.5em;
+        font-size: 0.75em;
+    }
+
+    .th-email {
+        display: none;
     }
 
     #sistema {
