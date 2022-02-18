@@ -32,7 +32,14 @@
 #btn-cadastrar {
     color: white;
     background-color: green;
-    width: 100%;
+    width: 50%;
+    height: 40px;
+}
+
+#btn-cancelar {
+    color: white;
+    background-color: red;
+    width: 50%;
     height: 40px;
 }
 
