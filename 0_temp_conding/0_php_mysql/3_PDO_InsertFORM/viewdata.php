@@ -9,6 +9,11 @@
     </head>
     <body>
         <div class="container">
+
+        <a href="index.html">CADASTRAR</a>
+        <br>
+        <br>
+        <br>
         <?php
             echo "<table style='border: solid 1px black;'>";
             echo "<tr><th>id</th><th>login</th><th>email</th></tr>";
@@ -55,10 +60,6 @@
             $conn = null;
             echo "</table>";
         ?>
-        
-        <br>
-        <br>
-        <a href="index.html">CADASTRAR</a>
         </div>
     </body>
 </html>

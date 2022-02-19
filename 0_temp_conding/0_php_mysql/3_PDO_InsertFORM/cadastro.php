@@ -8,6 +8,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="viewdata.php">VIEW DATA</a>
+        <br>
         <div class="container">
         <?php
             $servername = "localhost";
@@ -41,9 +48,6 @@
 
             $conn = null;
         ?>
-        <br>
-        <br>
-        <a href="viewdata.php">VIEW DATA</a>
 
         </div>
     </body>

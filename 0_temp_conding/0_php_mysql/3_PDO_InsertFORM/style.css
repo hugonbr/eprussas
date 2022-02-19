@@ -47,7 +47,7 @@ button {
     /* margin: 1rem; */
 }
 
-#btn-cadastrar {
+.btn-cadastrar {
     color: white;
     background-color: green;
     width: 50%;
