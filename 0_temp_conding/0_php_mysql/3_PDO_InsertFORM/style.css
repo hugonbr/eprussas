@@ -9,7 +9,7 @@ body {
     background-color: #14213d;
     color: white;
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 /* funciona bem */
@@ -36,6 +36,8 @@ input {
     border-style: solid;
 
     box-shadow: 3px 3px 3px #888888;
+
+    width: 100%;
 }
 
 button {
