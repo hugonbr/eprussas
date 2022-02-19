@@ -1,0 +1,22 @@
+free code camp
+
+- playlists
+
+PHP Tutorials
+https://www.youtube.com/watch?v=ImtZ5yENzgE&list=PLWKjhJtqVAbkoMsX4hgwxbJZW4aB0cbaB&ab_channel=freeCodeCamp.org
+
+Ethical Hacking
+https://www.youtube.com/watch?v=3Kq1MIfTWCE&list=PLWKjhJtqVAbnklGh3FNRLECx_2D_vK3mu&ab_channel=freeCodeCamp.org
+
+JavaScript Tutorials
+https://www.youtube.com/watch?v=PkZNo7MFNFg&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V&ab_channel=freeCodeCamp.org
+
+Node.js Tutorials
+https://www.youtube.com/watch?v=RLtyhwFtXQA&list=PLWKjhJtqVAbmGQoa3vFjeRbRADAOC9drk&ab_channel=freeCodeCamp.org
+
+Python Tutorials
+https://www.youtube.com/watch?v=rfscVS0vtbw&list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB&ab_channel=freeCodeCamp.org
+
+CSS3 in 30 Days
+https://www.youtube.com/watch?v=pmKyG3NBY_k&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU&ab_channel=freeCodeCamp.org
+
