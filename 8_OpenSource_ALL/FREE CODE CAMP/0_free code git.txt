@@ -1,6 +1,6 @@
 -------------free code camp for git-------------
 
--------------SITE(HTML/CSS/JS+React)------------
+----------------SITE(HTML/CSS/JS)---------------
 * VIDEOS
 HTML Tutorial - Website Crash Course
     https://youtu.be/916GWv2Qs08
@@ -52,24 +52,63 @@ Web Scraping with Node.js
 Learn Docker - DevOps with Node.js & Express
     https://youtu.be/9zUHg7xjIqQ
 ---------------------Python---------------------
+Learn Python - Full Course for Beginners
+    https://youtu.be/rfscVS0vtbw
+12 Beginner Python Projects
+    https://youtu.be/8ext9G7xspg
+Intermediate Python Programming Course
+    https://youtu.be/HGOBQPFzWKo
+Object Oriented Programming with Python
+    https://youtu.be/Ej_02ICOIgs
+Kivy Course - Python Mobile Apps
+    https://youtu.be/l8Imtec4ReQ
+Python Automation Tutorial
+    https://youtu.be/s8XjEuplx_U
+Django 3 Course - Python Web Framework
+    https://youtu.be/04L0BbAcCpQ
+Python Backend Web Development (with Django)
+    https://youtu.be/jBzwzrDvZ18
+Python Django and Google APIs - Projects
+    https://youtu.be/_vCT42vDfgw
+Python Microservices Web App
+    https://youtu.be/0iB5IPoTDts
+FastAPI Course for Beginners
+    https://youtu.be/tLKKmouUams
+Flask Course - Python Web Application
+    https://youtu.be/Qr4QMBUPxWo
+Web Scraping with Python
+    https://youtu.be/XVv6mJpFOb0
+6 Quick Python Projects
+    https://youtu.be/SqvVm3QiQVk
+3 Django Projects - Python Course
+    https://youtu.be/qPtScmB8CgA
+OpenCV Course - Full Tutorial with Python
+    https://youtu.be/oXlwWbU8l2o
+Advanced Computer Vision with Python
+    https://youtu.be/01sAkU_NvOY
+Network Programming with Python (Hacking)
+    https://youtu.be/FGdiSJakIS4
 
-
-
-
+* PLAYLIST
+-----------------CRUD(SQL/noSQL)----------------
+* VIDEOS
 
 
 * PLAYLIST
-- CRUD(SQL/noSQL)
+-----------API(Express/Adonis/FastAPI)----------
 * VIDEOS
+
+
 * PLAYLIST
-- API(Express/Adonis/FastAPI)
+------------APP(React Native/Flutter)-----------
 * VIDEOS
+
+
 * PLAYLIST
-- APP(React Native/Flutter)
+----------------Deploy(AWS/Heroku)--------------
 * VIDEOS
-* PLAYLIST
-- Deploy(AWS/Heroku)
-* VIDEOS
+
+
 * PLAYLIST
 
 
