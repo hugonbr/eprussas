@@ -55,6 +55,10 @@
             $conn = null;
             echo "</table>";
         ?>
+        
+        <br>
+        <br>
+        <a href="index.html">CADASTRAR</a>
         </div>
     </body>
 </html>

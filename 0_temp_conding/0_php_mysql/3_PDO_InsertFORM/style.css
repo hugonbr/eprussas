@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* funciona bem */
+.container {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* funciona bem, mas usa grid */
+/* gera problemas com forms */
+/*.container {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}*/
+
+input {
+    font-size: x-large;
+    text-align: center;
+    border-radius: 15px;
+    /* margin: 1rem; */
+    border-style: solid;
+
+    box-shadow: 3px 3px 3px #888888;
+}
+
+button {
+    font-size: x-large;
+    text-align: center;
+    border-radius: 15px;
+    /* margin: 1rem; */
+}
+
+#btn-cadastrar {
+    color: white;
+    background-color: green;
+    width: 50%;
+    height: 40px;
+}
+
+#btn-cancelar {
+    color: white;
+    background-color: red;
+    width: 50%;
+    height: 40px;
+}
+
+@media only screen and (max-width: 750px) {
+
+    body {
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        font-size: large;
+    }
+}
