@@ -2,8 +2,10 @@
                         -
 ----------------SITE(HTML/CSS/JS)---------------
 * VIDEOS
-HTML Tutorial - Website Crash Course
+(OK)HTML Tutorial - Website Crash Course
     https://youtu.be/916GWv2Qs08
+(A)HTML Full Course
+    https://youtu.be/pQN-pnXPaVg
 CSS Tutorial - Zero to Hero
     https://youtu.be/1Rs2ND1ryYc
 HTML & CSS - Introduction To Responsive Design
