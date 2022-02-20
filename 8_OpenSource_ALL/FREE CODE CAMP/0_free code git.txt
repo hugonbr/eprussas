@@ -1,6 +1,6 @@
 -------------free code camp for git-------------
                         -
-----------------SITE(HTML/CSS/JS)---------------
+111111111111111-SITE(HTML/CSS/JS)-11111111111111
 * VIDEOS
 (OK)HTML Tutorial - Website Crash Course
     https://youtu.be/916GWv2Qs08
@@ -26,7 +26,7 @@ JavaScript Programming - Full Course
 * PLAYLIST
 CSS 30 days
     https://www.youtube.com/watch?v=pmKyG3NBY_k&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU&ab_channel=freeCodeCamp.org
--------------SERVER(PHP/Node/Python)------------
+222222222222-SERVER(PHP/Node/Python)-22222222222
 * VIDEOS
 ----------------------PHP-----------------------
 PHP Programming Language Tutorial - Full Course
@@ -93,7 +93,7 @@ Network Programming with Python (Hacking)
     https://youtu.be/FGdiSJakIS4
 
 * PLAYLIST
------------------CRUD(SQL/noSQL)----------------
+333333333333333-*CRUD(SQL/noSQL)-333333333333333
 * VIDEOS
 ----------------------MySQL---------------------
 SQL Tutorial - Course for Beginners
@@ -115,10 +115,10 @@ MongoDB w/ Node.js, Express, & Mongoose
 FARM Stack Course - FastAPI, React, MongoDB
     https://youtu.be/OzUzrs8uJl8
 * PLAYLIST
------------API(Express/Adonis/FastAPI)----------
+4444444444-API(Express/Adonis/FastAPI)-444444444
 * VIDEOS
 * PLAYLIST
-------------APP(React Native/Flutter)-----------
+55555555555-APP(React Native/Flutter)-5555555555
 * VIDEOS
 ---------------------React----------------------
 
@@ -126,6 +126,9 @@ FARM Stack Course - FastAPI, React, MongoDB
 
 
 * PLAYLIST
-----------------Deploy(AWS/Heroku)--------------
+666666666666666-Deploy(AWS/Heroku)-6666666666666
 * VIDEOS
 * PLAYLIST
+
+
+
