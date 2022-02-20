@@ -26,6 +26,7 @@ JavaScript Programming - Full Course
 * PLAYLIST
 CSS 30 days
     https://www.youtube.com/watch?v=pmKyG3NBY_k&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU&ab_channel=freeCodeCamp.org
+                        -
 222222222222-SERVER(PHP/Node/Python)-22222222222
 * VIDEOS
 ----------------------PHP-----------------------
@@ -93,6 +94,7 @@ Network Programming with Python (Hacking)
     https://youtu.be/FGdiSJakIS4
 
 * PLAYLIST
+                        -
 333333333333333-*CRUD(SQL/noSQL)-333333333333333
 * VIDEOS
 ----------------------MySQL---------------------
@@ -115,9 +117,11 @@ MongoDB w/ Node.js, Express, & Mongoose
 FARM Stack Course - FastAPI, React, MongoDB
     https://youtu.be/OzUzrs8uJl8
 * PLAYLIST
+                        -
 4444444444-API(Express/Adonis/FastAPI)-444444444
 * VIDEOS
 * PLAYLIST
+                        -
 55555555555-APP(React Native/Flutter)-5555555555
 * VIDEOS
 ---------------------React----------------------
@@ -126,6 +130,7 @@ FARM Stack Course - FastAPI, React, MongoDB
 
 
 * PLAYLIST
+                        -
 666666666666666-Deploy(AWS/Heroku)-6666666666666
 * VIDEOS
 * PLAYLIST
