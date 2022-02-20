@@ -3,14 +3,14 @@
 111111111111111-SITE(HTML/CSS/JS)-11111111111111
 * VIDEOS
 ----------------------HTML----------------------
-(OK)HTML Tutorial - Website Crash Course
+(OK)HTML Tutorial : Website Crash Course
     https://youtu.be/916GWv2Qs08
 (A)HTML Full Course
     https://youtu.be/pQN-pnXPaVg
 ----------------------CSS-----------------------
-CSS Tutorial - Zero to Hero
+CSS Tutorial : Zero to Hero
     https://youtu.be/1Rs2ND1ryYc
-HTML & CSS - Introduction To Responsive Design
+HTML & CSS : Introduction To Responsive Design
     https://youtu.be/srvUrASNj0s
 CSS Flexbox Crash Course
     https://youtu.be/tXIhdp5R7sc
@@ -18,20 +18,20 @@ CSS Grid Course
     https://youtu.be/t6CBKf8K_Ac
 CSS Media Queries
     https://youtu.be/aook54SsfhY
-CSS - Sass Tutorial for Beginners
+CSS : Sass Tutorial for Beginners
     https://youtu.be/_a5j7KoflTs
-HTML, SCSS, and JavaScript - Landing Page
+HTML, SCSS, and JavaScript : Landing Page
     https://youtu.be/aoQ6S1a32j8
 * PLAYLIST
 CSS 30 days
     https://www.youtube.com/watch?v=pmKyG3NBY_k&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU&ab_channel=freeCodeCamp.org
 -----------------------JS-----------------------
-JavaScript Programming - Full Course
+JavaScript Programming : Full Course
     https://youtu.be/jS4aFq5-91M
 --------------------Bootstrap-------------------
-Bootstrap CSS Framework - For Beginners
+Bootstrap CSS Framework : For Beginners
     https://youtu.be/-qfEOE4vtxE
-Bootstrap5 and SASS - Portfolio Website
+Bootstrap5 and SASS : Portfolio Website
     https://youtu.be/iJKCj8uAHz8
 --------------------TailWind--------------------
 Create an Instagram Clone with Tailwind CSS
@@ -40,33 +40,33 @@ Create an Instagram Clone with Tailwind CSS
 222222222222-SERVER(PHP/Node/Python)-22222222222
 * VIDEOS
 ----------------------PHP-----------------------
-PHP Programming Language Tutorial - Full Course
+PHP Programming Language Tutorial : Full Course
     https://youtu.be/OK_JCtrrv-c
 Laravel PHP Framework Tutorial
     https://youtu.be/ImtZ5yENzgE
-Web Applications for Everybody Course - HTML, CSS, JavaScript, PHP, SQL, and more!
+Web Applications for Everybody Course : HTML, CSS, JavaScript, PHP, SQL, and more!
     https://youtu.be/xr6uZDRTna0
-WordPress - Website from Start to Finish
+WordPress : Website from Start to Finish
     https://youtu.be/IPo71JPKUmg
 ----------------------Node----------------------
-Node.js and Express.js - Full Course
+Node.js and Express.js : Full Course
     https://youtu.be/Oe421EPjeBE
-Node.js / Express Course - Build 4 Projects
+Node.js / Express Course : Build 4 Projects
     https://youtu.be/qwfE7fSVaZM
 Asynchronous JavaScript (Async/Await, Promises, Callbacks)
     https://youtu.be/ZYb_ZU8LNxs
-PERN Stack - Postgres, Express, React, and Node
+PERN Stack : Postgres, Express, React, and Node
     https://youtu.be/ldYcgPKEZC8
 MERN Stack (MongoDB, Express, React, Node.js)
     https://youtu.be/7CqJlxBYj-M
-JAMstack - WEB simpler, faster, and more secure
+JAMstack : WEB simpler, faster, and more secure
     https://youtu.be/A_l0qrPUJds
 Web Scraping with Node.js
     https://youtu.be/eUYMiztBEdY
-Learn Docker - DevOps with Node.js & Express
+Learn Docker : DevOps with Node.js & Express
     https://youtu.be/9zUHg7xjIqQ
 ---------------------Python---------------------
-Learn Python - Full Course for Beginners
+Learn Python : Full Course for Beginners
     https://youtu.be/rfscVS0vtbw
 12 Beginner Python Projects
     https://youtu.be/8ext9G7xspg
@@ -74,91 +74,117 @@ Intermediate Python Programming Course
     https://youtu.be/HGOBQPFzWKo
 Object Oriented Programming with Python
     https://youtu.be/Ej_02ICOIgs
-Kivy Course - Python Mobile Apps
+Kivy Course : Python Mobile Apps
     https://youtu.be/l8Imtec4ReQ
 Python Automation Tutorial
     https://youtu.be/s8XjEuplx_U
-Django 3 Course - Python Web Framework
+Django 3 Course : Python Web Framework
     https://youtu.be/04L0BbAcCpQ
 Python Backend Web Development (with Django)
     https://youtu.be/jBzwzrDvZ18
-Python Django and Google APIs - Projects
+Python Django and Google APIs : Projects
     https://youtu.be/_vCT42vDfgw
 Python Microservices Web App
     https://youtu.be/0iB5IPoTDts
 FastAPI Course for Beginners
     https://youtu.be/tLKKmouUams
-Flask Course - Python Web Application
+Flask Course : Python Web Application
     https://youtu.be/Qr4QMBUPxWo
 Web Scraping with Python
     https://youtu.be/XVv6mJpFOb0
 6 Quick Python Projects
     https://youtu.be/SqvVm3QiQVk
-3 Django Projects - Python Course
+3 Django Projects : Python Course
     https://youtu.be/qPtScmB8CgA
-OpenCV Course - Full Tutorial with Python
+OpenCV Course : Full Tutorial with Python
     https://youtu.be/oXlwWbU8l2o
 Advanced Computer Vision with Python
     https://youtu.be/01sAkU_NvOY
 Network Programming with Python (Hacking)
     https://youtu.be/FGdiSJakIS4
-
-* PLAYLIST
                        -
 333333333333333-*CRUD(SQL/noSQL)-333333333333333
 * VIDEOS
 ---------------------MySQL----------------------
-SQL Tutorial - Course for Beginners
+SQL Tutorial : Course for Beginners
     https://youtu.be/HXV3zeQKqGY
-MySQL Database - Full Course
+MySQL Database : Full Course
     https://youtu.be/ER8oKX5myE0
-PostgreSQL Tutorial - For Beginners
+PostgreSQL Tutorial : For Beginners
     https://youtu.be/qw--VYLpxG4
-Basics of SQL Injection - Ethical Hackers
+Basics of SQL Injection : Ethical Hackers
     https://youtu.be/2nXOxLpeu80
 --------------------MongoDB---------------------
-NoSQL Database Tutorial – For Beginners
+NoSQL Database Tutorial : For Beginners
     https://youtu.be/xh4gy1lbL2k
 MongoDB with Python Crash Course
     https://youtu.be/E-1xI85Zog8
 MongoDB w/ Node.js, Express, & Mongoose
     https://youtu.be/4yqu8YF29cU
-
-FARM Stack Course - FastAPI, React, MongoDB
-    https://youtu.be/OzUzrs8uJl8
-* PLAYLIST
                        -
-4444444444-API(Express/Adonis/FastAPI)-444444444
+444444444444444444444-API()-44444444444444444444
 * VIDEOS
-* PLAYLIST
+APIs for Beginners - How to use an API
+    https://youtu.be/GZvSYJDk-us
+Postman Beginner's Course - API Testing
+    https://youtu.be/VywxIQ2ZXw4
+--------------------FastAPI---------------------
+FARM Stack Course : FastAPI, React, MongoDB
+    https://youtu.be/OzUzrs8uJl8
                        -
 55555555555-APP(React Native/Flutter)-5555555555
 * VIDEOS
 ---------------------React----------------------
-React Course - Beginner's Tutorial [2022]
+React Course : Beginner's Tutorial [2022]
     https://youtu.be/bMknfKXIFA8
-15 React Projects - Complete Course
+15 React Projects : Complete Course
     https://youtu.be/a_7Z7C_JCyo
 Build a Shopping Cart with React and TypeScript
     https://youtu.be/sfmL6bGbiN8
 Learn React by Building an eCommerce Site
     https://youtu.be/1DklrGoAxDE
 -----------------React Native-------------------
-React Native - Intro Course for Beginners
+React Native : Intro Course for Beginners
     https://youtu.be/frvXANSaSec
 React Native Web Full App Tutorial:iOS, Android
     https://youtu.be/_CBYbEGvxYY
 Instagram Clone with React Native
     https://youtu.be/1hPgQWbWmEk
 --------------------Flutter---------------------
-
-
-
-* PLAYLIST
+Flutter Course : For Beginners(iOS and Android)
+    https://youtu.be/pTJJsmejUOQ
+Flutter Essentials : Learn to make apps for Android, iOS, Windows, Mac, Linux (Full Course)
+    https://youtu.be/P2IGQT3BZQo
+Flutter:Building a Production App From Scratch
+    https://youtu.be/aiTTClKJbnw
+Flutter & Firebase Course : Build a Full Stack Instagram Clone
+    https://youtu.be/mEPm9w5QlJM
+Dart Programming Tutorial : Full Course
+    https://youtu.be/Ej_Pcr4uC2Q
                        -
 666666666666666-Deploy(AWS/Heroku)-6666666666666
 * VIDEOS
-* PLAYLIST
+How to Put a Website Online
+    https://youtu.be/NQP89ish9t8
+----------------------AWS-----------------------
+AWS for Startups - Deploying with AWS
+    https://www.youtube.com/watch?v=U3VSJhaC4kc
+Go and AWS : Code and Deploy a Serverless API
+    https://youtu.be/zHcef4eHOc8
+Intro to Cloud Computing and AWS
+    https://youtu.be/jWdEM6XLKqI
+                      --
+                  END of file
+                      --
+ATENÇÃO
+Este arquivo é um compilado de vídeos e playlists do canal:
+https://www.youtube.com/c/Freecodecamp
+ao qual agradeço imensamente pelo compartilhamento de conhecimento gratuito na área de TI.
+Curta os vídeos e se inscreva no canal ;)
 
-
+ATTENTION
+This file is a compilation of videos and playlists from the channel:
+https://www.youtube.com/c/Freecodecamp
+whom I am immensely grateful for sharing free knowledge in the IT field.
+Like the videos and subscribe to the channel ;)
 
