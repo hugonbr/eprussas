@@ -15,7 +15,7 @@ Legendas:
 ----------------------CSS-----------------------
 (X)CSS Tutorial : Zero to Hero
     https://youtu.be/1Rs2ND1ryYc
-CSS Crash Course Tutorial
+(A)CSS Crash Course Tutorial
     https://youtu.be/r1xBCi5SOjw
 CSS Full Course - Includes Flexbox and CSS Grid
     https://youtu.be/ieTHC78giGQ
