@@ -37,7 +37,7 @@ CSS : Sass Tutorial for Beginners
 CSS 30 days
     https://www.youtube.com/watch?v=pmKyG3NBY_k&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU&ab_channel=freeCodeCamp.org
 -----------------------JS-----------------------
-JavaScript Programming : Full Course
+(X)JavaScript Programming : Full Course
     https://youtu.be/jS4aFq5-91M
 --------------------Bootstrap-------------------
 Bootstrap CSS Framework : For Beginners
