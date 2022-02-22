@@ -31,7 +31,7 @@ CSS : Sass Tutorial for Beginners
     https://youtu.be/_a5j7KoflTs
 (X)HTML, SCSS, and JavaScript : Landing Page
     https://youtu.be/aoQ6S1a32j8
-(A)CSS crash course in 30 min
+(OK)CSS crash course in 30 min
     https://youtu.be/Tfjd5yzCaxk
 * PLAYLIST
 CSS 30 days
