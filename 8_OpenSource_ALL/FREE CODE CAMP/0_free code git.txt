@@ -29,7 +29,7 @@ CSS Media Queries
     https://youtu.be/aook54SsfhY
 CSS : Sass Tutorial for Beginners
     https://youtu.be/_a5j7KoflTs
-HTML, SCSS, and JavaScript : Landing Page
+(X)HTML, SCSS, and JavaScript : Landing Page
     https://youtu.be/aoQ6S1a32j8
 * PLAYLIST
 CSS 30 days
