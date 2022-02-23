@@ -21,7 +21,7 @@ Legendas:
     https://youtu.be/ieTHC78giGQ
 (X)HTML & CSS : Introduction To Responsive Design
     https://youtu.be/srvUrASNj0s
-CSS Grid Course
+(OK)CSS Grid Course
     https://youtu.be/t6CBKf8K_Ac
 CSS Flexbox Crash Course
     https://youtu.be/tXIhdp5R7sc
