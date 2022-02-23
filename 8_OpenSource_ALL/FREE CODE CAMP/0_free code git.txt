@@ -57,6 +57,12 @@ Create an Instagram Clone with Tailwind CSS
 222222222222-SERVER(PHP/Node/Python)-22222222222
 * VIDEOS
 ----------------------PHP-----------------------
+PHP Crash Course for beginners | 2020
+    https://youtu.be/6mO1UA1r-6Q
+Crash Course in PHP | PHP tutorial for Beginners
+    https://youtu.be/aPZmvem0gqQ
+PDO Crash Course (PHP)
+    https://youtu.be/kEW6f7Pilc4
 PHP Programming Language Tutorial : Full Course
     https://youtu.be/OK_JCtrrv-c
 Laravel PHP Framework Tutorial
