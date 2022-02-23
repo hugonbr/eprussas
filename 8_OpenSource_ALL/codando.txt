@@ -1,11 +1,11 @@
 MAKE:
     1) SITE 2) SERVER 3) CRUD
     4) API   5) APP  6) DEPLOY
-    - SITE(HTML/CSS/JS+React)
+    - SITE(HTML/CSS/JS)
     - SERVER(PHP/Node/Python)
     - CRUD(SQL/noSQL)
     - API(Express/Adonis/FastAPI)
-    - APP(React Native/Flutter)
+    - APP(React/Flutter)
     - Deploy(AWS/Heroku)
 
     Full Project in Javascript / Node
@@ -13,3 +13,4 @@ MAKE:
 
 Afazeres:
     WebPage(CSS); Bootstrap; adminPanel+php+MySQL;
+    
