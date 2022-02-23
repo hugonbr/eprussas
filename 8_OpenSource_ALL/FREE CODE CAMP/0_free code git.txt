@@ -21,10 +21,10 @@ Legendas:
     https://youtu.be/ieTHC78giGQ
 (X)HTML & CSS : Introduction To Responsive Design
     https://youtu.be/srvUrASNj0s
-CSS Flexbox Crash Course
-    https://youtu.be/tXIhdp5R7sc
 CSS Grid Course
     https://youtu.be/t6CBKf8K_Ac
+CSS Flexbox Crash Course
+    https://youtu.be/tXIhdp5R7sc
 CSS Media Queries
     https://youtu.be/aook54SsfhY
 CSS : Sass Tutorial for Beginners
