@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 99vw;
+    height: 99vh;
+    background: gainsboro;
+    color: darkblue;
+    font-size: 1.5rem;
+}
+
+.container {
+    /* background: #dcdcdc; */
+
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    /* Grid em 2x2 */
+    grid-template-areas: "h h h h"
+        "l m m r"
+        "f f f f";
+    /* Grid em 1x3 - 3 colunas*/
+    /* grid-template-areas: "l r f"; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+
+}
+
+.header {
+    background: gainsboro;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 2rem;
+    grid-area: h;
+}
+
+.nav-left {
+    background: gainsboro;
+    margin: 2rem;
+    margin-top: 0.5rem;
+    border-style: solid;
+    border-radius: 25px;
+    grid-area: l;
+}
+
+.main-content {
+    background: gainsboro;
+    /* color: black; */
+    /* margin: 0rem; */
+    margin-top: 0.5rem;
+    /* border-style: solid; */
+    border-radius: 25px;
+    grid-area: m;
+}
+
+.nav-right {
+    background: gainsboro;
+    margin: 2rem;
+    margin-top: 0.5rem;
+    border-style: solid;
+    border-radius: 25px;
+    grid-area: r;
+}
+
+.footer {
+    background: gainsboro;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 1rem;
+    grid-area: f;
+}
+
+/* Navbar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.nav-item:hover {
+    color: darkred;
+}
+
+.about {
+    float: right;
+    margin-right: 1rem;
+}
+
+.content {
+    margin: 2rem;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 10px;
+    /* Place the button at the bottom of the page */
+    right: 70px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: darkblue;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn2 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 10px;
+    /* Place the button at the bottom of the page */
+    left: 70px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: darkblue;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+/* Responsivo */
+
+@media only screen and (max-width: 950px) {
+
+    body {
+        font-size: 1.2rem;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    li {
+        display: block;
+    }
+
+    .about {
+        float: none;
+        margin-right: 0rem;
+    }
+
+    .container {
+        grid-template-areas: "h""l""m""r""f";
+        grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    /* #myBtn {
+        
+        right: 30px;
+    } */
+
+    #myBtn {
+        right: 30px;
+    }
+
+    #myBtn2 {
+        left: 30px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    img {
+        width: 78%;
+        height: auto;
+    }
+}
