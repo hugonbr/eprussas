@@ -39,11 +39,11 @@ CSS 30 days
 -----------------------JS-----------------------
 (X)JavaScript Programming : Full Course
     https://youtu.be/jS4aFq5-91M
-(A)JavaScript Tutorial for Beginners: 1 Hour
+(OK)JavaScript Tutorial for Beginners: 1 Hour
     https://youtu.be/W6NZfCO5SIk
-Javascript Complete Course for Beginners
+(A)Javascript Complete Course for Beginners
     https://youtu.be/OWqplFjXwQc
-JavaScript Crash Course For Beginners
+(A)JavaScript Crash Course For Beginners
     https://youtu.be/hdI2bqOjy3c
 --------------------Bootstrap-------------------
 Bootstrap CSS Framework : For Beginners
