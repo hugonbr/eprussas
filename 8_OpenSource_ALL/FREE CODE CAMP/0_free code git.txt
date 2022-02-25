@@ -46,8 +46,12 @@ CSS 30 days
 (A)JavaScript Crash Course For Beginners
     https://youtu.be/hdI2bqOjy3c
 --------------------Bootstrap-------------------
-Bootstrap CSS Framework : For Beginners
+(A)Bootstrap CSS Framework : For Beginners
     https://youtu.be/-qfEOE4vtxE
+(A)Bootstrap 5 | Website Build & Deploy
+    https://youtu.be/4sosXZsdy-s
+(OK)Changing Colors on Bootstrap with SASS
+    https://youtu.be/nlxlFA69HHA
 Bootstrap5 and SASS : Portfolio Website
     https://youtu.be/iJKCj8uAHz8
 --------------------TailWind--------------------
@@ -214,6 +218,7 @@ Intro to Cloud Computing and AWS
 ATENÇÃO
 Este arquivo é um compilado de vídeos e playlists do canal:
 https://www.youtube.com/c/Freecodecamp
+https://www.youtube.com/c/TraversyMedia/featured
 e outros canais
 aos quais agradeço imensamente pelo compartilhamento de conhecimento gratuito na área de TI.
 Curta os vídeos e se inscreva no canal ;)
@@ -221,6 +226,7 @@ Curta os vídeos e se inscreva no canal ;)
 ATTENTION
 This file is a compilation of videos and playlists from the channel:
 https://www.youtube.com/c/Freecodecamp
+https://www.youtube.com/c/TraversyMedia/featured
 and other channels
 whom I thank immensely for sharing free knowledge in the IT field.
 Like the videos and subscribe to the channel ;)
