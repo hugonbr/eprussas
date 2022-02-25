@@ -1,10 +1,10 @@
 -------------free code camp for git-------------
-                       -
+                      ---
 Legendas:
 (OK) - VISTO
 (A) - ASSISTINDO
 (X) - CANCELADO
-                       -
+                      ---
 111111111111111-SITE(HTML/CSS/JS)-11111111111111
 * VIDEOS
 ----------------------HTML----------------------
