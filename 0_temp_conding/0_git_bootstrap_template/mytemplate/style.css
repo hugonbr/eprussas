@@ -10,6 +10,18 @@ body::before {
   border-radius: 10px;
 }
 
+.mytest {
+  margin: 8%;
+}
+
+.imgtestecss {
+  margin: 4%;
+}
+
+.imghugo {
+  object-fit: cover;
+}
+
 @media (min-width: 768px) {
   .news-input {
     width: 50%;
