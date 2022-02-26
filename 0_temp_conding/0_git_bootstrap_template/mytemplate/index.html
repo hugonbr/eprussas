@@ -26,13 +26,16 @@
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="#learndiv" class="nav-link">O que você vai aprender</a>
+            <a href="#learnmore" class="nav-link">O que você vai aprender</a>
           </li>
           <li class="nav-item">
-            <a href="#questions" class="nav-link">Perguntas</a>
+            <a href="#questmore" class="nav-link">Perguntas</a>
           </li>
           <li class="nav-item">
-            <a href="#instructors" class="nav-link">Instrutores</a>
+            <a href="#nossosprofs" class="nav-link">Instrutores</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contato" class="nav-link">Contato</a>
           </li>
         </ul>
       </div>
@@ -89,7 +92,7 @@
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Iure, quas quidem possimus dolorum esse eligendi?
               </p>
-              <a href="#" class="btn btn-primary">Read More</a>
+              <a href="#" id="learnmore" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
@@ -128,63 +131,61 @@
   </section>
 
   <!-- Learn Sections -->
-  <div id="learndiv" class="p-5 m-5">
-    <section id="learn" class="p-5">
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-md">
-            <div class="imgtestecss text-center align-items-center">
-              <img src="img/fundamentals.svg" class="img-fluid" alt="Imagem2 AQUI" />
-            </div>
-          </div>
-          <div class="col-md p-5">
-            <h2>Aprenda a base da WEB</h2>
-            <p class="lead">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Similique deleniti possimus magnam corporis ratione facere!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-              reiciendis eius autem eveniet mollitia, at asperiores suscipit
-              quae similique laboriosam iste minus placeat odit velit quos,
-              nulla architecto amet voluptates?
-            </p>
-            <a href="#" class="btn btn-light mt-3">
-              <i class="bi bi-chevron-right"></i> Read More
-            </a>
+  <section id="learn" class="p-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <div class="imgtestecss text-center align-items-center">
+            <img src="img/fundamentals.svg" class="img-fluid" alt="Imagem2 AQUI" />
           </div>
         </div>
+        <div class="col-md p-5">
+          <h2>Aprenda a base da WEB</h2>
+          <p class="lead">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Similique deleniti possimus magnam corporis ratione facere!
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+            reiciendis eius autem eveniet mollitia, at asperiores suscipit
+            quae similique laboriosam iste minus placeat odit velit quos,
+            nulla architecto amet voluptates?
+          </p>
+          <a href="#" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i> Read More
+          </a>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="learn" class="p-5">
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-md p-5">
-            <h2>Aprenda Frameworks</h2>
-            <p class="lead">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Similique deleniti possimus magnam corporis ratione facere!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-              reiciendis eius autem eveniet mollitia, at asperiores suscipit
-              quae similique laboriosam iste minus placeat odit velit quos,
-              nulla architecto amet voluptates?
-            </p>
-            <a href="#" class="btn btn-light mt-3">
-              <i class="bi bi-chevron-right"></i> Read More
-            </a>
-          </div>
-          <div class="col-md">
-            <div class="imgtestecss text-center align-items-center">
-              <img src="img/react.svg" class="img-fluid" alt="Imagem3 AQUI" />
-            </div>
+  <section id="learn" class="p-5 bg-dark text-light">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h2>Aprenda Frameworks</h2>
+          <p class="lead">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Similique deleniti possimus magnam corporis ratione facere!
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+            reiciendis eius autem eveniet mollitia, at asperiores suscipit
+            quae similique laboriosam iste minus placeat odit velit quos,
+            nulla architecto amet voluptates?
+          </p>
+          <a href="#" class="btn btn-light mt-3">
+            <i id="questmore" class="bi bi-chevron-right"></i> Read More
+          </a>
+        </div>
+        <div class="col-md">
+          <div class="imgtestecss text-center align-items-center">
+            <img src="img/react.svg" class="img-fluid" alt="Imagem3 AQUI" />
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 
   <!-- Question Accordion -->
   <div class="perguntascss"></div>
@@ -275,7 +276,7 @@
         <!-- Item 5 -->
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <button id="nossosprofs" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#question-five">
               O estágio é remunerado?
             </button>
@@ -381,7 +382,7 @@
     <div class="container">
       <div class="row g-4">
         <div class="col-md">
-          <h2 class="text-center mb-4">Contatos e Informações</h2>
+          <h2 id="contato" class="text-center mb-4">Contatos e Informações</h2>
           <ul class="list-group list-group-flush lead">
             <li class="list-group-item">
               <span class="fw-bold">Endereço:</span> Russas-CE/BR
