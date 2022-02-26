@@ -4,7 +4,7 @@ MAKE:
     - SITE(HTML/CSS/JS)
     - SERVER(PHP/Node/Python)
     - CRUD(SQL/noSQL)
-    - API(Express/Adonis/FastAPI)
+    - API(Express/Adonis)
     - APP(React/Flutter)
     - Deploy(AWS/Heroku)
 
