@@ -10,17 +10,25 @@ body::before {
   border-radius: 10px;
 }
 
-.mytest {
+/* .mytest {
   margin: 8%;
-}
+} */
 
-.imgtestecss {
+/* .imgtestecss {
   margin: 4%;
+} */
+
+.h3css {
+  text-align: center;
 }
 
 .imghugo {
   object-fit: cover;
 }
+
+/* .perguntascss {
+  margin: 5rem;
+} */
 
 @media (min-width: 768px) {
   .news-input {
