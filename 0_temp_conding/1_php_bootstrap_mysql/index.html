@@ -15,8 +15,7 @@
 <body>
 
     <div class="teste">
-        <h1>Olá</h1>
-        <p>TESTE</p>
+        <!-- <h2>CRUD</h2> -->
     </div>
 
     <div class="navcss">
@@ -45,16 +44,16 @@
     <div class="formcss">
         <form class="row g-3">
             <div class="col-md-4">
-                <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4">
+                <label for="inputEmail4" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="email">
             </div>
             <div class="col-md-4">
-                <label for="inputName4" class="form-label">Name</label>
-                <input type="text" class="form-control" id="inputName4">
+                <label for="inputName4" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="inputName4" placeholder="nome completo">
             </div>
             <div class="col-md-4">
-                <label for="inputPassword4" class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword4">
+                <label for="inputPassword4" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="senha">
             </div>
 
             <div class="col-12 d-flex justify-content-center">
@@ -69,7 +68,63 @@
     <div class="select">
         <p>LISTA DO SELECT</p>
     </div>
+    <!-- <hr> -->
+
+    <div class="tablecss">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td><button type="submit" class="btn btn-primary">Ver</button></td>
+                    <td><button type="submit" class="btn btn-warning">Alterar</button></td>
+                    <td><button type="submit" class="btn btn-danger">Excluir</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td><button type="submit" class="btn btn-primary">Ver</button></td>
+                </tr>
+                <!-- <tr>
+                    <th scope="row">3</th>
+                    <td colspan="3">Larry the Bird</td>
+                    <td>@twitter</td>
+                    <td><button type="submit" class="btn btn-primary">Editar</button></td>
+                </tr> -->
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                    <td><button type="submit" class="btn btn-primary">Ver</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     <hr>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
