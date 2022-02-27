@@ -11,4 +11,4 @@ MAKE:
 
 Afazeres:
     Landing Page; AdminPanel; App;
-    
+      (Bstrap)  ;   (Node)  ;
