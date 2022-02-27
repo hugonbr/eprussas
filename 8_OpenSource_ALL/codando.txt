@@ -12,5 +12,5 @@ MAKE:
     Multi Platform App (Web and Mobile)
 
 Afazeres:
-    WebPage(CSS); Bootstrap; adminPanel+php+MySQL;
+    Landing Page; AdminPanel; App;
     
