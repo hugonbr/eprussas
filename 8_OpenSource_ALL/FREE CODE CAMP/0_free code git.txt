@@ -19,7 +19,7 @@ Legendas:
     https://youtu.be/r1xBCi5SOjw
 (X)CSS Full Course + Flexbox and CSS Grid
     https://youtu.be/ieTHC78giGQ
-(X)HTML & CSS : Introduction To Responsive Design
+(X)HTML & CSS : Responsive Design
     https://youtu.be/srvUrASNj0s
 (OK)CSS Grid Course
     https://youtu.be/t6CBKf8K_Ac
@@ -60,6 +60,15 @@ Create an Instagram Clone with Tailwind CSS
                        -
 222222222222-SERVER(PHP/Node/Python)-22222222222
 * VIDEOS
+------------------Table CRUD--------------------
+Pure JavaScript CRUD Operations with Html
+    https://youtu.be/-rNQeJi3Wp4
+PHP CRUD Tutorial with MySQL & Bootstrap 4
+    https://youtu.be/3xRMUDC74Cw
+Datatable CRUD Operations , Bootstrap 5 , PHP MYSQL AJAX
+    https://youtu.be/oxWv74OI6xA
+CRUD con Ajax reload - Datatables
+    https://youtu.be/44w-jw9Y_PY
 ----------------------PHP-----------------------
 PHP Crash Course for beginners | 2020
     https://youtu.be/6mO1UA1r-6Q
@@ -216,17 +225,22 @@ Intro to Cloud Computing and AWS
                   END of file
                       --
 ATENÇÃO
-Este arquivo é um compilado de vídeos e playlists do canal:
+Este arquivo é um compilado de vídeos e
+playlists do canal:
 https://www.youtube.com/c/Freecodecamp
 https://www.youtube.com/c/TraversyMedia/featured
 e outros canais
-aos quais agradeço imensamente pelo compartilhamento de conhecimento gratuito na área de TI.
+aos quais agradeço imensamente pelo
+compartilhamento de conhecimento gratuito na
+área de TI.
 Curta os vídeos e se inscreva no canal ;)
 
 ATTENTION
-This file is a compilation of videos and playlists from the channel:
+This file is a compilation of videos and
+playlists from the channel:
 https://www.youtube.com/c/Freecodecamp
 https://www.youtube.com/c/TraversyMedia/featured
 and other channels
-whom I thank immensely for sharing free knowledge in the IT field.
+whom I thank immensely for sharing free
+knowledge in the IT field.
 Like the videos and subscribe to the channel ;)
