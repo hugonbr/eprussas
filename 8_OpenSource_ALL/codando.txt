@@ -4,7 +4,7 @@ MAKE:
     - CRUD(SQL/noSQL)
     - API(Express/Adonis)
     - APP(React/Flutter)
-    - Deploy(AWS/Heroku)
+    - Deploy(Hostinger/AWS/Heroku)
 
     Full Project in JS / Node
     Multi Platform App (Web|Mobile)
