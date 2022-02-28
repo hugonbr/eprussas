@@ -10,6 +10,6 @@ MAKE:
     Multi Platform App (Web|Mobile)
 
 Afazeres:
-    Landing Page; AdminPanel; App;
-      (Bstrap)  ;     ()    ; ( );
+    Landing Page;  AdminPanel; App;
+      (Bstrap)  ;  (php/JS/Py) ; ( );
     
