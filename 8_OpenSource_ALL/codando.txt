@@ -3,13 +3,13 @@ MAKE:
     - SERVER(PHP/Node/Python)
     - CRUD(SQL/noSQL)
     - API(Express/Adonis)
-    - APP(React/Flutter)
+    - APP(Flutter/React)
     - Deploy(Hostinger/AWS/Heroku)
 
     Full Project in JS / Node
     Multi Platform App (Web|Mobile)
 
 Afazeres:
-    Landing Page;  AdminPanel; App;
-      (Bstrap)  ;  (php/JS/Py) ; ( );
+Landing Page;  AdminPanel  ;    App   ;
+  (Bstrap)  ;  (php/JS/Py) ; (Flutter);
     
