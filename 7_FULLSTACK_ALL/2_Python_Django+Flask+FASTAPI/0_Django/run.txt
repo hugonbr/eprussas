@@ -1,0 +1,2 @@
+django-admin.py runserver --pythonpath=. --settings=app
+
