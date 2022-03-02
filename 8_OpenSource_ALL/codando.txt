@@ -9,6 +9,6 @@ MAKE:
     Full Project in JS / Node
     Multi Platform App (Web|Mobile)
 
-Afazeres:
+STACK:
 Landing Page; Admin Panel ;    App   ;
   (Bstrap)  ; (php/js/py) ; (Flutter);

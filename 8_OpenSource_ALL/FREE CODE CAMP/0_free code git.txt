@@ -13,14 +13,8 @@ Legendas:
 (OK)HTML Full Course
     https://youtu.be/pQN-pnXPaVg
 ----------------------CSS-----------------------
-(X)CSS Tutorial : Zero to Hero
-    https://youtu.be/1Rs2ND1ryYc
 (OK)CSS Crash Course Tutorial
     https://youtu.be/r1xBCi5SOjw
-(X)CSS Full Course + Flexbox and CSS Grid
-    https://youtu.be/ieTHC78giGQ
-(X)HTML & CSS : Responsive Design
-    https://youtu.be/srvUrASNj0s
 (OK)CSS Grid Course
     https://youtu.be/t6CBKf8K_Ac
 CSS Flexbox Crash Course
@@ -29,16 +23,12 @@ CSS Media Queries
     https://youtu.be/aook54SsfhY
 CSS : Sass Tutorial for Beginners
     https://youtu.be/_a5j7KoflTs
-(X)HTML, SCSS, and JavaScript : Landing Page
-    https://youtu.be/aoQ6S1a32j8
 (OK)CSS crash course in 30 min
     https://youtu.be/Tfjd5yzCaxk
 * PLAYLIST
 CSS 30 days
     https://www.youtube.com/watch?v=pmKyG3NBY_k&list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU&ab_channel=freeCodeCamp.org
 -----------------------JS-----------------------
-(X)JavaScript Programming : Full Course
-    https://youtu.be/jS4aFq5-91M
 (OK)JavaScript Tutorial for Beginners: 1 Hour
     https://youtu.be/W6NZfCO5SIk
 (A)Javascript Complete Course for Beginners
@@ -71,16 +61,10 @@ CRUD con Ajax reload - Datatables
     https://youtu.be/44w-jw9Y_PY
 ----------------------PHP-----------------------
 (A)PHP For Absolute Beginners | 6.5 Hour Course
-    https://youtu.be/2eebptXfEvw?t=11346
+    https://youtu.be/2eebptXfEvw?t=17750
 
-PHP Crash Course for beginners | 2020
-    https://youtu.be/6mO1UA1r-6Q
-Crash Course in PHP | PHP tutorial for Beginners
-    https://youtu.be/aPZmvem0gqQ
 PDO Crash Course (PHP)
     https://youtu.be/kEW6f7Pilc4
-PHP Programming Language Tutorial : Full Course
-    https://youtu.be/OK_JCtrrv-c
 Laravel PHP Framework Tutorial
     https://youtu.be/ImtZ5yENzgE
 Web Applications for Everybody Course : HTML, CSS, JavaScript, PHP, SQL, and more!
@@ -88,6 +72,7 @@ Web Applications for Everybody Course : HTML, CSS, JavaScript, PHP, SQL, and mor
 WordPress : Website from Start to Finish
     https://youtu.be/IPo71JPKUmg
 ----------------------Node----------------------
+
 Node.js and Express.js : Full Course
     https://youtu.be/Oe421EPjeBE
 Node.js / Express Course : Build 4 Projects
@@ -105,6 +90,7 @@ Web Scraping with Node.js
 Learn Docker : DevOps with Node.js & Express
     https://youtu.be/9zUHg7xjIqQ
 ---------------------Python---------------------
+
 Learn Python : Full Course for Beginners
     https://youtu.be/rfscVS0vtbw
 12 Beginner Python Projects
