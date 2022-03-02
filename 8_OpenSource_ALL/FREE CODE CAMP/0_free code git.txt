@@ -49,7 +49,7 @@ Create an Instagram Clone with Tailwind CSS
     https://youtu.be/mDgEqoQUBgk
                        -
 222222222222-SERVER(PHP/Node/Python)-22222222222
-* VIDEOS
+------------------------------------------------
 ------------------Table CRUD--------------------
 Pure JavaScript CRUD Operations with Html
     https://youtu.be/-rNQeJi3Wp4
@@ -61,8 +61,7 @@ CRUD con Ajax reload - Datatables
     https://youtu.be/44w-jw9Y_PY
 ----------------------PHP-----------------------
 (A)PHP For Absolute Beginners | 6.5 Hour Course
-    https://youtu.be/2eebptXfEvw?t=17750
-
+    https://youtu.be/2eebptXfEvw
 PDO Crash Course (PHP)
     https://youtu.be/kEW6f7Pilc4
 Laravel PHP Framework Tutorial
@@ -129,7 +128,7 @@ Network Programming with Python (Hacking)
     https://youtu.be/FGdiSJakIS4
                        -
 333333333333333-*CRUD(SQL/noSQL)-333333333333333
-* VIDEOS
+------------------------------------------------
 ---------------------MySQL----------------------
 SQL Tutorial : Course for Beginners
     https://youtu.be/HXV3zeQKqGY
@@ -148,7 +147,7 @@ MongoDB w/ Node.js, Express, & Mongoose
     https://youtu.be/4yqu8YF29cU
                        -
 444444444444444444444-API()-44444444444444444444
-* VIDEOS
+------------------------------------------------
 APIs for Beginners - How to use an API
     https://youtu.be/GZvSYJDk-us
 Postman Beginner's Course - API Testing
@@ -158,7 +157,7 @@ FARM Stack Course : FastAPI, React, MongoDB
     https://youtu.be/OzUzrs8uJl8
                        -
 55555555555-APP(React Native/Flutter)-5555555555
-* VIDEOS
+------------------------------------------------
 ---------------------React----------------------
 React Course : Beginner's Tutorial [2022]
     https://youtu.be/bMknfKXIFA8
@@ -188,7 +187,7 @@ Dart Programming Tutorial : Full Course
     https://youtu.be/Ej_Pcr4uC2Q
                        -
 666666666666666-Deploy(AWS/Heroku)-6666666666666
-* VIDEOS
+------------------------------------------------
 How to Put a Website Online
     https://youtu.be/NQP89ish9t8
 ---------------------LINUX----------------------

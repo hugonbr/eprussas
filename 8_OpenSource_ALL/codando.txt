@@ -12,3 +12,4 @@ MAKE:
 STACK:
 Landing Page; Admin Panel ;    App   ;
   (Bstrap)  ; (php/js/py) ; (Flutter);
+              (c++ /java) ;
