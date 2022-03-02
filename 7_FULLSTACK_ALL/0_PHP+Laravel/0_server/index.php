@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá php</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+    <body>
 
-<h1>Minha primeira página php</h1>
+    <h1>Minha primeira página php</h1>
 
-<?php
-// This is a single-line comment
-# This is also a single-line comment
-/*
-This is a multiple-lines comment block
-that spans over multiple
-lines
-*/
-echo "Olá Mundo!\n";
-?>
+    <?php
+        echo "<p>Olá Mundo!</p>";
+    ?>
 
-</body>
+    </body>
 </html>
