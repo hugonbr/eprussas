@@ -1,0 +1,4 @@
+- wdev CRUD com PHP orientado a objetos, PDO e MySQL
+https://youtu.be/uG64BgrlX7o
+https://github.com/william-costa/wdev-crud-php-pdo-mysql
+
