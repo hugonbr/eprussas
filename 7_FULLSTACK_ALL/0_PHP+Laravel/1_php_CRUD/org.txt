@@ -2,3 +2,27 @@
 https://youtu.be/uG64BgrlX7o
 https://github.com/william-costa/wdev-crud-php-pdo-mysql
 
+- Datatable server side processing CRUD Operations , Bootstrap 5 , PHP MYSQL AJAX
+https://youtu.be/oxWv74OI6xA
+https://drive.google.com/file/d/1awLy3v2HKjzO2phh5Dr-d6uC1NOuRJyN/view
+
+- MVC PHP Tutorial | Model View Controller CRUD Application Example
+https://youtu.be/b6c3B-Cgi38
+🔗 Source Code (not refactored):
+https://github.com/gitdagray/php_form_to_database
+🔗 New Source Code (refactored with MVC):
+https://github.com/gitdagray/mvc_php_functions
+
+- Bootstrap 5 Tutorial: Crie um website responsivo com HTML e CSS
+https://youtu.be/ItwUZ4fK6hQ
+https://github.com/maikelneris/bootstrap-5-homepage
+https://bootstrap5-marketing.netlify.app/
+
+- Website using only Bootstrap 5
+https://youtu.be/viF2sRr0Amk
+https://drive.google.com/file/d/1LHBsYtMzgY-r_MOofXNcztj9lDRZjyex/view
+
+- How to make a website using Html Css and Bootstrap | Bootstrap Landing Page Tutorial
+https://youtu.be/ucPGbHzpVm0
+https://github.com/SA7MAN/Kreatives
+
