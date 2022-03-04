@@ -5,11 +5,10 @@ MAKE:
     - API(Express/Adonis)
     - APP(Flutter/React)
     - Deploy(Hostinger/AWS/Heroku)
-
     Full Project in JS / Node
     Multi Platform App (Web|Mobile)
-
 STACK:
 Landing Page; Admin Panel ;    App   ;
   (Bstrap)  ; (php/js/py) ; (Flutter);
               (c++ /java) ;
+              roadmap.sh
