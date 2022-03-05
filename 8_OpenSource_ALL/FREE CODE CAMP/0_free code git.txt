@@ -38,7 +38,7 @@ CSS 30 days
 --------------------Bootstrap-------------------
 (A)Bootstrap CSS Framework : For Beginners
     https://youtu.be/-qfEOE4vtxE
-(A)Bootstrap 5 | Website Build & Deploy
+(OK)Bootstrap 5 | Website Build & Deploy
     https://youtu.be/4sosXZsdy-s
 (OK)Changing Colors on Bootstrap with SASS
     https://youtu.be/nlxlFA69HHA
@@ -61,13 +61,13 @@ CRUD con Ajax reload - Datatables
     https://youtu.be/44w-jw9Y_PY
 ----------------------PHP-----------------------
 (A)PHP For Absolute Beginners | 6.5 Hour Course
-    https://youtu.be/2eebptXfEvw
-PDO Crash Course (PHP)
-    https://youtu.be/kEW6f7Pilc4
+    https://youtu.be/2eebptXfEvw?t=9008
+--------------------PHP-CRUD--------------------
+
+------------------------------------------------
 Laravel PHP Framework Tutorial
     https://youtu.be/ImtZ5yENzgE
-Web Applications for Everybody Course : HTML, CSS, JavaScript, PHP, SQL, and more!
-    https://youtu.be/xr6uZDRTna0
+
 WordPress : Website from Start to Finish
     https://youtu.be/IPo71JPKUmg
 ----------------------Node----------------------
