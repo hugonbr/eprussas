@@ -2,3 +2,5 @@ Build a Modern Landing Page With Tailwind CSS:
 
 https://youtu.be/00gyCtIQp8E
 
+https://github.com/johnkomarnicki/modern-landing-page-with-tailwinds
+
