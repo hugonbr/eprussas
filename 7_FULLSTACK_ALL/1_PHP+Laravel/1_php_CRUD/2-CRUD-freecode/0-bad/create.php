@@ -2,7 +2,14 @@
     $pdo = new PDO ('mysql:host=localhost;port=3306;dbname=products_crud', 'root', '1234');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    
+    // image=&title=&description=+&price=
+    // echo '<pre>';
+    // var_dump($_POST);
+    // echo '</pre>';
+
+    $title = $_POST['title'];
+    $description = $_POST['description'];
+    $price = $_POST['price'];
 ?>
 
 <!doctype html>
@@ -29,7 +36,30 @@
       </div>
     </div>
 
-    
+    <form action="" method="POST">
+        <div class="mb-3">
+            <label class="form-label">Product image</label>
+            <br>
+            <input type="file" name="image">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Product title</label>
+            <input type="text" name="title" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Product description</label>
+            <textarea name="description" class="form-control"></textarea>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Product price</label>
+            <input type="number" step=".01" name="price" class="form-control">
+        </div>
+        <div class="container_btn">
+            <div class="center_btn">
+                <button type="submit" class="btn btn-primary">Create</button>
+            </div>
+        </div>  
+    </form>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
