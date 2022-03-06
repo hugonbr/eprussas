@@ -31,7 +31,7 @@
     <div class="container_btn">
       <div class="center_btn">
         <p>
-          <a href="/" type="button" class="btn btn-sm btn-info">Back to /</a>
+          <a href="index.php" type="button" class="btn btn-sm btn-info">Back to /</a>
         </p>
       </div>
     </div>
