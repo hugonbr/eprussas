@@ -26,6 +26,15 @@
   <body>
     <h1>Products CRUD</h1>
 
+    <div class="container_btn">
+      <div class="center_btn">
+        <p>
+          <a href="create.php" type="button" class="btn btn-sm btn-success">Create Product</a>
+        </p>
+      </div>
+    </div>
+
+
     <table class="table">
     <thead>
     <tr>
@@ -33,7 +42,7 @@
         <th scope="col">Image</th>
         <th scope="col">Title</th>
         <th scope="col">Price</th>
-        <th scope="col">Create Date</th>
+        <th id="c_date" scope="col">Create Date</th>
         <th scope="col">Actions</th>
     </tr>
     </thead>
@@ -50,7 +59,7 @@
             <td></td>
             <td><?php echo $product['title'] ?></td>
             <td><?php echo $product['price'] ?></td>
-            <td><?php echo $product['create_date'] ?></td>
+            <td id="c_date"><?php echo $product['create_date'] ?></td>
             <td>
                 <button type="button" class="btn btn-sm btn-primary">Edit</button>
                 <button type="button" class="btn btn-sm btn-danger">Delete</button>
