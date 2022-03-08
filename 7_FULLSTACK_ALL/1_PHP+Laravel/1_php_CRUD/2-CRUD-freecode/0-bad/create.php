@@ -2,14 +2,20 @@
     $pdo = new PDO ('mysql:host=localhost;port=3306;dbname=products_crud', 'root', '1234');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+    $errors = [];
+
+    $title = '';
+    $price = '';
+    $description = '';
+
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
       // image=&title=&description=+&price=
-      echo '<pre>';
-      // var_dump($_SERVER);
-      var_dump($_SERVER['REQUEST_METHOD']);
-      var_dump($_POST);
-      echo '</pre>';
+      // echo '<pre>';
+      // // var_dump($_SERVER);
+      // var_dump($_SERVER['REQUEST_METHOD']);
+      // var_dump($_POST);
+      // echo '</pre>';
       // exit;
 
       $title = $_POST['title'];
@@ -18,17 +24,26 @@
 
       $date = date('Y-m-d H:i:s');
 
-      $statement = $pdo->prepare("INSERT INTO products(title, image, description, price, create_date)
-                    VALUES (:title, :image, :description, :price, :date);
-                    ");
+      if (!$title) {
+        $errors[] = 'Product title is required';
+      }
+      if (!$price) {
+        $errors[] = 'Price is required';
+      }
 
-      $statement->bindValue(':title', $title);
-      $statement->bindValue(':image', '');
-      $statement->bindValue(':description', $description);
-      $statement->bindValue(':price', $price);
-      $statement->bindValue(':date', $date);
+      if (empty($errors)) {
+        $statement = $pdo->prepare("INSERT INTO products(title, image, description, price, create_date)
+                      VALUES (:title, :image, :description, :price, :date);
+                      ");
 
-      $statement->execute();
+        $statement->bindValue(':title', $title);
+        $statement->bindValue(':image', '');
+        $statement->bindValue(':description', $description);
+        $statement->bindValue(':price', $price);
+        $statement->bindValue(':date', $date);
+
+        $statement->execute();
+      }
     }
 
 ?>
@@ -49,6 +64,18 @@
   <body>
     <h1>Create new Product</h1>
 
+    <?php
+      if (!empty($errors)) {
+    ?>
+      <div class="alert alert-danger">
+        <?php foreach ($errors as $error) { ?>
+          
+          <div> <?php echo $error ?> </div>
+
+        <?php } ?>
+      </div>
+    <?php } ?>
+
     <div class="container_btn">
       <div class="center_btn">
         <p>
@@ -65,15 +92,15 @@
         </div>
         <div class="mb-3">
             <label class="form-label">Product title</label>
-            <input type="text" name="title" class="form-control">
+            <input type="text" name="title" class="form-control" value="<?php echo $title ?>">
         </div>
         <div class="mb-3">
             <label class="form-label">Product description</label>
-            <textarea name="description" class="form-control"></textarea>
+            <textarea name="description" class="form-control" value="<?php echo $description ?>"></textarea>
         </div>
         <div class="mb-3">
             <label class="form-label">Product price</label>
-            <input type="number" step=".01" name="price" class="form-control">
+            <input type="number" step=".01" name="price" class="form-control" value="<?php echo $price ?>">
         </div>
         <div class="container_btn">
             <div class="center_btn">
