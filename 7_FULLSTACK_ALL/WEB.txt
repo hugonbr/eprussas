@@ -12,7 +12,7 @@ da freecodecamp
 1- Revisar o básico do python
 2- Django, Flask e FASTAPI
 
-        **  NODE.JS  **
+        **  JS/NODE  **
 
 1- Revisar o JS
 2- Express, Adonis e
