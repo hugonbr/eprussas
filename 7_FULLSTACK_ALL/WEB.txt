@@ -1,20 +1,20 @@
 Roteiro WEB
 
-**  PHP  **
+        **  PHP  **
 
-1- Aprender o CRUD básico e refatorar com o vídeo de 6.5 h
-
+1- Aprender o CRUD básico e
+refatorar com o vídeo de 6.5 h
+da freecodecamp
 2- Aprender Laravel
 
-**  Python  **
+        **  Python  **
 
 1- Revisar o básico do python
+2- Django, Flask e FASTAPI
 
-2- Flask & Django
-
-**  NODE.JS  **
+        **  NODE.JS  **
 
 1- Revisar o JS
-
-2- Frameworks
+2- Express, Adonis e
+outros Frameworks...
 
