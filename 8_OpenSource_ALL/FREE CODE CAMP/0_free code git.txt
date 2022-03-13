@@ -188,6 +188,12 @@ Dart Programming Tutorial : Full Course
                        -
 666666666666666-Deploy(AWS/Heroku)-6666666666666
 ------------------------------------------------
+Como funcionam os computadores e a internet?
+    https://youtu.be/AV_VYsJnHQQ?list=PLOSSPCmfmBhNQ56ysWPNJPyrFatMiAzER&t=784
+
+Computer Networking Course - Network Engineering [CompTIA Network+ Exam Prep]
+    https://youtu.be/qiQR5rTSshw?list=PLOSSPCmfmBhNQ56ysWPNJPyrFatMiAzER
+
 How to Put a Website Online
     https://youtu.be/NQP89ish9t8
 ---------------------LINUX----------------------
