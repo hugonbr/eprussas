@@ -2,6 +2,11 @@
     $pdo = new PDO ('mysql:host=localhost;port=3306;dbname=products_crud', 'root', '1234');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+    echo '<pre>';
+    var_dump($_FILES);
+    echo '</pre>';
+    exit;
+
     $errors = [];
 
     $title = '';
@@ -84,7 +89,7 @@
       </div>
     </div>
 
-    <form action="" method="POST">
+    <form action="" method="POST" enctype="multipart/form-data">
         <div class="mb-3">
             <label class="form-label">Product image</label>
             <br>
