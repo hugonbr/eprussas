@@ -9,6 +9,13 @@ h1 {
     text-align: center;
 }
 
+.product-img {
+    width: 50px;
+}
+.product-img-view {
+    width: 120px;
+}
+
 .container_btn {
     height: 5rem;
     position: relative;

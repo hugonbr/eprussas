@@ -42,8 +42,9 @@
         <th scope="col">Image</th>
         <th scope="col">Title</th>
         <th scope="col">Price</th>
-        <th id="c_date" scope="col">Create Date</th>
         <th scope="col">Actions</th>
+        <th id="c_date" scope="col">Create Date</th>
+        
     </tr>
     </thead>
     <tbody>
@@ -56,14 +57,21 @@
     <?php foreach ($products as $i => $product) { ?>
         <tr>
             <th scope="row"><?php echo $i + 1 ?></th>
-            <td></td>
+            <td>
+            <img src="<?php echo $product['image'] ?>" alt="<?php echo $product['title'] ?>" class="product-img">
+
+            </td>
             <td><?php echo $product['title'] ?></td>
             <td><?php echo $product['price'] ?></td>
-            <td id="c_date"><?php echo $product['create_date'] ?></td>
+            
             <td>
-                <button type="button" class="btn btn-sm btn-primary">Edit</button>
-                <button type="button" class="btn btn-sm btn-danger">Delete</button>
+            <a href="update.php?id=<?php echo $product['id'] ?>" class="btn btn-sm btn-outline-primary">Edit</a>
+                <form method="post" action="delete.php" style="display: inline-block">
+                    <input  type="hidden" name="id" value="<?php echo $product['id'] ?>"/>
+                    <button type="submit" class="btn btn-sm btn-outline-danger">Delete</button>
+                </form>
             </td>
+            <td id="c_date"><?php echo $product['create_date'] ?></td>
             
         </tr>
     <?php } ?>

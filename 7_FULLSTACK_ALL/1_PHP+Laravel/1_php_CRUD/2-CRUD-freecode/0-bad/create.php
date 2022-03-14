@@ -2,10 +2,10 @@
     $pdo = new PDO ('mysql:host=localhost;port=3306;dbname=products_crud', 'root', '1234');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    echo '<pre>';
-    var_dump($_FILES);
-    echo '</pre>';
-    exit;
+    // echo '<pre>';
+    // var_dump($_FILES);
+    // echo '</pre>';
+    //exit;
 
     $errors = [];
 
@@ -36,20 +36,55 @@
         $errors[] = 'Price is required';
       }
 
+      if (!is_dir('images')) {
+        mkdir('images');
+      }
+
       if (empty($errors)) {
+
+        $image = $_FILES['image'] ?? null;
+        $imagePath = '';
+
+        if ($image && $image['tmp_name']) {
+
+          $imagePath = 'images/'.randomString(8).'/'.$image['name'];
+          mkdir(dirname($imagePath));
+
+          // echo '<pre>';
+          // var_dump($imagePath);
+          // echo '</pre>';
+          // exit;
+
+          move_uploaded_file($image['tmp_name'], $imagePath);
+        }
+        
+
         $statement = $pdo->prepare("INSERT INTO products(title, image, description, price, create_date)
                       VALUES (:title, :image, :description, :price, :date);
                       ");
 
         $statement->bindValue(':title', $title);
-        $statement->bindValue(':image', '');
+        $statement->bindValue(':image', $imagePath);
         $statement->bindValue(':description', $description);
         $statement->bindValue(':price', $price);
         $statement->bindValue(':date', $date);
 
         $statement->execute();
+
+        header('Location: index.php');
       }
     }
+
+function randomString($n) {
+  $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  $str = '';
+  for ($i = 0; $i < $n; $i++) {
+      $index = rand(0, strlen($characters) - 1);
+      $str .= $characters[$index];
+  }
+
+  return $str;
+}
 
 ?>
 
@@ -84,7 +119,7 @@
     <div class="container_btn">
       <div class="center_btn">
         <p>
-          <a href="index.php" type="button" class="btn btn-sm btn-info">Back to /</a>
+          <a href="index.php" type="button" class="btn btn-sm btn-info">Back to Products</a>
         </p>
       </div>
     </div>
