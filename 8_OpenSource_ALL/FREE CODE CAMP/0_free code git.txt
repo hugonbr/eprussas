@@ -60,7 +60,7 @@ Datatable CRUD Operations , Bootstrap 5 , PHP MYSQL AJAX
 CRUD con Ajax reload - Datatables
     https://youtu.be/44w-jw9Y_PY
 ----------------------PHP-----------------------
-(A)PHP For Absolute Beginners | 6.5 Hour Course
+(OK)PHP For Absolute Beginners | 6.5 Hour Course
     https://youtu.be/2eebptXfEvw?t=14551
 --------------------PHP-CRUD--------------------
 
