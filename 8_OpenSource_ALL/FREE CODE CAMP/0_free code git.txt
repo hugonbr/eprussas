@@ -98,8 +98,6 @@ Intermediate Python Programming Course
     https://youtu.be/HGOBQPFzWKo
 Object Oriented Programming with Python
     https://youtu.be/Ej_02ICOIgs
-Kivy Course : Python Mobile Apps
-    https://youtu.be/l8Imtec4ReQ
 Python Automation Tutorial
     https://youtu.be/s8XjEuplx_U
 Django 3 Course : Python Web Framework
