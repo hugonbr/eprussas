@@ -1,0 +1,19 @@
+0_PHP (the right way)
+- CRUD & MVC
+- Wordpress
+- Laravel
+
+1_Javascript (full stack)
+- Bootstrap / React / Next.js
+- Nodejs + express
+- MERN
+
+2_Python (web)
+- CLI & Automation
+- Django / Flask / FastAPI
+- IA & ML
+
+3_Mobile (Smartphone)
+- PWA
+- Android
+- Flutter
