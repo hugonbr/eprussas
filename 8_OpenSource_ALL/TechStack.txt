@@ -5,7 +5,7 @@
 
 1_Javascript (full stack)
 - Bootstrap / React / Next.js
-- Nodejs + express
+- Nodejs + express / ORMs
 - MERN: MongoDB/MySQL
 
 2_Python (web)
