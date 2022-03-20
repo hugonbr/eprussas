@@ -1,17 +1,17 @@
 0_PHP (the right way)
-- CRUD & MVC
+- CRUD MySQL & MVC
 - Wordpress
 - Laravel
 
 1_Javascript (full stack)
 - Bootstrap / React / Next.js
 - Nodejs + express
-- MERN
+- MERN: MongoDB/MySQL
 
 2_Python (web)
-- CLI & Automation
-- Django / Flask / FastAPI
-- IA & ML
+- CLI & Automation / IA & ML
+- Django / Flask : MySQL
+- FastAPI
 
 3_Mobile (Smartphone)
 - PWA
