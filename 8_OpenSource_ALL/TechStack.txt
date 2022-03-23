@@ -15,5 +15,8 @@
 
 3_Mobile (Smartphone)
 - PWA
-- Android
 - Flutter
+
+4_Host
+- Heroku
+- AWS
