@@ -19,4 +19,8 @@
 
 4_Host
 - Heroku
+<<<<<<< HEAD
 - AWS
+=======
+- AWS
+>>>>>>> 2fcfb8028fccd306b72f156da8d841d2c8705f86
