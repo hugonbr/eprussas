@@ -1,22 +1,22 @@
-0_PHP (the right way)
-- CRUD MySQL & MVC
-- Wordpress
-- Laravel
-
-1_Javascript (full stack)
-- Bootstrap / React / Next.js
-- Nodejs + express / ORMs
-- MERN: MongoDB/MySQL
-
-2_Python (web)
-- CLI & Automation / IA & ML
-- Django / Flask : MySQL
-- FastAPI
-
-3_Mobile (Smartphone)
-- PWA
-- Flutter
-
+0_CSS
+    - Landing Page (Responsive)
+    - Dashboard / Admin Panel
+1_PHP (the right way)
+    - CRUD MySQL & MVC
+    - Wordpress
+    - Laravel
+2_Javascript (full stack)
+    - Bootstrap / React / Next.js
+    - Nodejs + express / ORMs
+    - MERN: MongoDB/MySQL
+3_Python (web)
+    - CLI & Automation / IA & ML
+    - Django / Flask : MySQL
+    - FastAPI
 4_Host
-- Heroku
-- AWS
+    - Heroku
+    - AWS
+5_Mobile (Smartphone)
+    - PWA
+    - Flutter
+    
