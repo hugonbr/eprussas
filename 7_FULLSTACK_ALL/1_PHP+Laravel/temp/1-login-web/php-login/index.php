@@ -6,4 +6,5 @@ if(!isset($_SESSION['UserData']['Username'])){
 }
 ?>
 
-Congratulation! You have logged into password protected page. <a href="logout.php">Click here</a> to Logout.
+<p style="text-align: center; margin-top: 19rem;">Congratulation! You have logged into password protected page. <a href="logout.php">Click here</a> to Logout.</p>
+

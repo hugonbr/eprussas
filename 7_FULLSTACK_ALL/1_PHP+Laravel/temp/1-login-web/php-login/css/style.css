@@ -19,7 +19,9 @@ h3 {
 }
 #Frame0 {
 	background-color: #F7F7F7;
+	text-align: center;
 	margin: 30px auto auto;
+	margin-top: 7rem;
 	padding: 10px;
 	width: 750px;
 	border: 1px solid #EEE;
