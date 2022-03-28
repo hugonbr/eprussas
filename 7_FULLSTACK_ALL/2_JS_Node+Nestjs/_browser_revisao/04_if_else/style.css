@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+input {
+    width: 50px;
+}
