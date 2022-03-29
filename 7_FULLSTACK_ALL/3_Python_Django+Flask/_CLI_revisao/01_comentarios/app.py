@@ -9,5 +9,5 @@ Então eu posso escrever a vontade aqui
 nas aspas duplas
 '''
 
-print ('Todo comentário é ignorado pelo interpretador python.')
+print('Todo comentário é ignorado pelo interpretador python.')
 
