@@ -11,14 +11,13 @@ varDict = {"name" : "John", "age" : 36}
 varSet = {"apple", "banana", "cherry"}
 
 print(f'varInt {type(varInt)}')
-print(f'varInt {type(varFloat)}')
-print(f'varInt {type(varString)}')
-print(f'varInt {type(varBool)}')
+print(f'varFloat {type(varFloat)}')
+print(f'varString {type(varString)}')
+print(f'varBool {type(varBool)}')
 
 print()
 
-print(f'varInt {type(varList)}')
-print(f'varInt {type(varTupla)}')
-print(f'varInt {type(varDict)}')
-print(f'varInt {type(varSet)}')
-
+print(f'varList {type(varList)}')
+print(f'varTupla {type(varTupla)}')
+print(f'varDict {type(varDict)}')
+print(f'varSet {type(varSet)}')
