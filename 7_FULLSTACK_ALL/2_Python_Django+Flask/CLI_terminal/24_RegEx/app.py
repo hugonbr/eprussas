@@ -8,6 +8,9 @@ busca = re.search("^Moro.*Russas$", texto)
 
 print(busca)
 
+vetor = re.split("\s", texto)
+print(vetor)
+
 if busca:
   print("SIM! está contido!")
 else:
