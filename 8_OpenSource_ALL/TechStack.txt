@@ -1,10 +1,6 @@
-0_CSS
+1_CSS
     - Landing Page (Responsive)
     - Dashboard / Admin Panel
-1_PHP (the right way)
-    - CRUD MySQL & MVC
-    - Wordpress
-    - Laravel
 2_Javascript (full stack)
     - Bootstrap / React / Next.js
     - Nodejs + express / ORMs
