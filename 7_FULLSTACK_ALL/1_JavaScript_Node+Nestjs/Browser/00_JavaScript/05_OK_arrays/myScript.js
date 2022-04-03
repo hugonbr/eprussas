@@ -2,6 +2,7 @@ const cars = ["Fiat", "Ford", "Volkswagen", "Chevrolet"];
 const letras = ["C", "A", "D", "E", "H", "G", "B", "F"];
 
 document.getElementById("r").innerHTML = cars;
+document.getElementById("rLetras").innerHTML = letras;
 
 function cres() {
     cars.sort();
