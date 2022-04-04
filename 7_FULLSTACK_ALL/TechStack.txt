@@ -1,17 +1,20 @@
-1_CSS
+0_CSS+Front_Frameworks
     - Landing Page (Responsive)
     - Dashboard / Admin Panel
-2_Javascript (full stack)
+1_JavaScript_Node+Nestjs
     - Bootstrap / React / Next.js
     - Nodejs + express / ORMs
     - MERN: MongoDB/MySQL
-3_Python (web)
+2_Python_Django+Flask
     - CLI & Automation / IA & ML
     - Django / Flask : MySQL
     - FastAPI
-4_Host
-    - Heroku
-    - AWS
-5_Mobile (Smartphone)
+3_DB_MySQL+MongoDB
+    - MySQL
+    - MongoDB
+4_Mobile_React+FLutter
     - PWA
     - Flutter
+5_DevOps_Heroku+AWS
+    - Heroku
+    - AWS
