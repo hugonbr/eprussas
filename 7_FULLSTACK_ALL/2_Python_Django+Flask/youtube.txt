@@ -1,0 +1,38 @@
+freeCodeCamp.org
+
+1) Learn Python - Full Course for Beginners
+https://www.youtube.com/watch?v=rfscVS0vtbw
+
+2) Python Tutorial for Beginners
+https://www.youtube.com/watch?v=8124kv-632k
+
+3) 12 Beginner Python Projects - Coding Course
+https://www.youtube.com/watch?v=8ext9G7xspg
+
+4) Learn Python by Building Five Games - Full Course
+https://www.youtube.com/watch?v=XGf2GcyHPhc
+
+5) Object Oriented Programming with Python
+https://www.youtube.com/watch?v=Ej_02ICOIgs
+
+6) Web Scraping with Python - Beautiful Soup Crash Course
+https://www.youtube.com/watch?v=XVv6mJpFOb0
+
+7) Network Programming with Python Course
+https://www.youtube.com/watch?v=FGdiSJakIS4
+
+8) Advanced Computer Vision with Python - Full Course
+https://www.youtube.com/watch?v=01sAkU_NvOY
+
+9) Full stack Python Flask tutorial - Build a social network
+https://www.youtube.com/watch?v=-FWuNnCe73g
+
+10) Python Automation Tutorial – How to Automate Tasks
+https://www.youtube.com/watch?v=s8XjEuplx_U
+
+11) Python Backend Web Development Course (with Django)
+https://www.youtube.com/watch?v=jBzwzrDvZ18
+
+12) Python API Development - Comprehensive Course for Beginners
+https://www.youtube.com/watch?v=0sOvCWFmrtA&t=8843s
+

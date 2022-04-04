@@ -1,0 +1,34 @@
+freeCodeCamp.org
+
+1) Node.js and Express.js - Full Course
+https://www.youtube.com/watch?v=Oe421EPjeBE
+
+2) Build 4 Projects - Node.js / Express Course
+https://www.youtube.com/watch?v=qwfE7fSVaZM
+
+3) MERN Stack Course - MongoDB, Express, React, Node.js
+https://www.youtube.com/watch?v=7CqJlxBYj-M
+
+4) PERN Stack Course - Postgres, Express, React, and Node
+https://www.youtube.com/watch?v=ldYcgPKEZC8
+
+5) Learn Docker - DevOps with Node.js & Express
+https://www.youtube.com/watch?v=9zUHg7xjIqQ
+
+Traversy Media
+
+1) Node.js Crash Course
+https://www.youtube.com/watch?v=fBNz5xF-Kx4
+
+2) Using MySQL With Node.js
+https://www.youtube.com/watch?v=EN6Dx22cPRI
+
+3) Realtime Chat With Users & Rooms - Socket.io, Node & Express
+https://www.youtube.com/watch?v=jD7FnbI76Hg
+
+4) Vanilla Node.js REST API | No Framework
+https://www.youtube.com/watch?v=_1xa8Bsho6A
+
+5) Node.js App From Scratch | Express, MongoDB & Google OAuth
+https://www.youtube.com/watch?v=SBvmnHTQIPY
+
