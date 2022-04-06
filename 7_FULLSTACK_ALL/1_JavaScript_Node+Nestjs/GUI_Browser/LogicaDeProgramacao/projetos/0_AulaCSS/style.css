@@ -1,0 +1,17 @@
+body {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+#ola {
+    color: red;
+}
+
+.p_teste {
+    color: blue;
+}
+
+/* p {
+    color: blue;
+} */
