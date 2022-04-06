@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <h2>Verificador de Documentos de Usuários.</h2>
+
+  <p style="color: red">* Preencha pelo menos um dos campos abaixo.</p>
+
+  <p>Informe o seu CPF<span style="color: red"> *</span>:</p>
+
+  <input id="inputCPF" onkeydown="mascara(this,cpf)" maxlength="14" placeholder="123.456.789-10" />
+
+  <p>Informe o seu RG<span style="color: red"> *</span>:</p>
+
+  <input id="inputRG" onkeydown="mascara(this,rg)" maxlength="13" placeholder="1234567891012" />
+
+  <br />
+  <br />
+
+  <button type="button" onclick="myFunction()">OK</button>
+
+  <p id="r"></p>
+  <p id="cpf"></p>
+  <p id="rg"></p>
+
+  <script src="myScript.js"></script>
+</body>
+
+</html>

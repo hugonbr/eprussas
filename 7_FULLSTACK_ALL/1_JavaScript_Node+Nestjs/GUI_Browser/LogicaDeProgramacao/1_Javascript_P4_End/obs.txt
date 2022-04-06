@@ -1,0 +1,14 @@
+Continuação JS
+
+Py
+
+Arrays
+Funções (Lambdas)
+Estruturas (Listas e outros)
+
+Java
+
+BaladaInfo Ou Votação (Maior de idade)
+POO - Classes
+
+FIM
