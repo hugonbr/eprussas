@@ -36,6 +36,6 @@ https://startbootstrap.com/
 
 https://youtu.be/FQPlEnKav48
 
-Fireship - YouTube
+Fireship - YouTube: 
 I built 10 web apps... with 10 different languages
 https://youtu.be/FQPlEnKav48
