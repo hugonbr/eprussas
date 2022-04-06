@@ -22,7 +22,6 @@ http://sitewebdev.s3-website.us-east-2.amazonaws.com/
 SISWEB Bootstrap
 http://frontendbootstrap.s3-website.us-east-2.amazonaws.com/
 
-
 - Links para estudo -
 
 https://octoverse.github.com/#top-languages-over-the-years
@@ -35,3 +34,8 @@ https://stackshare.io/stacks
 
 https://startbootstrap.com/
 
+https://youtu.be/FQPlEnKav48
+
+Fireship - YouTube
+I built 10 web apps... with 10 different languages
+https://youtu.be/FQPlEnKav48
