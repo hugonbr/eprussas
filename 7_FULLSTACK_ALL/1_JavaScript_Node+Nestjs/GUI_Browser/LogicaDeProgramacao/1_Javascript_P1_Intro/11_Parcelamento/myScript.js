@@ -9,5 +9,6 @@ function myFunction() {
     document.getElementById("r").innerHTML = "Parcelas: " + p + " x R$ " + r;
     document.getElementById("r2").innerHTML = `Parcelas: ${p} x R$ ${r}`;
 
+    console.log(p*r);
 }
 
