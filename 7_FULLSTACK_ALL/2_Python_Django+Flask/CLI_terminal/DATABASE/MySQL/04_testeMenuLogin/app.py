@@ -12,7 +12,7 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 while op != 3:
-    print("SIS MENU")
+    print("----SIS MENU----")
     print("Digite uma opção:")
     print("1- Entrar")
     print("2- Cadastrar")
