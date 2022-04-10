@@ -1,3 +1,4 @@
+from time import sleep
 import mysql.connector
 op = 1
 
@@ -13,9 +14,9 @@ mycursor = mydb.cursor()
 while op != 4:
     print("----SIS CRUD----")
     print("Digite uma opção:")
-    print("1- Entrar")
-    print("2- Cadastrar")
-    print("3- Listar usuários")
+    print("1- Entrar (READ)")
+    print("2- Cadastrar (CREATE)")
+    print("3- Listar usuários (READ)")
     print("4- Sair")
     op = int(input())
     if op == 1:
@@ -41,9 +42,9 @@ while op != 4:
 
                 while opU != 4:
                     print("O que deseja fazer?")
-                    print("1 - Ver meus dados")
-                    print("2 - Atualizar meus dados")
-                    print("3 - Deletar minha conta")
+                    print("1 - Ver meus dados (READ)")
+                    print("2 - Atualizar meus dados (UPDATE)")
+                    print("3 - Deletar minha conta (DELETE)")
                     print("4 - Sair")
 
                     opU = int(input())
@@ -52,13 +53,29 @@ while op != 4:
                         print(f'Seus dados: {usuarioR}')
                         print(f'Tipo de dado: {type(usuarioR)}')
                     elif opU == 2:
+                        print("Informe os novos dados:")
+                        id = str(usuarioR[0])
+                        login = input("login: ")
+                        senha = input("senha: ")
+                        nome = input("nome: ")
+                        sql = "UPDATE usuario SET login = %s, senha = %s, nome = %s WHERE id = %s"
+                        val = (login, senha, nome, id)
+                        
+                        mycursor.execute(sql, val)
+                        mydb.commit()
+                        
                         print("Atualizando...")
-
+                        sleep(2)
+                        print("Conta atualizada!")
+                        break
                     elif opU == 3:
                         print("Deletando...")
+                        id = str(usuarioR[0])
+                        print(f'Debug => {id}')
+                        sql = "DELETE FROM usuario WHERE id = %s"
+                        val = (id,)
 
-                        sql = f'DELETE FROM usuario WHERE id = {usuarioR[0]}'
-                        mycursor.execute(sql)
+                        mycursor.execute(sql, val)
                         mydb.commit()
                         print("Conta deletada!")
                         break
