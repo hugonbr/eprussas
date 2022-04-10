@@ -59,8 +59,7 @@ while op != 3:
                         print("Saindo...")
                     else:
                         print("Opção inválida, tente novamente")
-                    
-                    
+
             #
     elif op == 2:
         print("Cadastre-se abaixo:")
@@ -81,3 +80,4 @@ while op != 3:
         print("Bye")
     else:
         print("Opção inválida, tente novamente")
+
