@@ -7,23 +7,23 @@ mydb = mysql.connector.connect(
     database="giteprussas_01_python"
 )
 
-# mycursor = mydb.cursor()
-# mycursor.execute("SELECT * FROM usuario")
-# myresult = mycursor.fetchall()
-# for x in myresult:
-#     print(x)
+while (1): 
+    #
+    login = input("login: ")
+    senha = input("senha: ")
 
-login = input("login: ")
-senha = input("senha: ")
+    sql = "SELECT * FROM usuario WHERE login = %s and senha = %s"
+    val = (login, senha)
 
-sql = "SELECT * FROM usuario WHERE login = %s and senha = %s"
-val = (login, senha)
+    mycursor = mydb.cursor()
+    mycursor.execute(sql, val)
+    usuarioR = mycursor.fetchone()
 
-mycursor = mydb.cursor()
-mycursor.execute(sql, val)
-myresult = mycursor.fetchall()
-
-for x in myresult:
-    print(f'Seus dados: {x}')
-    print(f'Seus dados: {type(x)}')
-    
+    if usuarioR == None: 
+        print("Erro, tente novamente...")
+    else:
+        print(f'Olá {usuarioR[3]}, Bem-vindo!')
+        print(f'Seus dados: {usuarioR}')
+        print(f'Tipo de dado: {type(usuarioR)}')
+        break
+    #
