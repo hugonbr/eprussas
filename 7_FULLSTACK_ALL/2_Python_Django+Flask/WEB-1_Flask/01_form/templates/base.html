@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <title>{% block title %} {% endblock %} - FlaskApp</title>
     <style>
+        body {
+            margin-left: 5rem;
+            margin-right: 5rem;
+            text-align: center;
+        }
+        .content {
+            text-align: center;
+            margin-left: 10rem;
+            margin-right: 10rem;
+        }
         .message {
             padding: 10px;
             margin: 5px;
@@ -14,7 +24,7 @@
         nav a {
             color: #d64161;
             font-size: 3em;
-            margin-left: 50px;
+            /* margin-left: 50px; */
             text-decoration: none;
         }
 
@@ -29,9 +39,9 @@
 
 <body>
     <nav>
-        <a href="{{ url_for('index') }}">FlaskApp</a>
-        <a href="{{ url_for('create') }}">Create</a>
-        <a href="#">About</a>
+        <a href="{{ url_for('index') }}">FlaskApp | </a>
+        <a href="{{ url_for('create') }}">Create | </a>
+        <a href="{{ url_for('about') }}">About</a>
     </nav>
     <hr>
     <div class="content">

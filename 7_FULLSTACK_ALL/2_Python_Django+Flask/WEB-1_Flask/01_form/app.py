@@ -31,4 +31,9 @@ def create():
     
     return render_template('create.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+
 app.run(host='localhost', port=7000)
