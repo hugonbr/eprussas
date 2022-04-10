@@ -104,6 +104,12 @@ while op != 4:
     elif op == 3:
         print("Lista de Usuários: ")
         print("...")
+        
+        mycursor.execute("SELECT nome FROM usuario")
+        myresult = mycursor.fetchall()
+        for x in myresult:
+            print(x)
+        
     elif op == 4:
         print("Bye")
     else:
