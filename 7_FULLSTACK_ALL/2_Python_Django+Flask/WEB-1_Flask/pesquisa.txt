@@ -1,0 +1,6 @@
+python flask sqlalchemy
+
+python flask sqlalchemy mysql
+
+# '''google e youtube'''
+
