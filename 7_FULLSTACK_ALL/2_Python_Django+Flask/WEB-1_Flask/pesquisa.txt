@@ -4,3 +4,18 @@ python flask sqlalchemy mysql
 
 # '''google e youtube'''
 
+0) REST API With Flask & SQL Alchemy
+https://youtu.be/PTZiDnuC86g?list=PLillGF-RfqbbJYRaNqeUzAb7QY-IqBKRx
+
+1) Python Flask Datatable using SQLalchemy With Mysql
+https://youtu.be/RRPffzxmij8
+
+2) CRUD COMPLETO FLASK com SQLALCHEMY em Python - API REST e BANCO DE DADOS 2021
+https://youtu.be/WDpPGFkI9UU
+
+3) Flask CRUD Application Full Course With SQLAlchemy | Python Flask
+https://youtu.be/XTpLbBJTOM4
+
+4) Flask CRUD Operation | Python Flask Insert Update Delete
+https://youtu.be/I0Zu-Jtp898
+
