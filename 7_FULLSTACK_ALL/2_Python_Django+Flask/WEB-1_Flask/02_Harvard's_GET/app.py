@@ -10,3 +10,6 @@ def index():
 
 
 app.run(host='localhost', port=7000)
+
+# http://localhost:7000/?name=Hugo+Nathan
+
