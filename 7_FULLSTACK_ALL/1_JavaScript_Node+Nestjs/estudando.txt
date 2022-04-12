@@ -1,6 +1,6 @@
 Frontend
 
-    - Landing Page (Responsive)
+    - Bootstrap + TailWind
     - Dashboard / Admin Panel
 
 Backend
