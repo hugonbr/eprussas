@@ -1,0 +1,11 @@
+Frontend
+
+    - CLI Terminal
+    - Desktop
+
+Backend
+
+    Django
+
+    links:
+
