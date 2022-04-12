@@ -1,7 +1,7 @@
 Frontend
 
     - Bootstrap + TailWind
-    - Dashboard / Admin Panel
+    - ReactJS + NextJS
 
 Backend
 
