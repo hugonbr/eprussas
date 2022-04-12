@@ -1,0 +1,13 @@
+.
+
+1) Python Django 7 Hour Course
+https://youtu.be/PtQiiknWUcI?list=PLillGF-RfqbbJYRaNqeUzAb7QY-IqBKRx
+
+2) Python Django Crash Course
+https://youtu.be/e1IyzVyrLSU?list=PLillGF-RfqbbJYRaNqeUzAb7QY-IqBKRx
+
+3) Python Django Tutorial - Build A Todo App
+https://youtu.be/2yXfUPwlZTw?list=PLillGF-RfqbbJYRaNqeUzAb7QY-IqBKRx
+
+...
+
