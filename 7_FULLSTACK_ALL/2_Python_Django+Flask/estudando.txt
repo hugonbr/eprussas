@@ -1,11 +1,11 @@
 Frontend
 
-    - CLI Terminal
-    - Desktop
+    - Python CLI
+    - Kivy Desktop
 
 Backend
 
-    Python Django
+    Django + Flask
 
     links:
 
