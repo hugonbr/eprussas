@@ -4,6 +4,10 @@ body{
     font-size: xx-large;
 }
 
+.nav-item{
+    font-size: large;
+}
+
 /* .content {
     max-width: 500px;
     margin: auto;
