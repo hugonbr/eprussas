@@ -5,6 +5,9 @@ Meus códigos/projetos EPRUSSAS.
 Informática Básica - Pasta do Google Drive
 https://drive.google.com/drive/folders/1oj-iYcMUxdsMOocFfsDOuRqThGh6JYOB?usp=sharing
 
+Lógica, Análise e Programação:
+
+
 links de projetos:
 
 TECH
