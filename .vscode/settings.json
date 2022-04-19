@@ -1,3 +1,6 @@
 {
-    "liveServer.settings.port": 5500
+    "liveServer.settings.port": 5500,
+    "java.project.sourcePaths": [
+        "3_Java_FullStack"
+    ]
 }
