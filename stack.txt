@@ -1,0 +1,11 @@
+Tópicos para estudar:
+
+** Javascript/Python/Java **
+
+    - Frontend (Site/Dashboard)
+    - Backend (CRUD/API)
+    - Database (SQL/noSQL)
+    - Mobile (React/Flutter)
+    - Devops (AWS/Heroku)
+
+    - Fullstack (JS/Node)
