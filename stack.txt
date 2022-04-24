@@ -11,4 +11,4 @@ Clones:
     Login (CRUD/API)
     Ifood Clone (Delivery)
     Amazon Clone (Ecommerce)
-    YouTube Clone (Streamer)
+    Netflix Clone (Streamer)
