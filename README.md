@@ -2,6 +2,8 @@
 
 Meus códigos/projetos EPRUSSAS.
 
+https://github.com/hugonbr/eprussas/tree/main/1_JavaScript_Node%2BNestjs/z_projetos_z
+
 Informática Básica - Pasta do Google Drive:
 
 https://drive.google.com/drive/folders/1oj-iYcMUxdsMOocFfsDOuRqThGh6JYOB?usp=sharing
