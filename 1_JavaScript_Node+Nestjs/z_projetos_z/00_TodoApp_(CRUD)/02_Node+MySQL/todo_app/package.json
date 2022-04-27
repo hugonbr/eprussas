@@ -1,0 +1,21 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "todo list app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hugo Nathan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "express-layout": "^0.1.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "router": "^1.3.6"
+  }
+}
