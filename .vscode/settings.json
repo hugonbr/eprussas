@@ -1,6 +1,7 @@
 {
     "liveServer.settings.port": 5500,
     "java.project.sourcePaths": [
-        "3_Java_FullStack"
+        "3_Java_FullStack",
+        "3_Java_FullStack+Spring/0_CLI/01_Scanner/src/teste"
     ]
 }
