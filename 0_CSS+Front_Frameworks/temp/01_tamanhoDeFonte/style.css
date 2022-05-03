@@ -2,6 +2,7 @@
     color: white;
     background-color: indigo;
     text-align: center;
+    /* border: 0.2rem solid deepskyblue; */
 }
 
 body {
@@ -12,7 +13,7 @@ body {
     font-size: 1rem;
     /* margin: 2em;
     padding: 1em; */
-    border-style: solid;
+    border: 0.2rem solid deepskyblue;
 }
 
 .teste1 {
