@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    
+}
+
+.nav {
+    background-color: aquamarine;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li {
+    color: red;
+    display: inline;
+}
+
+.main {
+    margin: 3rem;
+    padding: 1rem;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    height: 400px;
+}
