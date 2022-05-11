@@ -28,15 +28,8 @@ function calcular() {
     return resultado;
 }
 
-// console.log(typeof contas);
-// console.log(contas);
 
-// console.log(`receitas: ${contas.receitas}`);
 console.log(`Total receitas: ${soma(contas.receitas)}`);
-// console.log(`despesas: ${contas.despesas}`);
 console.log(`Total despesas: ${soma(contas.despesas)}`);
 
 console.log(`status: ${calcular()}`);
-
-// console.log(contas.propriedade);
-
