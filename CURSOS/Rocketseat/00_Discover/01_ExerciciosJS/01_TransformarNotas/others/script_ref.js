@@ -1,4 +1,4 @@
-let n;
+let n, r;
 
 function converter() {
 
@@ -11,16 +11,23 @@ function converter() {
 
     if (f) {
         console.log("F");
+        r="F";
     }
     else if (d) {
         console.log("D");
+        r="D";
     }
     else if (c) {
         console.log("C");
+        r="C";
     }
     else if (b) {
         console.log("B");
+        r="B";
     } else {
         console.log("A");
+        r="A";
     }
+
+    document.getElementById("r").innerHTML=r;
 }

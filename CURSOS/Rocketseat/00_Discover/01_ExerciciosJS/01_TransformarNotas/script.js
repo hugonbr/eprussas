@@ -1,21 +1,25 @@
-let n;
+let n, r;
 
 function converter() {
 
     n = document.getElementById("n").value;
 
-    if (n < 60) {
-        console.log("F");
+    if (n >= 90 && n <= 100) {
+        r = "A";
+    } else if (n >= 80 && n <= 89) {
+        r = "B";
+    } else if (n >= 70 && n <= 79) {
+        r = "C";
+    } else if (n >= 60 && n <= 69) {
+        r = "D";
+    } else if (n >= 0 && n < 60) {
+        r = "F";
     }
-    else if (n >= 60 && n < 70) {
-        console.log("D");
+
+    else {
+        r = "Nota inválida!";
     }
-    else if (n >= 70 && n < 80) {
-        console.log("C");
-    }
-    else if (n >= 80 && n < 90) {
-        console.log("B");
-    } else {
-        console.log("A");
-    }
+
+    document.getElementById("r").innerHTML = r;
+    console.log(r);
 }
