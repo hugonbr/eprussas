@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Select</title>
+</head>
+
+<body>
+    <select name="" id="modelo">
+        <option value="Banana">Banana</option>
+        <option value="Maçã">Maçã</option>
+        <option value="Pêra">Pêra</option>
+    </select>
+
+    <button onclick="teste()">TESTE</button>
+
+    <p>Você escolheu:</p>
+    <p id="resposta"></p>
+
+    <script>
+        function teste() {
+            let valor = document.getElementById("modelo").value;
+            console.log(valor);
+
+            if (valor === "Banana") {
+                document.getElementById("resposta").innerHTML = "É da cor amarela";
+            } else if (valor === "Maçã") {
+                document.getElementById("resposta").innerHTML = "É da cor vermelha";
+            } else if (valor === "Pêra") {
+                document.getElementById("resposta").innerHTML = "É da cor verde";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
