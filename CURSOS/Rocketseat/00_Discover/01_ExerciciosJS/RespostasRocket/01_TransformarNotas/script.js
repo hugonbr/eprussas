@@ -1,5 +1,3 @@
-let score = -453
-
 function getScore(score) {
     let scoreA = score >= 90 && score <= 100
     let scoreB = score >= 80 && score <= 89
