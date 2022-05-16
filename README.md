@@ -1,15 +1,12 @@
 # eprussas
 
-Meus códigos/projetos EPRUSSAS.
-
-https://github.com/hugonbr/eprussas/tree/main/1_JavaScript_Node%2BNestjs/z_projetos_z
-
 Informática Básica - Pasta do Google Drive:
 
 https://drive.google.com/drive/folders/1oj-iYcMUxdsMOocFfsDOuRqThGh6JYOB?usp=sharing
 
 Lógica, Análise e Programação:
 
+https://github.com/hugonbr/eprussas/tree/main/1_JavaScript_Node%2BNestjs/GUI_Browser/00_LogicaDeProgramacao
 https://github.com/hugonbr/eprussas/tree/main/others/MATERIAL-ESTUDO
 
 links de projetos:
@@ -31,6 +28,10 @@ http://frontendbootstrap.s3-website.us-east-2.amazonaws.com/
 
 Encurtador de URL com node e react
 http://www.swf2020.tk/
+
+Meus códigos/projetos EPRUSSAS.
+
+https://github.com/hugonbr/eprussas/tree/main/1_JavaScript_Node%2BNestjs/z_projetos_z
 
 - Links para estudo -
 
