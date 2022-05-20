@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    /* border: 1px solid; */
+}
+
+header {
+    padding: 4rem;
+    background-color: aquamarine;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+}
+
+ul li:last-child {
+    background: blue;
+    color: aquamarine;
+    padding: .8rem;
+}
+
+a {
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 750px) {
+    nav {   
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 650px) {
+    nav, ul {   
+        flex-direction: column;
+        align-items: center;
+    }
+    header, ul {
+        padding: 0;
+    }
+}
+
