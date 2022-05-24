@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    /* border: 1px solid red; */
+    font-size: large;
+}
+
+header {
+    padding: 4rem;
+    background-color: #103240;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+    color: #f38c1b;
+}
+
+ul li:last-child {
+    background: blue;
+    color: white;
+    padding: .8rem;
+    border-radius: 5px;
+}
+
+a {
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding: 4rem 12rem 4rem 12rem;
+    margin: .5rem;
+    /* background-color: #103240; */
+    border: 1px solid aliceblue;
+    border-radius: 25px;
+}
+
+.p-banner {
+    color: #103240;
+    font-size: x-large;
+    border: 5px solid white;
+    padding: 2rem;
+    border-radius: 25px;
+}
+
+.imgbanner {
+    border-radius: 25px;
+}
+
+p {
+    text-align: justify;
+}
+
+.footer-end {
+    text-align: center;
+}
+
+footer {
+    background-color: #103240;
+    color: white;
+    padding: 4rem;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1500px) {
+    .banner {
+        flex-direction: column;
+        padding: 4rem 6rem 4rem 6rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    nav {   
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgbanner {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .p-banner {
+        font-size: large;
+        padding: 1rem;
+    }
+    .banner {
+        padding: 2rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    nav, ul {   
+        flex-direction: column;
+        align-items: center;
+    }
+    header, ul {
+        padding: 1rem;
+    }
+}
+
