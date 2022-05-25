@@ -23,6 +23,8 @@ links de projetos:
 7-Encurtador de URL com node e react
 <http://www.swf2020.tk/>
 
+---------------------------
+
 Informática Básica - Pasta do Google Drive:
 
 <https://drive.google.com/drive/folders/1oj-iYcMUxdsMOocFfsDOuRqThGh6JYOB?usp=sharing>
