@@ -1,0 +1,43 @@
+$: mongo
+    MongoDB shell version v4.4.4
+
+>: show dbs
+    // exibe uma lista com os bancos de dados e
+    // o tamanho oculpado por cada banco de dados
+
+    admin     0.000GB
+    config    0.000GB
+    local     0.000GB
+    todo-app  0.000GB
+
+>: use todo-app
+    // switched to db todo-app
+
+>: show collections
+    // mostra as coleções
+
+>: db.tasks.find()
+    // mostra o conteúdo da coleção
+
+    exemplo:
+    { "_id" : ObjectId("626992a25a1e7a3575c8934e"), "task" : "teste2", "completed" : false, "__v" : 0 }
+    { "_id" : ObjectId("626992f65a1e7a3575c89350"), "task" : "abcde", "completed" : false, "__v" : 0 }
+
+>: db.tasks.find().pretty()
+    // mostra o conteúdo da coleção formatado como JSON
+
+    exemplo:
+
+    {
+        "_id" : ObjectId("626992a25a1e7a3575c8934e"),
+        "task" : "teste2",
+        "completed" : false,
+        "__v" : 0
+    }
+    {
+            "_id" : ObjectId("626992f65a1e7a3575c89350"),
+            "task" : "abcde",
+            "completed" : false,
+            "__v" : 0
+    }
+

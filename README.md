@@ -21,6 +21,9 @@ https://hugonbr-teste.w3spaces.com/
 CSSgrid
 http://hugonbr.infinityfreeapp.com/
 
+Flex-Responsive
+http://flex-responsive.s3-website.us-east-2.amazonaws.com
+
 DEVWEB
 http://sitewebdev.s3-website.us-east-2.amazonaws.com/
 
