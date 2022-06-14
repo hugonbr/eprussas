@@ -1,0 +1,6 @@
+ctrl + / : comentário em qualquer linguagem
+
+alt + z : quebra de linha
+
+ctrl + shift + seta_baixo : duplicar linha
+
