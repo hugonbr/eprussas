@@ -1,4 +1,12 @@
-python admin panel / web aplications / web system
+python
 
-js admin panel / web aplications / web system
+todo app
+CRUD
+admin panel / web aplications / web system
+
+js
+
+todo app
+CRUD
+admin panel / web aplications / web system
 
