@@ -1,4 +1,4 @@
-python admin panel / web system
+python admin panel / web aplications / web system
 
-js admin panel / web system
+js admin panel / web aplications / web system
 
