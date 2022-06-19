@@ -1,0 +1,14 @@
+> show dbs
+admin     0.000GB
+config    0.000GB
+local     0.000GB
+todo-app  0.000GB
+> use todo-app
+switched to db todo-app
+> show collections
+tasks
+> db.tasks.find()
+{ "_id" : ObjectId("62ab2d5cc244e24347c6a0b8"), "task" : "a", "completed" : false, "__v" : 0 }
+{ "_id" : ObjectId("62ab2d5ec244e24347c6a0ba"), "task" : "b", "completed" : true, "__v" : 0 }
+{ "_id" : ObjectId("62ab2d60c244e24347c6a0bc"), "task" : "c", "completed" : false, "__v" : 0 }
+> 
