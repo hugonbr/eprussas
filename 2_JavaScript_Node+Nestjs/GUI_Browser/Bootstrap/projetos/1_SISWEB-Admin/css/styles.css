@@ -12854,4 +12854,8 @@ body {
   margin-bottom: 2.5rem;
 }
 
+.pass-disable-text {
+  user-select: none;
+}
+
 /* FIM mod Hugo */
