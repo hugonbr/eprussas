@@ -1,0 +1,22 @@
+C
+    g++ OlaMundo.cpp -o OlaMundo
+    chmod +x OlaMundo
+    ./OlaMundo
+        real    0m0,005s
+Java
+    javac OlaMundo.java
+    java OlaMundo
+        real    0m0,062s
+php
+    php OlaMundo.php
+        real    0m0,064s
+Javascript
+    node OlaMundo.js
+        real    0m0,160s
+Python
+    python OlaMundo.py
+        real    0m0,027s
+
+
+FINAL: C > Py > Java > PHP > JS
+
