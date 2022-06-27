@@ -20,10 +20,25 @@ function postLink(req, res) {
     res.status(201).json(link);
 }
 function getLink(req, res) {
-    res.send('getLink');
+    const code = req.params.code;
+    const link = links.find(item => item.code === code);
+    if (!link) {
+        res.sendStatus(404);
+    }
+    else {
+        res.json(link);
+    }
 }
 function hitLink(req, res) {
-    res.send('hitLink');
+    const code = req.params.code;
+    const index = links.findIndex(item => item.code === code);
+    if (index === -1) {
+        res.sendStatus(404);
+    }
+    else {
+        links[index].hits++;
+        res.json(links[index]);
+    }
 }
 exports.default = {
     postLink,
