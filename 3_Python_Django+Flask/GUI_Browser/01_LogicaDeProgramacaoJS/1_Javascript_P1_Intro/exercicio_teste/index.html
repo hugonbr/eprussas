@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+        
+        /* Firefox */
+        input[type=number] {
+          -moz-appearance: textfield;
+        }
+    </style>
+</head>
+<body>
+    <h2>Horário: Dia, Tarde e Noite - Cond</h2>
+
+    <p>Informe a hora: <input id="i_hora" type="number" min="0" max="23" value="7"> </p>
+
+    <button onclick="comparar()">Mostrar Mensagem</button>
+
+    <p id="r"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

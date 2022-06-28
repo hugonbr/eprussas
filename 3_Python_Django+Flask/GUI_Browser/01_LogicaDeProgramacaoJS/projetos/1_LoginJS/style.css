@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+/* h2 {
+    text-align: center;
+}
+
+#p_login {
+    text-align: center;
+} */
+
+#b_entrar {
+    text-align: center;
+}
+
+/* #p_senha {
+    margin-left: 32px;
+} */
+
+#erro {
+    color: red;
+}
+
+/*
+#home {
+    text-align: center;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+    border: 5%;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    padding: 5%;
+}*/
+/* 
+#show {
+    color: blue;
+    text-decoration: underline blue;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+} */
