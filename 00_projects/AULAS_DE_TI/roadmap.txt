@@ -1,14 +1,18 @@
-1) OK_2020-PITU-Web Full Stack #3_
+1) NODE: OK_2020-PITU-Web Full Stack #3_
 
     aula1 01:01:57
 
-2) 2020-Dev_Oculto_natal_Dev Week_
+2) NODE: 2020-Dev_Oculto_natal_Dev Week_
 
     aula1 31:57
 
-3) 2020-Proffy-NextLevelWeek#2_
+3) NODE: 2020-Proffy-NextLevelWeek#2_
 
-4) 2021-E-Diaristas_MultiStack
+4) PYTHON: 2021-E-Diaristas_MultiStack
 
-5) 2022-AdoteUmPet-Multistack3
+5) PYTHON: 2022-AdoteUmPet-Multistack3
+
+6) PYTHON: 2022-Nutricionista-PyStackWeek4
+
+7) 2022-Delivery-Full Stack Full Cycle
 
