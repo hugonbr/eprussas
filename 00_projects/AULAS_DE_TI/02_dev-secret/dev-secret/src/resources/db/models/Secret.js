@@ -17,3 +17,6 @@ const Schema = {
         receiver: String,
     }],
 }
+
+module.exports = mongoose.model('Secret', Schema)
+

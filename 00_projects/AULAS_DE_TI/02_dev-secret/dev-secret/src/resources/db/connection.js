@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 let conn = null
 
-const URI = ''
+const URI = 'mongodb+srv://hugonbr:<hugo@#357>@cluster0.ysjon.mongodb.net/secret?retryWrites=true&w=majority'
 
 module.exports = async () => {
     if (!conn) {
@@ -11,6 +11,6 @@ module.exports = async () => {
             useCreateIndex: true,
         })
 
-        await conn 
+        await conn
     }
 }
