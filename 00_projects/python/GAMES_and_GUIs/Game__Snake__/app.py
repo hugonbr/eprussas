@@ -6,12 +6,12 @@ import random
 
 GAME_WIDTH = 700
 GAME_HEIGHT = 700
-SPEED = 50
+SPEED = 300
 SPACE_SIZE = 50
 BODY_PARTS = 3
-SNAKE_COLOR = "#00FF00"
+SNAKE_COLOR = "#0000FF"
 FOOD_COLOR = "#FF0000"
-BACKGROUND_COLOR = "#000000"
+BACKGROUND_COLOR = "#FFFFFF"
 
 
 class Snake:
@@ -25,7 +25,8 @@ class Snake:
             self.coordinates.append([0, 0])
 
         for x, y in self.coordinates:
-            square = canvas.create_rectangle(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=SNAKE_COLOR, tag="snake")
+            square = canvas.create_rectangle(
+                x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=SNAKE_COLOR, tag="snake")
             self.squares.append(square)
 
 
@@ -38,7 +39,8 @@ class Food:
 
         self.coordinates = [x, y]
 
-        canvas.create_oval(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=FOOD_COLOR, tag="food")
+        canvas.create_oval(x, y, x + SPACE_SIZE, y +
+                           SPACE_SIZE, fill=FOOD_COLOR, tag="food")
 
 
 def next_turn(snake, food):
@@ -56,7 +58,8 @@ def next_turn(snake, food):
 
     snake.coordinates.insert(0, (x, y))
 
-    square = canvas.create_rectangle(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=SNAKE_COLOR)
+    square = canvas.create_rectangle(
+        x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=SNAKE_COLOR)
 
     snake.squares.insert(0, square)
 
@@ -125,7 +128,7 @@ def game_over():
 
     canvas.delete(ALL)
     canvas.create_text(canvas.winfo_width()/2, canvas.winfo_height()/2,
-                       font=('consolas',70), text="GAME OVER", fill="red", tag="gameover")
+                       font=('consolas', 70), text="GAME OVER", fill="red", tag="gameover")
 
 
 window = Tk()
@@ -138,7 +141,8 @@ direction = 'down'
 label = Label(window, text="Score:{}".format(score), font=('consolas', 40))
 label.pack()
 
-canvas = Canvas(window, bg=BACKGROUND_COLOR, height=GAME_HEIGHT, width=GAME_WIDTH)
+canvas = Canvas(window, bg=BACKGROUND_COLOR,
+                height=GAME_HEIGHT, width=GAME_WIDTH)
 canvas.pack()
 
 window.update()
@@ -164,4 +168,3 @@ food = Food()
 next_turn(snake, food)
 
 window.mainloop()
-
