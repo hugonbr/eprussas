@@ -17,9 +17,23 @@ module.exports.create = async (event, context) => {
         await SecretModel.create({
             owner: name,
             ownerEmail: email,
-            adminKey,
             externalId,
+            adminKey,
         })
+
+        return {
+            statusCode: 201,
+            body: JSON.stringfy({
+                success: true,
+                id: externalId,
+                adminKey,
+            })
+            // body: {
+            //     success: true,
+            //     id: externalId,
+            //     adminKey,
+            // }
+        }
     } catch (error) {
         return {
             statusCode: 500,
