@@ -1,20 +1,32 @@
 1) NODE: OK_2020-PITU-Web Full Stack #3_
 
     aula1 01:01:57
+    https://github.com/hugonbr/Pitu
 
 2) NODE: 2020-Dev_Oculto_natal_Dev Week_
 
     aula1 44:49 | 48:25
+    https://github.com/hugonbr/DevWeek---Seja-Dev
 
 3) NODE: 2020-Proffy-NextLevelWeek#2_
 
+    https://github.com/hugonbr/Next-Level-Week/tree/master/NLW%202
+
 4) PYTHON: 2021-E-Diaristas_MultiStack
+
+    https://github.com/hugonbr/E-diaristas-TreinaWeb
 
 5) PYTHON: 2022-AdoteUmPet-Multistack3
 
+    https://github.com/hugonbr/Adote-Um-Pet-TreinaWeb
+
 6) PYTHON: 2022-Nutricionista-PyStackWeek4
+
+    https://github.com/hugonbr/Nutri-Lab
 
 7) 2022-Delivery-Full Stack Full Cycle
 
+    https://github.com/hugonbr/imersao-fsfc2
 
 --                 .                   --
+
