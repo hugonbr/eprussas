@@ -11,3 +11,13 @@ expo start
 
 "type a for run on the android emulator"
 
+----------------------------------------------------------------
+
+To run your project, navigate to the directory and run one of the following yarn commands.
+
+- cd HelloWorld
+- yarn start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+- yarn android
+- yarn ios # requires an iOS device or macOS for access to an iOS simulator
+- yarn web
+Project is already inside of a git repo, skipping git init.
