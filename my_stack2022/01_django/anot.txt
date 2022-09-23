@@ -1,0 +1,16 @@
+Tutorial 1 - Django Girls
+
+# cria um ambiente virtual no python
+python3 -m venv myvenv
+
+# ativa o ambiente virtual
+source myvenv/bin/activate
+
+# indicação de que está no venv
+(myvenv) [hugo-nathan@legion-y720-15ikb ~]$
+
+# atualizar a última versão do pip
+python -m pip install --upgrade pip
+
+# Agora, execute pip install -r requirements.txt para instalar o Django.
+
