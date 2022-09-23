@@ -1,0 +1,11 @@
+Traversy Media
+
+Flutter Crash Course
+https://youtu.be/1gDhl4leEzA
+
+Django Crash Course
+https://youtu.be/e1IyzVyrLSU
+
+MERN Stack - Express & MongoDB Rest API
+https://youtu.be/-0exw-9YJBo
+
