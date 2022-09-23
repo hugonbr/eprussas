@@ -6,3 +6,4 @@ elif b < a:
     print("b é menor que a")
 else:
     print("a e b são iguais")
+    
