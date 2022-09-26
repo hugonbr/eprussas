@@ -1,1 +1,2 @@
+cd myworld
 python manage.py runserver
