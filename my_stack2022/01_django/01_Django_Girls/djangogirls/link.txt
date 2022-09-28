@@ -1,2 +1,1 @@
-https://tutorial.djangogirls.org/pt/intro_to_command_line/
-
+https://tutorial.djangogirls.org/pt/django_models/
