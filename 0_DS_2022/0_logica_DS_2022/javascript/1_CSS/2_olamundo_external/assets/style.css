@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#titulo {
+    text-align: center;
+}
+#p1 {
+    text-align: justify;
+}
