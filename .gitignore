@@ -2,6 +2,7 @@
 node_modules
 .vscode
 myvenv
+env
 bin
 lib
 lib64

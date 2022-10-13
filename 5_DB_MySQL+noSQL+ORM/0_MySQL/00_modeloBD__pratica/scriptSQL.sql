@@ -8,19 +8,19 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 -- -----------------------------------------------------
--- Schema www
+-- Schema www2
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema www
+-- Schema www2
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `www` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ;
-USE `www` ;
+CREATE SCHEMA IF NOT EXISTS `www2` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ;
+USE `www2` ;
 
 -- -----------------------------------------------------
--- Table `www`.`cliente`
+-- Table `www2`.`cliente`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `www`.`cliente` (
+CREATE TABLE IF NOT EXISTS `www2`.`cliente` (
   `idcliente` INT NOT NULL AUTO_INCREMENT,
   `login` VARCHAR(45) NOT NULL,
   `senha` VARCHAR(45) NOT NULL,
@@ -38,9 +38,9 @@ COLLATE = utf8_unicode_ci;
 
 
 -- -----------------------------------------------------
--- Table `www`.`categoria`
+-- Table `www2`.`categoria`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `www`.`categoria` (
+CREATE TABLE IF NOT EXISTS `www2`.`categoria` (
   `idcategoria` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`idcategoria`),
@@ -51,9 +51,9 @@ COLLATE = utf8_unicode_ci;
 
 
 -- -----------------------------------------------------
--- Table `www`.`produto`
+-- Table `www2`.`produto`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `www`.`produto` (
+CREATE TABLE IF NOT EXISTS `www2`.`produto` (
   `idproduto` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(45) NOT NULL,
   `valor` DECIMAL(12,2) NOT NULL,
@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS `www`.`produto` (
   INDEX `fk_produto_categoria1_idx` (`categoria_idcategoria` ASC),
   CONSTRAINT `fk_produto_categoria1`
     FOREIGN KEY (`categoria_idcategoria`)
-    REFERENCES `www`.`categoria` (`idcategoria`)
+    REFERENCES `www2`.`categoria` (`idcategoria`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
@@ -74,9 +74,9 @@ COLLATE = utf8_unicode_ci;
 
 
 -- -----------------------------------------------------
--- Table `www`.`admin`
+-- Table `www2`.`admin`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `www`.`admin` (
+CREATE TABLE IF NOT EXISTS `www2`.`admin` (
   `idadmin` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(45) NOT NULL,
   `login` VARCHAR(45) NOT NULL,
@@ -89,9 +89,9 @@ COLLATE = utf8_unicode_ci;
 
 
 -- -----------------------------------------------------
--- Table `www`.`entregador`
+-- Table `www2`.`entregador`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `www`.`entregador` (
+CREATE TABLE IF NOT EXISTS `www2`.`entregador` (
   `identregador` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(45) NOT NULL,
   `login` VARCHAR(45) NOT NULL,
@@ -106,9 +106,9 @@ COLLATE = utf8_unicode_ci;
 
 
 -- -----------------------------------------------------
--- Table `www`.`status`
+-- Table `www2`.`status`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `www`.`status` (
+CREATE TABLE IF NOT EXISTS `www2`.`status` (
   `idstatus` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`idstatus`))
@@ -118,9 +118,9 @@ COLLATE = utf8_unicode_ci;
 
 
 -- -----------------------------------------------------
--- Table `www`.`pedido`
+-- Table `www2`.`pedido`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `www`.`pedido` (
+CREATE TABLE IF NOT EXISTS `www2`.`pedido` (
   `idpedido` INT NOT NULL AUTO_INCREMENT,
   `cliente_idcliente` INT NOT NULL,
   `valor_total` DECIMAL(12,2) NOT NULL,
@@ -139,22 +139,22 @@ CREATE TABLE IF NOT EXISTS `www`.`pedido` (
   INDEX `fk_pedido_status1_idx` (`status_idstatus` ASC),
   CONSTRAINT `fk_pedido_cliente`
     FOREIGN KEY (`cliente_idcliente`)
-    REFERENCES `www`.`cliente` (`idcliente`)
+    REFERENCES `www2`.`cliente` (`idcliente`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_pedido_admin1`
     FOREIGN KEY (`admin_idadmin`)
-    REFERENCES `www`.`admin` (`idadmin`)
+    REFERENCES `www2`.`admin` (`idadmin`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_pedido_entregador1`
     FOREIGN KEY (`entregador_identregador`)
-    REFERENCES `www`.`entregador` (`identregador`)
+    REFERENCES `www2`.`entregador` (`identregador`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_pedido_status1`
     FOREIGN KEY (`status_idstatus`)
-    REFERENCES `www`.`status` (`idstatus`)
+    REFERENCES `www2`.`status` (`idstatus`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
@@ -163,9 +163,9 @@ COLLATE = utf8_unicode_ci;
 
 
 -- -----------------------------------------------------
--- Table `www`.`pedido_has_produto`
+-- Table `www2`.`pedido_has_produto`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `www`.`pedido_has_produto` (
+CREATE TABLE IF NOT EXISTS `www2`.`pedido_has_produto` (
   `pedido_idpedido` INT NOT NULL,
   `produto_idproduto` INT NOT NULL,
   `quantidade` INT NOT NULL,
@@ -175,12 +175,12 @@ CREATE TABLE IF NOT EXISTS `www`.`pedido_has_produto` (
   PRIMARY KEY (`pedido_idpedido`, `produto_idproduto`),
   CONSTRAINT `fk_pedido_has_produto_pedido1`
     FOREIGN KEY (`pedido_idpedido`)
-    REFERENCES `www`.`pedido` (`idpedido`)
+    REFERENCES `www2`.`pedido` (`idpedido`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_pedido_has_produto_produto1`
     FOREIGN KEY (`produto_idproduto`)
-    REFERENCES `www`.`produto` (`idproduto`)
+    REFERENCES `www2`.`produto` (`idproduto`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
