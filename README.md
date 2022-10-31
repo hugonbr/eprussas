@@ -23,6 +23,9 @@ links de projetos:
 7-Encurtador de URL com node e react
 <http://www.swf2020.tk/>
 
+8-Pedra, Papel e Tesoura
+<http://pedrapapeltesoura.s3-website.us-east-2.amazonaws.com/>
+
 ---------------------------
 
 Informática Básica - Pasta do Google Drive:
