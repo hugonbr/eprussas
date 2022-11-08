@@ -4,6 +4,11 @@ function pedra() {
 
     document.getElementById('input').innerHTML =
         "PEDRA";
+    // document.getElementById('papel').textContent =
+    //     "❌";
+    // document.getElementById('tesoura').textContent =
+    //     "❌";
+
     r_play = 1;
     imprimir_pc()
 }
@@ -11,6 +16,11 @@ function papel() {
 
     document.getElementById('input').innerHTML =
         "PAPEL";
+    // document.getElementById('pedra').textContent =
+    //     "❌";
+    // document.getElementById('tesoura').textContent =
+    //     "❌";
+
     r_play = 2;
     imprimir_pc()
 }
@@ -18,14 +28,52 @@ function tesoura() {
 
     document.getElementById('input').innerHTML =
         "TESOURA";
+    // document.getElementById('papel').textContent =
+    //     "❌";
+    // document.getElementById('pedra').textContent =
+    //     "❌";
+
     r_play = 3;
     imprimir_pc()
+}
+
+function jogar() {
+
+    document.getElementById('pedra').textContent =
+        "👊";
+    document.getElementById('papel').textContent =
+        "🖐️";
+    document.getElementById('tesoura').textContent =
+        "✌";
+    document.getElementById('pc').textContent =
+        "🖥️";
+
+    document.getElementById('input').innerHTML =
+        "<br><br>";
+    document.getElementById('r-pc').innerHTML =
+        "<br>";
 }
 
 function imprimir_pc() {
 
     // Returns a random integer from 1 to 3:
-    // 1 pedra // 2 papel // 3 tesoura
+    // 1 pedra
+    // 2 papel
+    // 3 tesoura
+
+    /*
+    if
+    p v c
+    3 > 2
+    2 > 1
+    1 > 3
+    c v p
+    3 > 2
+    2 > 1
+    1 > 3
+    else
+    empate
+    */
 
     r_pc = Math.floor(Math.random() * 3) + 1;
 
@@ -74,43 +122,47 @@ function comferedados() {
     if (r_play == 3 && r_pc == 2) {
         playWin++;
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(0, 255, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 0, 0);">Computer</span>`;
+        // alert('Você ganhou!!!')
     }
     if (r_play == 2 && r_pc == 1) {
         playWin++;
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(0, 255, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 0, 0);">Computer</span>`;
+        // alert('Você ganhou!!!')
     }
     if (r_play == 1 && r_pc == 3) {
         playWin++;
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(0, 255, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 0, 0);">Computer</span>`;
+        // alert('Você ganhou!!!')
     }
     //-----------------------------
     if (r_pc == 3 && r_play == 2) {
         compWin++;
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 0, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(0, 255, 0);">Computer</span>`;
+        // alert('PC ganhou!!!')
     }
     if (r_pc == 2 && r_play == 1) {
         compWin++;
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 0, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(0, 255, 0);">Computer</span>`;
+        // alert('PC ganhou!!!')
     }
     if (r_pc == 1 && r_play == 3) {
         compWin++;
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 0, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(0, 255, 0);">Computer</span>`;
+        // alert('PC ganhou!!!')
     }
 
     if (r_pc == r_play) {
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 255, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 255, 0);">Computer</span>`;
+        // alert('EMPATE!')
     }
+    //-----------------------------
+
+    // Placar: Player 0 vs 0 Computer
 }
 
 function reset() {
     playWin = 0;
     compWin = 0;
-    document.getElementById("placar").innerHTML = `<p id="placar">Placar: <span style="color: rgb(255, 255, 0);">Player</span> 0 vs 0 <span
-    style="color: rgb(255, 255, 0);">Computer</span></p>`;
-    document.getElementById('pc').textContent =
-        "🖥️";
-    document.getElementById('input').innerHTML =
-        "<br><br>";
-    document.getElementById('r-pc').innerHTML =
-        "<br>";
+    jogar();
+    document.getElementById("placar").innerHTML = `Placar: Player ${playWin} vs ${compWin} Computer`;
 }
