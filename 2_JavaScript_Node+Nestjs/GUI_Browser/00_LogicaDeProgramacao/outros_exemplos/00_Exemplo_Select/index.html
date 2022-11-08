@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <select name="" id="modelo">
+    <select id="modelo">
         <option value="Banana">Banana</option>
         <option value="Maçã">Maçã</option>
         <option value="Pêra">Pêra</option>
@@ -26,11 +26,13 @@
             console.log(valor);
 
             if (valor === "Banana") {
-                document.getElementById("resposta").innerHTML = "É da cor amarela";
+                document.getElementById("resposta").innerHTML = "Banana que é da cor amarela";
             } else if (valor === "Maçã") {
-                document.getElementById("resposta").innerHTML = "É da cor vermelha";
+                document.getElementById("resposta").innerHTML = "Maçã que é  da cor vermelha";
             } else if (valor === "Pêra") {
-                document.getElementById("resposta").innerHTML = "É da cor verde";
+                document.getElementById("resposta").innerHTML = "Pêra que é da cor verde";
+            } else {
+                document.getElementById("resposta").innerHTML = "Um erro ocorreu, tente novamente";
             }
         }
     </script>

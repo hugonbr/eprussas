@@ -1,0 +1,14 @@
+----- ROADMAP -----
+
+1) HTML + CSS + JS
+
+2) React + Tailwind
+
+3) Node + Nestjs
+
+4) MySQL + MongoDB
+
+5) React Native
+
+6) AWS + Heroku
+

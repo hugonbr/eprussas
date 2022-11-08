@@ -20,7 +20,8 @@ function entrar() {
     //errado!!!
     //if (login === "admin" || senha === "123") {
     if (login === "admin" && senha === "123") {
-        document.getElementById("home").innerHTML = "<h2>Bem-vindo Admin</h2>";
+        // document.getElementById("home").innerHTML = "<h2>Bem-vindo Admin</h2>";
+        document.querySelector("body").innerHTML = "<h2>Bem-vindo Admin</h2>";
     } else {
         alert("login ou senha incorretos!!! Tente novamente.");
         //document.getElementById("erro").innerHTML = "login ou senha incorretos!!!<br>Tente novamente.";

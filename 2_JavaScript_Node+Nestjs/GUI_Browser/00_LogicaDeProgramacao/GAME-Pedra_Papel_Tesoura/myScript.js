@@ -122,37 +122,38 @@ function comferedados() {
     if (r_play == 3 && r_pc == 2) {
         playWin++;
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(0, 255, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 0, 0);">Computer</span>`;
-
+        // alert('Você ganhou!!!')
     }
     if (r_play == 2 && r_pc == 1) {
         playWin++;
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(0, 255, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 0, 0);">Computer</span>`;
-
+        // alert('Você ganhou!!!')
     }
     if (r_play == 1 && r_pc == 3) {
         playWin++;
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(0, 255, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 0, 0);">Computer</span>`;
-
+        // alert('Você ganhou!!!')
     }
     //-----------------------------
     if (r_pc == 3 && r_play == 2) {
         compWin++;
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 0, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(0, 255, 0);">Computer</span>`;
-
+        // alert('PC ganhou!!!')
     }
     if (r_pc == 2 && r_play == 1) {
         compWin++;
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 0, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(0, 255, 0);">Computer</span>`;
-
+        // alert('PC ganhou!!!')
     }
     if (r_pc == 1 && r_play == 3) {
         compWin++;
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 0, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(0, 255, 0);">Computer</span>`;
-
+        // alert('PC ganhou!!!')
     }
 
-    if (r_pc == r_play){
+    if (r_pc == r_play) {
         document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 255, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 255, 0);">Computer</span>`;
+        // alert('EMPATE!')
     }
     //-----------------------------
 
