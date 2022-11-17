@@ -5,9 +5,9 @@ function exibirArray() {
     document.getElementById("array").innerHTML = array;
 }
 
-function adcEleArray(elemento) {
+function adcEleArray(item) {
 
-    array.push(elemento);
+    array.push(item);
     exibirArray();
 }
 

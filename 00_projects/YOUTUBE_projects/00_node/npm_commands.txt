@@ -1,0 +1,6 @@
+# inicia um projeto js 
+npm init -y
+
+# scripts para execução
+npm run test
+

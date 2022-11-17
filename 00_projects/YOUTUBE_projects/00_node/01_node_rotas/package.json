@@ -1,0 +1,13 @@
+{
+  "name": "01_node_rotas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "oi": "echo \"OI\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hugonbr - Hugo Nathan",
+  "license": "MIT"
+}
