@@ -1,0 +1,14 @@
+# inicia um projeto js 
+npm init -y
+
+# scripts para execução
+npm run test
+
+npm install express
+
+npm install nodemon --save-dev
+
+npm run test
+
+npm run dev
+

@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h2>Exemplo de construção de array</h2>
-    <!-- Adc -->
-    <p>
-      Adicionar elemento: <input id="elemento" /><button
-        onclick="adcEleArray(document.getElementById('elemento').value)"
-      >
-        ADC
-      </button>
-    </p>
-    <!-- Remover -->
-    <p>
-      Remover último elemento -
-      <button onclick="removeEleArray()">REMOVE</button>
-    </p>
-    <!-- Updade -->
-    <p>update -> <button onclick="exibirArray()">update</button></p>
 
-    <p>Array:</p>
-    <p id="array"></p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
 
-    <script src="myScript.js"></script>
-  </body>
+<body>
+  <h2>Exemplo de construção de array</h2>
+  <!-- Adc -->
+  <p>
+    Adicionar elemento: <input id="elemento" /><button onclick="adcEleArray(document.getElementById('elemento').value)">
+      ADC
+    </button>
+  </p>
+  <!-- Remover -->
+  <p>
+    Remover último elemento -
+    <button onclick="removeEleArray()">REMOVE</button>
+  </p>
+  <!-- Updade -->
+  <p>update -> <button onclick="exibirArray()">update</button></p>
+
+  <p>Array:</p>
+  <p id="array"></p>
+
+  <script src="myScript.js"></script>
+</body>
+
 </html>
