@@ -1,15 +1,15 @@
 HTML, CSS e JS
 Bootstrap
 --------------------
-php
-javascript/type/node
+PHP
+Javascript/Type/Node
 --------------------
-python
-java/kotlin
-c++
+Python
+Java/Kotlin
+Rust
 --------------------
-mySQL
-mongoDB
+MySQL
+MongoDB
 --------------------
 React
 Flutter
