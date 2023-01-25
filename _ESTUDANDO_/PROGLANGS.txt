@@ -1,6 +1,16 @@
+HTML, CSS e JS
+Bootstrap
+--------------------
 php
-
 python
-
-javascript/node
-
+javascript/type/node
+java/kotlin
+c++
+--------------------
+mySQL
+mongoDB
+--------------------
+React
+Flutter
+--------------------
+TODOLIST CRUD
