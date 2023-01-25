@@ -2,8 +2,9 @@ HTML, CSS e JS
 Bootstrap
 --------------------
 php
-python
 javascript/type/node
+--------------------
+python
 java/kotlin
 c++
 --------------------
