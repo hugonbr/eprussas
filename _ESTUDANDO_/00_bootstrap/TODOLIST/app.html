@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <style>
+        #title {
+            color: mediumblue;
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        input {
+            margin-bottom: 1.5rem;
+            width: 10rem;
+            /* margin-left: 2rem;
+            margin-right: 2rem; */
+            border-radius: 0.3rem;
+        }
+
+        .tasks {
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <p id="title">TODOLIST</p>
+
+    <hr>
+
+    <div class="tasks m-auto">
+        <div class="task">
+            <input type="text" placeholder="tarefa">
+            <button type="button" class="btn btn-primary">Feito</button>
+            <button type="button" class="btn btn-warning">Editar</button>
+            <button type="button" class="btn btn-danger">Deletar</button>
+        </div>
+        <div class="task">
+            <input type="text" placeholder="tarefa">
+            <button type="button" class="btn btn-primary">Feito</button>
+            <button type="button" class="btn btn-warning">Editar</button>
+            <button type="button" class="btn btn-danger">Deletar</button>
+        </div>
+        <div class="task">
+            <input type="text" placeholder="tarefa">
+            <button type="button" class="btn btn-primary">Feito</button>
+            <button type="button" class="btn btn-warning">Editar</button>
+            <button type="button" class="btn btn-danger">Deletar</button>
+        </div>
+        <div class="task">
+            <input type="text" placeholder="tarefa">
+            <button type="button" class="btn btn-primary">Feito</button>
+            <button type="button" class="btn btn-warning">Editar</button>
+            <button type="button" class="btn btn-danger">Deletar</button>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <button type="button" class="btn btn-success">NOVO +</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer class="mt-auto bg-light text-center text-black">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3">
+            © 2023 Copyright:
+            <a class="text-black" href="https://mdbootstrap.com/">hugonbr</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+</body>
+
+</html>

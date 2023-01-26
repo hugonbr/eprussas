@@ -1,7 +1,7 @@
 HTML, CSS e JS
 Bootstrap
 --------------------
-PHP
+PHP (legacy)
 Javascript/Type/Node
 --------------------
 Python
