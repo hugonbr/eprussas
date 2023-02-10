@@ -1,17 +1,17 @@
-HTML, CSS e JS
-Bootstrap
+HTML, CSS e ** JS **
+*** Bootstrap ***
 --------------------
-PHP (legacy)
-Javascript/Type/Node
+*** PHP (legacy) ***
+*** JS/Type/Node ***
 --------------------
-Python
+*** Python ***
 Java/Kotlin
 Rust
 --------------------
-MySQL
-MongoDB
+*** MySQL ***
+*** MongoDB ***
 --------------------
-React
-Flutter
+*** React ***
+*** Flutter ***
 --------------------
-TODOLIST CRUD
+** TODOLIST ** CRUD
