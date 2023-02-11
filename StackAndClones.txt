@@ -13,3 +13,5 @@ Clones:
     Ifood Clone (Delivery)
     Amazon Clone (Ecommerce)
     Netflix Clone (Streamer)
+
+TODOLIST
