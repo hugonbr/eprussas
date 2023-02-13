@@ -6,7 +6,7 @@
 --------------------
 *** Python ***
 *** Django ***
-* IA/ML/Auto *
+* AI/ML/Auto *
 --------------------
 *** MySQL ***
 *** MongoDB ***
