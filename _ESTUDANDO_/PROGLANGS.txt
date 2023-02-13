@@ -1,12 +1,12 @@
-HTML, CSS e ** JS **
+** Javascript **
 *** Bootstrap ***
 --------------------
 *** PHP (legacy) ***
-*** JS/Type/Node ***
+*** Node+Typescript ***
 --------------------
 *** Python ***
-Java/Kotlin
-Rust
+*** Django ***
+* IA/ML/Auto *
 --------------------
 *** MySQL ***
 *** MongoDB ***

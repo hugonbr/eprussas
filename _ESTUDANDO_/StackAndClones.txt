@@ -1,17 +1,17 @@
 Tópicos para Estudo:
 ** Javascript/Python **
-    - Frontend (Site/Dashboard)
-    - Backend (CRUD/API)
-    - Database (SQL/noSQL)
-    - Mobile (React/Flutter)
-    - Devops (AWS/Heroku)
-    - Fullstack (JS/Node)
+- Frontend (Site/Dashboard)
+- Backend (CRUD/API)
+- Database (SQL/noSQL)
+- Mobile (React/Flutter)
+- Devops (AWS/Heroku)
+- Fullstack (JS/Node)
 
 Clones:
-    TodoApp (CRUD/API)
-    Login (CRUD/API)
-    Ifood Clone (Delivery)
-    Amazon Clone (Ecommerce)
-    Netflix Clone (Streamer)
+- TodoApp (CRUD/API)
+- Login (CRUD/API)
+- Ifood Clone (Delivery)
+- Amazon Clone (Ecommerce)
+- Netflix Clone (Streamer)
 
 TODOLIST
