@@ -1,0 +1,17 @@
+HTML, CSS e ** JS **
+*** Bootstrap ***
+--------------------
+*** PHP (legacy) ***
+*** JS/Type/Node ***
+--------------------
+*** Python ***
+Java/Kotlin
+Rust
+--------------------
+*** MySQL ***
+*** MongoDB ***
+--------------------
+*** React ***
+*** Flutter ***
+--------------------
+** TODOLIST ** CRUD
