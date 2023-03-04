@@ -1,3 +1,9 @@
+<?php
+    if (empty($_POST["name"]) || empty($_POST["email"])) {
+        header('Location: index.php');
+    }
+?>
+
 <!DOCTYPE HTML>
 <html>
 <head>
