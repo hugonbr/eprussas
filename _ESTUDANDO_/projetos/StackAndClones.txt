@@ -1,5 +1,5 @@
 Tópicos para Estudo:
-** Javascript/PHP/Python **
+** Nodejs/PHP/Python **
     - Frontend (Site/Dashboard)
     - Backend (CRUD/API)
     - Database (SQL/noSQL)
