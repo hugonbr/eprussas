@@ -17,7 +17,27 @@
         <input type="text" id="inputTask" placeholder="Add new task">
         <button id="btnAddTask" class="btn btn-primary">Add Task</button>
         <ul id="taskList" class="list-group mt-3"></ul>
-    </div>      
+      </div>
+      
+      <!-- Modal para edição de tarefa -->
+      <div class="modal fade" id="editTaskModal" tabindex="-1" aria-labelledby="editTaskModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="editTaskModalLabel">Edit Task</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <input type="text" class="form-control" id="editTaskInput">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-primary" id="btnSaveChanges">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+            
 </body>
 </html>
 
