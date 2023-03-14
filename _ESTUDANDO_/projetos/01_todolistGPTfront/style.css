@@ -1,0 +1,10 @@
+#task-list li {
+    margin-bottom: 10px;
+  }
+  #task-list button {
+    display: none;
+  }
+  #task-list li:hover button {
+    display: inline-block;
+  }
+  

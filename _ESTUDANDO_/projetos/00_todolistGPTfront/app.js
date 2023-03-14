@@ -19,10 +19,10 @@ btnAddTask.addEventListener('click', function () {
       ${taskName}
       <div>
         <button class="btn btn-secondary btn-sm edit-task mr-2">
-          <i class="fas fa-edit"></i>
+          <i class="fa fa-edit"></i>
         </button>
         <button class="btn btn-danger btn-sm delete-task">
-          <i class="fas fa-trash"></i>
+          <i class="fa fa-trash"></i>
         </button>
       </div>
     `;
@@ -64,5 +64,6 @@ taskList.addEventListener('click', function (event) {
     // Limpar o valor do input de edição
     editTaskInput.value = '';
     });
-}
+  }
 });
+
