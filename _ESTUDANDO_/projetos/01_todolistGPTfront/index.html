@@ -13,7 +13,9 @@
 </head>
 <body>
     <div class="container">
-        <h1>To-Do List</h1>
+        <div class="text-center">
+          <h1>To-Do List - CRUD</h1>
+        </div>
         <form id="add-task-form">
           <div class="form-group">
             <label for="task-name">Task name:</label>
@@ -23,7 +25,12 @@
             <label for="task-description">Task description:</label>
             <textarea class="form-control" id="task-description" rows="3" required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Add Task</button>
+          <button type="submit" class="btn btn-primary">CREATE</button>
+          <hr>
+            <div class="p-2 bg-primary text-white text-center rounded">
+              <h5>READ</h5>
+            </div>
+          <hr>
         </form>
         <ul id="task-list" class="list-group">
         </ul>        

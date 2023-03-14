@@ -2,12 +2,12 @@ function addTask(name, description) {
     var taskList = document.getElementById('task-list');
     var task = document.createElement('li');
     task.className = 'list-group-item';
-    task.innerHTML = '<div class="d-flex justify-content-between align-items-center">' +
-                      '<h5>' + name + '</h5>' +
-                      '<button class="btn btn-danger btn-sm" onclick="deleteTask(this)">Delete</button>' +
-                      '<button class="btn btn-secondary btn-sm" onclick="editTask(this)">Edit</button>' +
-                      '</div>' +
-                      '<p class="mb-0">' + description + '</p>';
+    task.innerHTML =  '<h5>' + name + '</h5>' +
+                      '<p class="mb-0">' + description + '</p>' +
+                      '<div class="d-flex justify-content-end">' +
+                      '<button class="btn btn-secondary btn-sm" onclick="editTask(this)">UPDATE</button>' +
+                      '<button class="btn btn-danger btn-sm" onclick="deleteTask(this)">DELETE</button>' +
+                      '</div>';
     taskList.appendChild(task);
 }
 
