@@ -1,0 +1,7 @@
+MERN
+
+MySQL/MongoBD
+Express
+React
+Node
+
