@@ -22,6 +22,7 @@ function App() {
   return (
     <div>
       <h1>{message}</h1>
+      {/* <h1 className='indigo'>{message}</h1> */}
     </div>
   );
 }
