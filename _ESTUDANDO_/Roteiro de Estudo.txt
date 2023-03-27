@@ -1,0 +1,9 @@
+Tópicos para pesquisar no YouTube
+
+- javascript Full course
+- node Full course
+- react Full course
+- bootstrap Full course
+- mongobd Full course
+- mysql Full course
+

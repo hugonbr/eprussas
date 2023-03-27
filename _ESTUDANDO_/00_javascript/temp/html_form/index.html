@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste-form</title>
+    <style>
+        *{
+            text-align: center;
+            margin: 0.5rem;
+        }
+        button {
+            background-color: aqua;
+            border-radius: 1rem;
+            border: 1px solid blue;
+        }
+        #remenberme {
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 3px;
+            border: 1px solid #dd139d;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        #remenberme:checked {
+            background-color: #dd139d;
+            border-color: #dd139d;
+        }
+    </style>
+</head>
+<body>
+    <h3>Form Test</h3>
+    <!-- Usando o GET só para ver o resultado np link -->
+    <form action="" method="GET">
+        <label for="username">Usuário:</label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="password">Senha:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <input type="checkbox" name="remenberme" id="remenberme">
+        <label for="remenberme">lembrar-me</label>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
