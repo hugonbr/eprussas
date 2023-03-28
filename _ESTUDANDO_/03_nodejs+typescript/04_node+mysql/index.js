@@ -7,11 +7,24 @@ var con = mysql.createConnection({
   database: "todolist"
 });
 
-con.connect(function(err) {
+con.connect((err) => {
   if (err) throw err;
-  con.query("SELECT * FROM todo", function (err, result, fields) {
-    if (err) throw err;
-    console.log(result);
-  });
 });
 
+con.query("SELECT * FROM todo", (err, result, fields) => {
+  if (err) throw err;
+  console.log(result);
+});
+con.query("SELECT id FROM todo", (err, result, fields) => {
+  if (err) throw err;
+  console.log(result);
+});
+con.query("SELECT desc_text FROM todo", (err, result, fields) => {
+  if (err) throw err;
+  console.log(result);
+});
+
+con.end((err) => {
+  if (err) throw err;
+  console.log('Closed MySQL connection');
+});
