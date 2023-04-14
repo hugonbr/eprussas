@@ -42,12 +42,12 @@ app.get('/api', (req, res) => {
     // console.log(typeof(todotable));
     // console.log(JSON.stringify(todotable));
     // console.log(typeof(JSON.stringify(todotable)));
+    // res.json({ message: JSON.stringify(todotable).replace(/\[|\]/g, '')});
+    //res.json({ message: JSON.stringify(todotable)});
+    res.status(200).send({ message: todotable });
+    //res.json({ message: todotable });
+    //res.send({todotable});
   });
-  // res.json({ message: JSON.stringify(todotable).replace(/\[|\]/g, '')});
-  //res.json({ message: JSON.stringify(todotable)});
-  res.status(200).send({ message: todotable });
-  //res.json({ message: todotable });
-  //res.send({todotable});
 });
 
 // Start the server
