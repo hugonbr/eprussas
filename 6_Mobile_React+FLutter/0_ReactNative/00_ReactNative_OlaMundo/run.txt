@@ -21,3 +21,4 @@ To run your project, navigate to the directory and run one of the following yarn
 - yarn ios # requires an iOS device or macOS for access to an iOS simulator
 - yarn web
 Project is already inside of a git repo, skipping git init.
+

@@ -20,7 +20,7 @@ function App() {
   }, []);
   
   return (
-    <div className="container">
+    <div className="container mt-5">
 
       {/* {message.map(item => (
         <div key={item.id}>

@@ -20,7 +20,7 @@ const blogPosts = [
 ];
 
 // for (let i = 0; i < blogPosts.length; i++) {
-//     const postTitle = blogPosts [i].title;
+//     const postTitle = blogPosts[i].title;
 //     const postAuthor = blogPosts[i].author;
 //     const postDate = blogPosts[i].publishDate;
 //     const postContent = blogPosts[i].content;

@@ -1,0 +1,43 @@
+#game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 72px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+  }
+  
+  .square:hover {
+    background-color: #eee;
+  }
+  
+  .x {
+    color: red;
+  }
+  
+  .o {
+    color: blue;
+  }
+  
+  #reset {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  

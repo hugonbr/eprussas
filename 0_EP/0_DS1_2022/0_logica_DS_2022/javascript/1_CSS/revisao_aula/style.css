@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: red;
+}
+#p-teste {
+    color: rgb(234, 147, 16);
+    text-align: center;
+}
