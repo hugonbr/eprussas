@@ -1,14 +1,8 @@
 <?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        // Database configuration
-        $host = 'localhost';
-        $db_name = 'todo_list';
-        $username = 'root';
-        $password = '1234';
-
-        // Create a new PDO instance
-        $pdo = new PDO("mysql:host=$host;dbname=$db_name", $username, $password);
-
+        // Include the database configuration file
+        require_once 'db_config.php';
+       
         // Insert new task into the database
         $task = $_POST['task'];
         $stmt = $pdo->prepare('INSERT INTO tasks (task) VALUES (?)');

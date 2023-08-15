@@ -5,15 +5,9 @@
         exit;
     }
 
-    // Database configuration
-    $host = 'localhost';
-    $db_name = 'todo_list';
-    $username = 'root';
-    $password = '1234';
-
-    // Create a new PDO instance
-    $pdo = new PDO("mysql:host=$host;dbname=$db_name", $username, $password);
-
+    // Include the database configuration file
+    require_once 'db_config.php';
+    
     // Retrieve the task from the database
     $id = $_GET['id'];
     $stmt = $pdo->prepare('SELECT * FROM tasks WHERE id = ?');
