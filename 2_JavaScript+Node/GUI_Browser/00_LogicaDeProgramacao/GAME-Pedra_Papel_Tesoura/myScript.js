@@ -73,40 +73,40 @@ function comferedados() {
 
     if (r_play == 3 && r_pc == 2) {
         playWin++;
-        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(0, 255, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 0, 0);">Computer</span>`;
+        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(0, 255, 0); background-color: black;">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 0, 0); background-color: black;">Computer</span>`;
     }
     if (r_play == 2 && r_pc == 1) {
         playWin++;
-        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(0, 255, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 0, 0);">Computer</span>`;
+        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(0, 255, 0); background-color: black;">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 0, 0); background-color: black;">Computer</span>`;
     }
     if (r_play == 1 && r_pc == 3) {
         playWin++;
-        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(0, 255, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 0, 0);">Computer</span>`;
+        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(0, 255, 0); background-color: black;">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 0, 0); background-color: black;">Computer</span>`;
     }
     //-----------------------------
     if (r_pc == 3 && r_play == 2) {
         compWin++;
-        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 0, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(0, 255, 0);">Computer</span>`;
+        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 0, 0); background-color: black;">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(0, 255, 0); background-color: black;">Computer</span>`;
     }
     if (r_pc == 2 && r_play == 1) {
         compWin++;
-        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 0, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(0, 255, 0);">Computer</span>`;
+        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 0, 0); background-color: black;">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(0, 255, 0); background-color: black;">Computer</span>`;
     }
     if (r_pc == 1 && r_play == 3) {
         compWin++;
-        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 0, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(0, 255, 0);">Computer</span>`;
+        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 0, 0); background-color: black;">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(0, 255, 0); background-color: black;">Computer</span>`;
     }
 
     if (r_pc == r_play) {
-        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 255, 0);">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 255, 0);">Computer</span>`;
+        document.getElementById("placar").innerHTML = `Placar: <span style="color: rgb(255, 255, 0); background-color: black;">Player</span> ${playWin} vs ${compWin} <span style="color: rgb(255, 255, 0); background-color: black;">Computer</span>`;
     }
 }
 
 function reset() {
     playWin = 0;
     compWin = 0;
-    document.getElementById("placar").innerHTML = `<p id="placar">Placar: <span style="color: rgb(255, 255, 0);">Player</span> 0 vs 0 <span
-    style="color: rgb(255, 255, 0);">Computer</span></p>`;
+    document.getElementById("placar").innerHTML = `<p id="placar">Placar: <span style="color: rgb(255, 255, 0); background-color: black;">Player</span> 0 vs 0 <span
+    style="color: rgb(255, 255, 0); background-color: black;">Computer</span></p>`;
     document.getElementById('pc').textContent =
         "🖥️";
     document.getElementById('input').innerHTML =
